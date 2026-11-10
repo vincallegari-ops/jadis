@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Carte : début</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#E0B04A}a:hover{color:#F2CB7A}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; background: #0F1722; color: #EDE6D6; font-family: 'Instrument Sans', system-ui, sans-serif; display: flex; flex-direction: column; overflow: hidden">
+
+<div style="padding: 20px 20px 14px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<span style="font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #A9B1BD; font-weight: 500">Aujourd'hui</span>
+<span style="font-size: 13px; color: #EDE6D6; font-weight: 500">3 / 10</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 4px">
+<div style="height: 3px; border-radius: 2px; background: {{accent}}"></div>
+<div style="height: 3px; border-radius: 2px; background: {{accent}}"></div>
+<div style="height: 3px; border-radius: 2px; background: {{accent}}"></div>
+<div style="height: 3px; border-radius: 2px; background: #2A3547"></div>
+<div style="height: 3px; border-radius: 2px; background: #2A3547"></div>
+<div style="height: 3px; border-radius: 2px; background: #2A3547"></div>
+<div style="height: 3px; border-radius: 2px; background: #2A3547"></div>
+<div style="height: 3px; border-radius: 2px; background: #2A3547"></div>
+<div style="height: 3px; border-radius: 2px; background: #2A3547"></div>
+<div style="height: 3px; border-radius: 2px; background: #2A3547"></div>
+</div>
+</div>
+
+<div style="flex: 1; min-height: 0; margin: 0 12px; border-radius: 24px; background: #172233; position: relative; overflow: hidden; display: flex; flex-direction: column">
+
+<div style="padding: 22px 22px 0; display: flex; justify-content: space-between; align-items: flex-end">
+<div style="font-family: 'Newsreader', Georgia, serif; font-size: 64px; line-height: 0.9; color: {{accent}}; font-weight: 500; letter-spacing: -0.02em">1324</div>
+<div style="display: flex; flex-direction: column; align-items: flex-end; gap: 8px">
+<div style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #A9B1BD">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#A9B1BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+<span>Mali · Afrique de l'Ouest</span>
+</div>
+<span style="font-size: 12px; font-weight: 500; color: #EDE6D6; background: #243247; border-radius: 999px; padding: 5px 10px">Commerce et pouvoir</span>
+</div>
+</div>
+
+<div style="padding: 16px 22px 0">
+<svg viewBox="0 0 346 112" width="100%" height="112" role="img" aria-label="Schéma de l'itinéraire : de Niani au Caire, puis à La Mecque" style="display: block; border-radius: 14px; background: #121C2B">
+<defs>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#2A3547"/></pattern>
+</defs>
+<rect width="346" height="112" fill="url(#dots)"/>
+<path d="M48 84 C 110 88, 170 48, 224 30" fill="none" stroke="#E0B04A" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 6"/>
+<path d="M224 30 L 300 64" fill="none" stroke="#A9B1BD" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 6"/>
+<circle cx="48" cy="84" r="5" fill="#E0B04A"/>
+<circle cx="224" cy="30" r="5" fill="#EDE6D6"/>
+<circle cx="300" cy="64" r="5" fill="none" stroke="#EDE6D6" stroke-width="2"/>
+<text x="48" y="104" fill="#A9B1BD" font-size="11" font-family="Instrument Sans, sans-serif" text-anchor="middle">Niani</text>
+<text x="224" y="18" fill="#A9B1BD" font-size="11" font-family="Instrument Sans, sans-serif" text-anchor="middle">Le Caire</text>
+<text x="300" y="86" fill="#A9B1BD" font-size="11" font-family="Instrument Sans, sans-serif" text-anchor="middle">La Mecque</text>
+</svg>
+</div>
+
+<div style="padding: 20px 22px 0; display: flex; flex-direction: column; gap: 14px">
+<h1 style="margin: 0; font-family: 'Newsreader', Georgia, serif; font-size: 27px; line-height: 1.15; font-weight: 600; color: #F6F0E2">Comment un roi a-t-il fait chuter le cours de l'or au Caire ?</h1>
+<p style="margin: 0; font-family: 'Newsreader', Georgia, serif; font-size: 18px; line-height: 1.5; color: #E4DDCC">En 1324, Mansa Musa, empereur du Mali, part en pèlerinage à La Mecque. Son empire contrôle alors une grande part de l'or produit en Afrique de l'Ouest, et il veut le faire savoir.</p>
+<p style="margin: 0; font-family: 'Newsreader', Georgia, serif; font-size: 18px; line-height: 1.5; color: #E4DDCC">Sa caravane atteint Le Caire en juillet 1324. Les chroniqueurs arabes parlent de dizaines de milliers de personnes. Ces chiffres sont sans doute exagérés. Ce qui est solide, c'est la générosité : Musa distribue</p>
+</div>
+
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 120px; background: linear-gradient(to bottom, rgba(23,34,51,0), #172233 78%); display: flex; align-items: flex-end; justify-content: center; padding-bottom: 14px">
+<span style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #A9B1BD">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#A9B1BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+Fais défiler pour lire la suite
+</span>
+</div>
+</div>
+
+<div style="display: flex; justify-content: space-around; align-items: center; padding: 8px 20px 18px">
+<button type="button" aria-label="Ajouter aux favoris" style="min-width: 44px; height: 48px; border: 0; background: transparent; color: #EDE6D6; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font-family: inherit; cursor: pointer">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>
+<span style="font-size: 11px; color: #A9B1BD">Favori</span>
+</button>
+<button type="button" aria-label="Voir les 3 sources" style="min-width: 44px; height: 48px; border: 0; background: transparent; color: #EDE6D6; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font-family: inherit; cursor: pointer">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5zM20 5.5A1.5 1.5 0 0 0 18.5 4H13v16h5.5a1.5 1.5 0 0 0 1.5-1.5z"/></svg>
+<span style="font-size: 11px; color: #A9B1BD">3 sources</span>
+</button>
+<button type="button" aria-label="Partager la carte" style="min-width: 44px; height: 48px; border: 0; background: transparent; color: #EDE6D6; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font-family: inherit; cursor: pointer">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V4M7 8l5-5 5 5M5 13v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-6"/></svg>
+<span style="font-size: 11px; color: #A9B1BD">Partager</span>
+</button>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#E0B04A","options":["#E0B04A","#E08A5B","#7FB8A4","#9DB4E8"]},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#E0B04A' };
+}
+}
+</script>
+</body>
+</html>

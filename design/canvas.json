@@ -1,0 +1,80 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "Fil.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "3 · Style clair : fil infini + frise (interactif)",
+      "w": 390,
+      "x": 940,
+      "y": 0
+    },
+    "Fin.dc.html": {
+      "h": 844,
+      "title": "2 · Fin de carte (anecdote + sources)",
+      "w": 390,
+      "x": 470,
+      "y": 0
+    },
+    "Histoire.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "4 · Une histoire à la fois + choix de la suite (interactif)",
+      "w": 435,
+      "x": 765,
+      "y": 0
+    },
+    "Main.dc.html": {
+      "h": 844,
+      "title": "1 · Début de carte",
+      "w": 390,
+      "x": 0,
+      "y": 0
+    },
+    "Pigments.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "5 · Nouvelle direction : pigments (interactif)",
+      "w": 390,
+      "x": 1855,
+      "y": 0
+    },
+    "Dossier.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "6 · Dossier en une de journal : onglets (interactif)",
+      "w": 390,
+      "x": 2325,
+      "y": 0
+    },
+    "Dechire.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "7 · Jadis : accueil + papier déchiré (interactif)",
+      "w": 390,
+      "x": 2795,
+      "y": 0
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-10-30T12:00:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
+  "notes": {},
+  "order": [
+    "Main.dc.html",
+    "Fin.dc.html",
+    "Fil.dc.html",
+    "Histoire.dc.html",
+    "Pigments.dc.html",
+    "Dossier.dc.html",
+    "Dechire.dc.html"
+  ],
+  "pages": [],
+  "title": "Jadis – maquette"
+}

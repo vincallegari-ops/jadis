@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Une de journal</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bodoni+Moda:opsz,wght@6..96,800;6..96,900&family=Bricolage+Grotesque:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@700&family=Grenze+Gotisch:wght@700;800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&family=Marcellus&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+button{-webkit-tap-highlight-color: transparent}
+button:focus-visible,a:focus-visible{outline: 3px solid #1B1A17; outline-offset: 3px}
+.opt{transition: transform 160ms cubic-bezier(0.23, 1, 0.32, 1), filter 160ms ease}
+.opt:active{transform: scale(0.97)}
+@media (hover: hover) and (pointer: fine){ .opt:hover{filter: brightness(1.06)} }
+.enter{animation: rise 260ms cubic-bezier(0.23, 1, 0.32, 1) both}
+@keyframes rise{from{opacity: 0; transform: translateY(8px)} to{opacity: 1; transform: none}}
+@keyframes fade{from{opacity: 0} to{opacity: 1}}
+@media (prefers-reduced-motion: reduce){ .enter{animation: fade 150ms ease both} }
+.col{hyphens: auto; -webkit-hyphens: auto; text-align: justify}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; background: #D9D5CA; color: #1B1A17; font-family: 'Bricolage Grotesque', system-ui, sans-serif; display: flex; flex-direction: column; overflow: hidden">
+
+<div style="padding: 14px 10px 0">
+<div style="display: flex; align-items: flex-end; gap: 3px">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="5">
+<button type="button" onClick="{{ t.pick }}" aria-pressed="{{ t.active }}" style="{{ t.style }}">{{ t.name }}</button>
+</sc-for>
+</div>
+</div>
+<div style="height: 4px; margin: 0 10px; background: {{bg}}"></div>
+
+<div id="scroller" style="flex: 1; min-height: 0; overflow-y: auto; padding: 0 10px 28px">
+<div id="story" style="position: relative; background: #F7F3E8; background-image: radial-gradient(circle at 12% 6%, rgba(165, 135, 70, 0.10), transparent 16%), radial-gradient(circle at 94% 38%, rgba(165, 135, 70, 0.08), transparent 14%), radial-gradient(circle at 6% 72%, rgba(165, 135, 70, 0.08), transparent 18%); box-shadow: 0 14px 24px -16px rgba(50, 40, 10, 0.45); padding: 16px 18px 28px; display: flex; flex-direction: column; gap: 16px">
+
+<div style="display: flex; justify-content: space-between; align-items: baseline; font-size: 12px">
+<span style="color: #4A473F">Édition du jour, {{n}} sur 10</span>
+<span style="font-weight: 700; color: {{tx}}">{{continent}}</span>
+</div>
+
+<svg width="100%" height="10" viewBox="0 0 334 10" preserveAspectRatio="none" aria-hidden="true" style="display: block; overflow: visible">
+<path d="{{band1}}" fill="none" stroke="{{tx}}" stroke-width="{{bandW1}}" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+<path d="{{band2}}" fill="none" stroke="{{tx}}" stroke-width="{{bandW2}}" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+</svg>
+
+<h1 style="{{titleStyle}}">{{title}}</h1>
+
+<div style="{{datelineStyle}}">
+<span style="{{placeStyle}}">{{place}}</span>
+<span style="{{dateStyle}}">{{dateText}}</span>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 14px">
+<sc-for list="{{paras}}" as="t" hint-placeholder-count="6">
+<div>
+<sc-if value="{{ t.drop }}" hint-placeholder-val="{{ false }}">
+<p class="col" lang="fr" style="margin: 0; font-family: 'Literata', Georgia, serif; font-size: 17px; line-height: 1.6"><span style="{{ t.dropStyle }}">{{ t.letter }}</span>{{ t.rest }}</p>
+</sc-if>
+<sc-if value="{{ t.plain }}" hint-placeholder-val="{{ true }}">
+<p class="col" lang="fr" style="margin: 0; font-family: 'Literata', Georgia, serif; font-size: 17px; line-height: 1.6">{{ t.text }}</p>
+</sc-if>
+</div>
+</sc-for>
+</div>
+
+<div style="margin-top: 8px; border: 1px solid {{tx}}; padding: 16px 16px 18px; display: flex; flex-direction: column; gap: 8px; box-shadow: inset 0 0 0 3px #F7F3E8, inset 0 0 0 4px {{tx}}">
+<span style="{{headStyle}}">L'anecdote</span>
+<p style="margin: 0; font-family: 'Literata', Georgia, serif; font-style: italic; font-size: 17px; line-height: 1.55">{{anecdote}}</p>
+</div>
+
+<svg width="100%" height="10" viewBox="0 0 334 10" preserveAspectRatio="none" aria-hidden="true" style="display: block; overflow: visible; margin-top: 10px">
+<path d="{{band1}}" fill="none" stroke="{{tx}}" stroke-width="{{bandW1}}" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+<path d="{{band2}}" fill="none" stroke="{{tx}}" stroke-width="{{bandW2}}" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+</svg>
+
+<div style="display: flex; flex-direction: column; gap: 4px">
+<span style="{{headBig}}">À suivre</span>
+<span style="font-family: 'Literata', Georgia, serif; font-size: 16px; line-height: 1.5; color: #4A473F">Un lieu ou une date ?</span>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 10px">
+<sc-for list="{{options}}" as="o" hint-placeholder-count="2">
+<button type="button" class="opt" onClick="{{ o.pick }}" style="{{ o.style }}">
+<span style="font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-size: 14px; font-weight: 600">{{ o.kind }}</span>
+<span style="{{ o.labelStyle }}">{{ o.label }}</span>
+</button>
+</sc-for>
+</div>
+
+</div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+componentDidUpdate(prevProps, prevState) {
+try {
+const el = document.getElementById('scroller');
+if (el) el.scrollTop = 0;
+const st = document.getElementById('story');
+if (st) {
+st.classList.remove('enter');
+void st.offsetWidth;
+st.classList.add('enter');
+}
+} catch (e) {}
+}
+renderVals() {
+const per = [
+{ name: 'Antiquité', bg: '#2A5D9F', fg: '#FFFFFF', tint: '#D6E2F2', tx: '#2A5D9F', font: "'Marcellus', Georgia, serif", dw: 400, ts: 34, tl: 1.15, tw: 400, dcase: 'uppercase', dls: '0.12em', dsz: 15 },
+{ name: 'Moyen Âge', bg: '#C23A22', fg: '#FFFFFF', tint: '#F2D6D0', tx: '#B5331C', font: "'Grenze Gotisch', Georgia, serif", dw: 800, ts: 40, tl: 1.05, tw: 700, dcase: 'none', dls: '0', dsz: 21 },
+{ name: 'Renaissance', bg: '#1F7A6E', fg: '#FFFFFF', tint: '#CFE6E1', tx: '#1B6F64', font: "'Cormorant Garamond', Georgia, serif", dw: 700, ts: 42, tl: 1.03, tw: 700, dcase: 'none', dls: '0.02em', dsz: 21 },
+{ name: 'Révolutions', bg: '#A3214B', fg: '#FFFFFF', tint: '#EBCFD9', tx: '#A3214B', font: "'Bodoni Moda', Georgia, serif", dw: 900, ts: 34, tl: 1.1, tw: 800, dcase: 'uppercase', dls: '0.08em', dsz: 14 },
+{ name: 'Industrielle', bg: '#E3B505', fg: '#1B1A17', tint: '#F6EBC0', tx: '#7E6100', font: "'Alfa Slab One', Georgia, serif", dw: 400, ts: 30, tl: 1.12, tw: 400, dcase: 'uppercase', dls: '0.05em', dsz: 13 }
+];
+const cards = {
+mansa: { per: 1, pre: '', big: '1324', post: '', place: 'Mali, Afrique de l’Ouest',
+title: 'Comment un roi a-t-il fait chuter le cours de l’or au Caire ?',
+paras: [
+'En 1324, Mansa Musa, empereur du Mali, quitte sa capitale pour accomplir le hajj, le pèlerinage à La Mecque que tout musulman doit faire au moins une fois dans sa vie s’il en a les moyens. Le voyage dure environ un an, et il n’a rien d’une simple dévotion. Musa règne sur un empire qui couvre une grande partie de l’Afrique de l’Ouest, et il contrôle des régions parmi les plus riches en or du monde connu. Ce pèlerinage est aussi une vitrine.',
+'Sa caravane traverse le Sahara et passe par Oualata avant de gagner l’Égypte. Les sources arabes parlent d’une foule immense : des dizaines de milliers de personnes, des soldats, des serviteurs, des esclaves, des chameaux chargés d’or. Ces chiffres viennent de chroniqueurs qui écrivent des années plus tard, et les historiens les jugent exagérés. Ce que presque tous les récits confirment, c’est l’impression de richesse que laisse le cortège.',
+'Le Caire, qu’il atteint en juillet 1324, est alors l’une des plus grandes villes du monde, capitale du sultanat mamelouk d’al-Nasir Muhammad. Musa y reste plusieurs semaines. Selon al-Umari, il aurait d’abord refusé de se prosterner devant le sultan, puisqu’il ne le faisait que devant Dieu, avant que l’on trouve un compromis. L’épisode est célèbre, mais il repose sur un récit rapporté, qu’il faut prendre avec prudence.',
+'Ce qui marque surtout les esprits, c’est son argent. Musa distribue de l’or aux pauvres, aux émirs, aux officiers de la cour, et il achète beaucoup sur les marchés. Quand al-Umari visite l’Égypte, une douzaine d’années plus tard, il interroge des témoins : ils lui racontent que le dinar d’or avait perdu de sa valeur, et que le cours n’était toujours pas remonté.',
+'Il faut nuancer. Un afflux soudain d’or fait baisser sa valeur par rapport à l’argent, et le mécanisme est plausible. Mais nous dépendons de peu de témoins pour la durée de cette baisse, et rien ne prouve qu’elle n’avait pas d’autres causes. Les historiens lisent donc ce récit comme un témoignage précieux, pas comme une mesure.',
+'La suite est plus solide. Au retour, Musa ramène des savants, des architectes et des livres. On attribue souvent à l’architecte et poète andalou Abu Ishaq al-Sahili, rencontré en route, des constructions à Tombouctou et à Gao, dont la mosquée Djingareyber, même si la part exacte de chacun est discutée. Tombouctou devient un grand centre de commerce et de savoir.',
+'L’Europe, elle aussi, entend parler de ce roi. En 1375, l’Atlas catalan, réalisé à Majorque, représente un souverain couronné, assis sur son trône, tenant une pépite d’or, avec une légende qui vante la richesse de son pays. Ce n’est plus seulement un voyage : c’est une réputation qui traverse la Méditerranée. Dans les décennies suivantes, des marchands italiens et catalans cherchent à atteindre, à travers le Sahara, les sources de l’or du Soudan.'
+],
+anecdote: 'Selon al-Umari, Musa aurait dû emprunter de l’argent à des marchands du Caire, à des taux élevés, pour finir son voyage. Un empereur assez riche pour faire plonger une monnaie, puis obligé d’emprunter pour rentrer chez lui.',
+ok: false, conf: 'Débattu', confNote: 'taille de la caravane, durée de la baisse de l’or',
+sources: ['Levtzion et Hopkins, Corpus of Early Arabic Sources for West African History, 1981', 'Michael A. Gomez, African Dominion, Princeton UP, 2018', 'Atlas catalan, 1375, Bibliothèque nationale de France'],
+opts: [ { kind: 'Zone', label: 'Chine', to: 'song' }, { kind: 'Thème', label: 'Médecine', to: 'peste' } ] },
+
+song: { per: 1, pre: 'vers', big: '1024', post: '', place: 'Sichuan, Chine',
+title: 'Pourquoi la Chine a-t-elle inventé le billet de banque ?',
+paras: [
+'Dans la Chine du début du XIe siècle, la monnaie courante est la sapèque, une pièce de cuivre percée en son centre, que l’on enfile par centaines sur une cordelette. Un millier de pièces pèse plusieurs kilos. Pour un achat important, il faut des porteurs, ou une charrette.',
+'Au Sichuan, le problème est pire. La région utilise surtout des pièces de fer, beaucoup moins précieuses que le cuivre, donc encore plus encombrantes : pour acheter un peu de soie, on traîne un poids considérable.',
+'Les marchands de Chengdu trouvent une solution. Ils déposent leurs pièces chez des maisons de confiance et reçoivent en échange un reçu de papier, que l’on peut présenter plus tard pour retirer l’argent. Ces reçus, appelés jiaozi, se mettent à circuler comme de la monnaie, parce que chacun sait qu’il pourra les changer.',
+'Le Sichuan n’est pas un hasard. La région a une longue tradition de fabrication de papier et d’imprimerie, et les billets y sont imprimés avec des planches de bois gravées, sur un papier tiré de fibres de mûrier. Le papier ne remplace pas les sapèques d’un coup : pendant longtemps, les deux circulent ensemble.',
+'Le système fonctionne, puis déraille. Des émetteurs privés font faillite, des conflits éclatent, et les autorités s’inquiètent. Vers 1023-1024, l’État reprend la main : il écarte les banques privées et crée une administration chargée d’émettre les billets officiels. Ils sont émis par séries, valables pour une durée limitée, puis échangés contre de nouveaux.',
+'Le papier-monnaie change alors de nature. Ce n’est plus le reçu d’un marchand, c’est la promesse de l’État. Il permet de payer les soldats et les fonctionnaires, d’acheter des céréales, et d’éviter de transporter du métal sur de longues distances. Les Song s’en servent d’abord au Sichuan, puis dans d’autres régions.',
+'Le risque est évident, et il se réalise. Quand un État manque d’argent, il est tenté d’imprimer plus de billets que ses réserves ne le permettent. Au XIIe siècle, la guerre contre les Jin et le coût des armées poussent les Song du Sud à multiplier les émissions : les billets perdent de leur valeur, et la confiance s’effrite.',
+'Faut-il parler d’invention ? Les historiens préfèrent souvent parler d’une évolution. Dès l’époque des Tang, des commerçants utilisent la « monnaie volante », des lettres qui permettent de déposer de l’argent dans une ville et de le récupérer dans une autre. Le billet des Song prolonge cette pratique, en la généralisant et en la plaçant sous le contrôle de l’État.',
+'Sous les Yuan, la Chine mongole fait du papier-monnaie la base de son système. Marco Polo le décrit avec étonnement au XIIIe siècle : un souverain qui fait circuler des feuilles tirées de l’écorce du mûrier comme s’il s’agissait d’or. L’Europe, elle, ne verra apparaître ses premiers billets de banque qu’au XVIIe siècle, en Suède, en 1661.'
+],
+anecdote: 'Pour compliquer la fraude, les billets étaient imprimés avec plusieurs couleurs d’encre, des motifs et des cachets, sur un papier spécial. La contrefaçon était sévèrement punie, parfois de mort.',
+ok: true, conf: 'Établi', confNote: 'origine privée, reprise par l’État, inflation',
+sources: ['Richard von Glahn, The Economic History of China, CUP, 2016', 'Jacques Gernet, Le Monde chinois', 'Marco Polo, Le Devisement du monde, chapitre sur le papier-monnaie'],
+opts: [ { kind: 'Période', label: 'Antiquité', to: 'erato' }, { kind: 'Zone', label: 'États-Unis', to: 'promontory' } ] },
+
+peste: { per: 1, pre: '', big: '1347', post: '', place: 'Messine, Sicile',
+title: 'Comment la peste noire est-elle entrée en Europe ?',
+paras: [
+'En octobre 1347, des galères génoises entrent dans le port de Messine, en Sicile. À bord, d’après la chronique de Michele da Piazza, beaucoup de marins sont malades ou morts. Les habitants comprennent vite que quelque chose ne va pas : ceux qui approchent les marins tombent malades à leur tour.',
+'Les autorités chassent les navires du port. Trop tard : la maladie est déjà dans la ville, et elle se répand en quelques semaines. Les galères repartent le long des côtes, et l’épidémie semble les suivre.',
+'Les ports sont les premières portes d’entrée. Gênes, Venise, Marseille ou Pise reçoivent des navires de toute la Méditerranée, et les foyers de peste se déclenchent d’abord le long des routes maritimes, avant de remonter vers l’intérieur par les fleuves, les routes et les foires, où les marchands et les pèlerins se croisent.',
+'Ces navires venaient de la mer Noire. Selon un récit attribué à Gabriele de’ Mussi, notaire de Plaisance, la peste serait passée à Caffa, en Crimée, comptoir génois assiégé par l’armée de la Horde d’or, qui aurait jeté des cadavres par-dessus les murs. Les historiens doutent de ce détail : le récit est tardif et de seconde main. La maladie a sans doute voyagé par les routes commerciales, avec les rats et les puces.',
+'En quelques années, l’épidémie traverse presque tout le continent : Marseille début 1348, Paris et l’Angleterre la même année, la Scandinavie vers 1349-1350. Les estimations de mortalité sont très débattues, et varient selon les régions ; on avance souvent le tiers de la population, parfois davantage.',
+'Les villes essaient de réagir. Dès 1348, Venise nomme des responsables de la santé publique, et à Pistoia, des ordonnances limitent les déplacements et le commerce des vêtements des morts. Ces mesures préparent les premiers bureaux de santé permanents, que des villes comme Milan et Venise installeront au XVe siècle.',
+'Personne ne sait alors ce qui provoque la maladie. En octobre 1348, la faculté de médecine de Paris, consultée par le roi Philippe VI, publie un rapport qui l’attribue à une conjonction de Saturne, de Jupiter et de Mars, qui aurait corrompu l’air. Les conseils sont d’éviter les miasmes, de brûler des herbes odorantes, de fuir.',
+'Faute de remède, la peur cherche des coupables. En 1349, des communautés juives sont massacrées dans plusieurs villes d’Europe centrale et rhénane, dont Strasbourg, accusées d’avoir empoisonné les puits. Ces accusations n’avaient aucun fondement.',
+'Les conséquences sociales durent longtemps. Avec moins de bras, les salaires montent dans de nombreuses régions, et des autorités tentent de les bloquer par la loi, comme en Angleterre avec l’ordonnance de 1349, puis le statut des travailleurs de 1351. Dans certaines campagnes, des villages entiers sont abandonnés.',
+'Il faudra attendre 1894 pour qu’Alexandre Yersin identifie la bactérie à Hong Kong, d’où son nom, Yersinia pestis. Et en 2011, des chercheurs ont reconstitué son génome à partir de squelettes de victimes enterrés à Londres, confirmant que la peste noire était bien la peste.'
+],
+anecdote: 'En 1377, Raguse (Dubrovnik) impose un isolement de 30 jours aux navires venus de zones touchées. La durée passera ensuite à 40 jours : de là vient le mot « quarantaine ».',
+ok: true, conf: 'Établi', confNote: 'arrivée par la mer, cause identifiée',
+sources: ['Ole Benedictow, The Black Death 1346–1353, Boydell, 2004', 'Bos et al., « A draft genome of Yersinia pestis from victims of the Black Death », Nature, 2011', 'Michele da Piazza, Cronaca'],
+opts: [ { kind: 'Période', label: 'Renaissance', to: 'gutenberg' }, { kind: 'Zone', label: 'Chine', to: 'song' } ] },
+
+erato: { per: 0, pre: 'vers', big: '240', post: 'avant J.-C.', place: 'Alexandrie, Égypte',
+title: 'Comment Ératosthène a-t-il mesuré la Terre avec un bâton ?',
+paras: [
+'Vers 240 avant notre ère, Ératosthène dirige la bibliothèque d’Alexandrie. Né à Cyrène, il est à la fois poète, astronome, mathématicien et géographe. On l’a surnommé « Bêta », le deuxième : excellent dans tous les domaines, sans être le premier dans aucun.',
+'Il a entendu parler d’un détail curieux. À Syène, l’actuelle Assouan, à midi le jour du solstice d’été, le Soleil éclaire le fond d’un puits : il est à la verticale. À Alexandrie, au même moment, les objets verticaux projettent une ombre. Le puits de Syène devient ainsi l’un des instruments scientifiques les plus célèbres de l’Antiquité, sans qu’on y ait changé une pierre.',
+'Il en tire une idée. Si la Terre est ronde, comme les savants grecs l’admettent depuis longtemps, la différence d’angle des rayons du Soleil entre les deux villes doit correspondre à la distance qui les sépare sur la courbure du globe. Il suffit de mesurer l’angle et la distance.',
+'Pourquoi cela suffit-il ? Le Soleil est si loin que ses rayons arrivent presque parallèles sur la Terre. Deux bâtons plantés à la verticale à deux endroits différents pointent alors dans des directions légèrement différentes, vers le centre du globe, et l’angle entre ces directions est le même que l’angle de l’ombre mesuré à Alexandrie. La méthode ne demande ni instrument sophistiqué ni voyage autour du monde : un puits, un bâton, de la géométrie et de bons arpenteurs.',
+'L’angle se mesure avec un cadran creux, la scaphé : il trouve environ un cinquantième de cercle, soit à peu près 7 degrés. La distance est d’environ 5 000 stades entre les deux villes, que l’on suppose sur le même méridien. Multiplié par 50, cela donne 250 000 stades pour le tour de la Terre.',
+'Reste à convertir les stades en kilomètres. Il en existe plusieurs sortes, et l’on ne sait pas lequel Ératosthène utilisait. Selon la valeur retenue, son résultat est très proche de la circonférence réelle, d’environ 40 000 kilomètres, ou s’en écarte d’une quinzaine de pour cent.',
+'Ses hypothèses étaient aussi approximatives : Syène n’est pas exactement sur le tropique ni sur le même méridien qu’Alexandrie, et la distance venait sans doute de mesures d’itinéraires, comptées en journées de marche de caravane. Mais plusieurs erreurs se compensent en partie.',
+'Ératosthène ne s’arrête pas là. Il estime l’inclinaison de l’axe de la Terre, dresse une carte du monde connu avec des parallèles et des méridiens, et écrit sur la géographie et la chronologie. Ses contemporains le respectent, et l’on dit que le roi Ptolémée III lui a confié l’éducation de son fils.',
+'Son livre Sur la mesure de la Terre est perdu. Nous connaissons la méthode par des auteurs postérieurs, surtout Cléomède, dont la date est discutée, et par Strabon. Plus tard, quand Christophe Colomb prépare son voyage, il retient une circonférence bien plus petite, ce qui lui fait croire que l’Asie est à portée de navire.'
+],
+anecdote: 'Son nom reste attaché au crible d’Ératosthène, une méthode pour trouver les nombres premiers que l’on enseigne encore aujourd’hui. L’attribution vient d’auteurs tardifs, mais elle est restée.',
+ok: false, conf: 'Débattu', confNote: 'valeur du stade, précision du résultat',
+sources: ['Cléomède, Théorie élémentaire, trad. R. Goulet', 'Germaine Aujac, Ératosthène de Cyrène, le pionnier de la géographie, 2001', 'Strabon, Géographie, livre II'],
+opts: [ { kind: 'Période', label: 'Moyen Âge', to: 'mansa' }, { kind: 'Thème', label: 'Médecine', to: 'peste' } ] },
+
+gutenberg: { per: 2, pre: 'vers', big: '1450', post: '', place: 'Mayence, Saint-Empire',
+title: 'Qui a vraiment inventé l’imprimerie ?',
+paras: [
+'Vers 1450, à Mayence, sur les bords du Rhin, un orfèvre nommé Johannes Gensfleisch, dit Gutenberg, s’endette pour monter un atelier. Il veut produire des livres plus vite et pour moins cher qu’un copiste, qui met des mois à recopier une Bible.',
+'Il n’a pas inventé l’idée d’imprimer. En Chine, on imprime avec des planches de bois gravées depuis le VIIIe siècle environ. Vers 1040, Bi Sheng aurait fabriqué des caractères mobiles en terre cuite, et en Corée, le Jikji est imprimé avec des caractères mobiles en métal en 1377.',
+'Ce que Gutenberg met au point, c’est un système complet adapté à l’alphabet latin : un moule à main pour fondre des lettres identiques dans un alliage de plomb, d’étain et d’antimoine, une encre grasse à base d’huile, adaptée au métal, et une presse inspirée de celles du vin et du papier. Ensemble, ils permettent d’imprimer des pages régulières, en grand nombre.',
+'Le travail est minutieux. Pour imiter l’écriture des copistes, Gutenberg fond près de trois cents signes différents : lettres, abréviations, ligatures. Chaque page est composée à la main, lettre par lettre, puis encrée et pressée sur le papier. Les initiales colorées et les ornements sont ensuite ajoutés à la main par des enlumineurs : le livre imprimé ressemble d’abord à un manuscrit.',
+'Son chef-d’œuvre est la Bible à 42 lignes, imprimée vers 1455. On estime à environ 180 le nombre d’exemplaires, dont une partie sur parchemin et le reste sur papier. Une quarantaine d’entre eux ont survécu, entiers ou en partie.',
+'Pour lui, l’entreprise tourne mal. Son associé et bailleur de fonds, Johann Fust, lui réclame le remboursement de ses prêts, et un procès en 1455 lui fait perdre son atelier au profit de Fust, qui s’associe avec Peter Schöffer, ancien employé de Gutenberg.',
+'Mais la technique se répand à une vitesse remarquable. Les livres imprimés avant 1501 s’appellent des incunables, et on en compte des millions d’exemplaires. Des ateliers s’ouvrent à Venise, à Paris, à Lyon, à Cracovie, à Londres. Le prix d’un livre baisse nettement, même s’il reste élevé pour beaucoup de lecteurs, et la concurrence entre imprimeurs pousse à produire plus vite.',
+'L’imprimerie modifie aussi la façon de lire. Les livres, moins chers, sortent des monastères et des universités. On y ajoute peu à peu des pages de titre, des numéros de pages, des tables et des index, qui permettent de retrouver un passage sans tout relire. Les savants peuvent aussi comparer des textes identiques, ce qui change la manière de les corriger.',
+'Les conséquences sont immenses, mais pas immédiates. La Réforme de Luther, à partir de 1517, profite directement de cette technique : ses textes sont imprimés et diffusés dans tout l’empire en peu de temps. Gutenberg, lui, n’a signé aucun de ses livres : tout ce que l’on sait de lui vient de documents juridiques, procès et contrats.'
+],
+anecdote: 'On ne connaît aucun portrait de Gutenberg réalisé de son vivant. Les images célèbres datent de plus d’un siècle après sa mort : ce sont des portraits imaginés.',
+ok: false, conf: 'Débattu', confNote: 'dates exactes, rôle de chacun',
+sources: ['Lucien Febvre et Henri-Jean Martin, L’Apparition du livre, 1958', 'Albert Kapr, Johannes Gutenberg : Persönlichkeit und Leistung, 1986', 'Bibliothèque nationale de France, la Bible de Gutenberg'],
+opts: [ { kind: 'Période', label: 'Révolutions', to: 'bastille' }, { kind: 'Zone', label: 'Afrique', to: 'mansa' } ] },
+
+bastille: { per: 3, pre: '', big: '1789', post: '', place: 'Paris, France',
+title: 'Combien de prisonniers la Bastille contenait-elle le 14 juillet ?',
+paras: [
+'Le matin du 14 juillet 1789, une foule parisienne se dirige vers les Invalides, où elle s’empare de dizaines de milliers de fusils. Il lui manque de la poudre, stockée à la Bastille, une forteresse médiévale devenue prison d’État qui domine le faubourg Saint-Antoine.',
+'Le gouverneur, Bernard-René de Launay, commande une garnison d’environ 80 invalides, des soldats âgés ou blessés, et d’une trentaine de soldats suisses, avec quelques canons. Il négocie d’abord avec des délégués qui demandent la remise de la poudre.',
+'Le contexte compte. Depuis des mois, Paris est tendue : le pain est cher après la mauvaise récolte de 1788, et le roi vient de renvoyer son ministre Necker, le 11 juillet, ce qui fait craindre un coup de force contre l’Assemblée nationale. Des troupes sont massées autour de la capitale, et les Parisiens veulent s’armer pour se défendre.',
+'Vers le milieu de l’après-midi, la foule pénètre dans la cour extérieure, des coups de feu partent, et l’on ne sait pas qui a tiré le premier. Le combat dure plusieurs heures. Avec l’appui de gardes françaises, des soldats ralliés aux insurgés, qui amènent des canons, les assaillants obtiennent la reddition vers cinq heures.',
+'Le bilan est lourd d’un seul côté : une centaine d’assaillants tués ou morts de leurs blessures, contre un seul défenseur dans les combats. Après la reddition, de Launay est massacré par la foule, et sa tête promenée au bout d’une pique.',
+'Et les prisonniers ? Il y en a sept : quatre faussaires, deux hommes jugés fous, et un noble enfermé à la demande de sa famille. Ils sont libérés. La prise de la Bastille compte moins pour ce qu’elle contenait que pour ce qu’elle représentait : l’arbitraire royal, les lettres de cachet qui permettaient d’enfermer sans procès.',
+'Les lettres de cachet, ordres signés du roi, servaient aussi à régler des affaires de famille, ce qui explique le cas du noble. Parmi les prisonniers célèbres de la Bastille, Voltaire y a été enfermé à deux reprises, en 1717 et en 1726. Mais en 1789, la forteresse est presque vide, et le gouvernement envisageait déjà de la fermer.',
+'À Versailles, le roi n’apprend les événements que le soir. Selon une réplique célèbre, le duc de La Rochefoucauld-Liancourt lui aurait répondu qu’il ne s’agissait pas d’une révolte, mais d’une révolution. L’échange est peut-être arrangé après coup, mais il résume ce que ce jour a fini par signifier.',
+'La forteresse est démolie dès le lendemain. L’entrepreneur Pierre-François Palloy, chargé du chantier, fait sculpter des maquettes de la Bastille dans ses pierres et les envoie aux départements. Dès 1790, le 14 juillet est célébré avec la fête de la Fédération, et il devient fête nationale en 1880. Pendant l’été 1789, le mot « révolution » entre dans le vocabulaire courant, et la nouvelle se diffuse dans les provinces par les lettres et les journaux.'
+],
+anecdote: 'Ce jour-là, Louis XVI note dans son journal de chasse un seul mot : « Rien ». Il ne parlait pas de la prise de la Bastille : il comptait le gibier tué.',
+ok: true, conf: 'Établi', confNote: 'prisonniers, bilan, démolition ; déroulé des premiers tirs flou',
+sources: ['Jacques Godechot, La Prise de la Bastille, Gallimard, 1965', 'Hans-Jürgen Lüsebrink et Rolf Reichardt, The Bastille: A History of a Symbol of Despotism and Freedom, 1997', 'Simon Schama, Citizens, 1989'],
+opts: [ { kind: 'Période', label: 'Ère industrielle', to: 'promontory' }, { kind: 'Thème', label: 'Science', to: 'erato' } ] },
+
+promontory: { per: 4, pre: '', big: '1869', post: '', place: 'Promontory Summit, Utah',
+title: 'Comment relie-t-on deux océans avec deux lignes de chemin de fer ?',
+paras: [
+'Le 10 mai 1869, quelques centaines de personnes se rassemblent à Promontory Summit, dans l’Utah. On y pose le dernier rail d’une ligne qui relie le réseau de l’Est à la Californie. Pour la première fois, on peut traverser le continent nord-américain en train.',
+'Le chantier a duré six ans. En 1862, le Pacific Railway Act charge deux compagnies de construire : la Central Pacific part de Sacramento vers l’est, l’Union Pacific part d’Omaha vers l’ouest. L’État fournit des terres et des prêts, proportionnels au nombre de kilomètres posés, ce qui pousse les deux compagnies à avancer le plus vite possible.',
+'Les deux compagnies sont dirigées par des hommes d’affaires ambitieux : les « Big Four » de Californie, dont Leland Stanford, pour la Central Pacific, et Thomas Durant pour l’Union Pacific. Des scandales financiers, comme celui du Crédit Mobilier, éclateront peu après la cérémonie.',
+'La Central Pacific doit d’abord franchir la Sierra Nevada, avec des tunnels à creuser dans le granit. Elle manque de main-d’œuvre et embauche massivement des ouvriers chinois, qui forment la grande majorité de ses équipes. Le travail est dangereux, mal payé, et le nombre de morts reste mal connu.',
+'L’Union Pacific traverse les grandes plaines. Ses ouvriers sont souvent d’anciens soldats de la guerre de Sécession et des immigrants irlandais. Elle rencontre d’autres obstacles : l’approvisionnement, et les conflits avec les peuples autochtones dont les territoires sont traversés, notamment les Lakota et les Cheyennes.',
+'Les deux compagnies avancent si vite qu’elles se croisent sans se rejoindre : pendant des mois, leurs équipes construisent des tracés parallèles. Le Congrès doit finalement fixer le point de rencontre, Promontory Summit.',
+'La rivalité devient un spectacle. Le 28 avril 1869, pour gagner un pari avec Durant, les ouvriers de la Central Pacific posent environ dix miles de rail, soit une quinzaine de kilomètres, en une seule journée. Ce record tient longtemps.',
+'La cérémonie est préparée comme un événement national. Un fil télégraphique est relié au crampon et au marteau, pour que chaque coup soit transmis aux villes de l’Est et de la côte ouest, où des salves de canon, des cloches et des défilés célèbrent la nouvelle.',
+'Le jour de la cérémonie, une locomotive de chaque compagnie s’avance, nez à nez. Sur la photographie célèbre de la jonction, on voit des ingénieurs et des ouvriers se serrer la main, une bouteille à la main. On n’y voit aucun ouvrier chinois, alors qu’ils ont posé une grande partie des rails.',
+'Le voyage entre l’Est et la Californie passe de plusieurs mois à environ une semaine, et la colonisation de l’Ouest s’accélère. Treize ans plus tard, en 1882, le Congrès adopte le Chinese Exclusion Act, qui interdit l’immigration de travailleurs chinois. D’autres lignes transcontinentales suivront, et le réseau ferré devient en quelques décennies l’ossature économique du pays.'
+],
+anecdote: 'Le président de la Central Pacific, Leland Stanford, donne le coup de marteau symbolique sur un crampon en or, et rate le crampon. Le télégraphiste envoie quand même le signal à tout le pays. Le crampon d’or a été retiré aussitôt après, remplacé par un crampon ordinaire.',
+ok: true, conf: 'Établi', confNote: 'date, jonction, cérémonie',
+sources: ['Stephen Ambrose, Nothing Like It in the World, 2000', 'National Park Service, Golden Spike National Historical Park', 'Gordon H. Chang et Shelley Fisher Fishkin (dir.), The Chinese and the Iron Road, Stanford UP, 2019'],
+opts: [ { kind: 'Période', label: 'Antiquité', to: 'erato' }, { kind: 'Zone', label: 'Chine', to: 'song' } ] }
+};
+const meta = {
+mansa: { continent: 'Afrique' },
+song: { continent: 'Asie' },
+peste: { continent: 'Europe' },
+erato: { continent: 'Afrique' },
+gutenberg: { continent: 'Europe' },
+bastille: { continent: 'Europe' },
+promontory: { continent: 'Amérique' }
+};
+const nav = {
+mansa: { lieu: 'song', date: 'peste' },
+song: { lieu: 'promontory', date: 'erato' },
+peste: { lieu: 'gutenberg', date: 'bastille' },
+erato: { lieu: 'mansa', date: 'peste' },
+gutenberg: { lieu: 'bastille', date: 'promontory' },
+bastille: { lieu: 'promontory', date: 'song' },
+promontory: { lieu: 'peste', date: 'erato' }
+};
+const firsts = ['erato', 'mansa', 'gutenberg', 'bastille', 'promontory'];
+const dateOf = (k) => (k.pre ? k.pre + ' ' : '') + k.big + (k.post ? ' ' + k.post : '');
+const bandFor = (continent) => {
+let d1 = '', d2 = '', w1 = 2, w2 = 1, i;
+if (continent === 'Afrique') {
+d1 = 'M0 9';
+for (i = 1; i <= 34; i++) d1 += ' L' + (i * 10) + ' ' + (i % 2 ? 1 : 9);
+} else if (continent === 'Asie') {
+d1 = 'M0 5';
+for (i = 0; i < 17; i++) d1 += ' q5 -5 10 0 t10 0';
+} else if (continent === 'Amérique') {
+d1 = 'M0 9';
+for (i = 0; i < 14; i++) d1 += ' h6 v-4 h6 v-4 h6 v4 h6 v4';
+} else {
+d1 = 'M0 2 H334'; d2 = 'M0 7 H334'; w1 = 3; w2 = 1;
+}
+return { d1: d1, d2: d2, w1: w1, w2: w2 };
+};
+const s = this.state || {};
+const id = s.card || 'mansa';
+const n = s.n || 3;
+const c = cards[id];
+const m = meta[id];
+const cur = per[c.per];
+const band = bandFor(m.continent);
+const tabs = per.map((d, i) => {
+const active = i === c.per;
+const base = 'flex: 1; min-width: 0; border: 0; border-radius: 10px 10px 0 0; cursor: pointer; font-family: \'Bricolage Grotesque\', system-ui, sans-serif; font-size: 11px; font-weight: 600; white-space: nowrap; transition: background-color 160ms ease; ';
+const style = active
+? base + 'padding: 12px 2px 9px; background: ' + d.bg + '; color: ' + d.fg
+: base + 'padding: 7px 2px 6px; background: ' + d.tint + '; color: #1B1A17; box-shadow: inset 0 3px 0 ' + d.bg;
+return { name: d.name, active: active, style: style, pick: () => { if (!active) this.setState({ card: firsts[i] }); } };
+});
+const mk = (kind, toId) => {
+const t = cards[toId];
+const tp = per[t.per];
+const isDate = kind === 'Date';
+return {
+kind: kind,
+label: isDate ? dateOf(t) : t.place,
+style: 'text-align: left; border: 0; border-radius: 4px; padding: 16px 18px 20px; min-height: 104px; display: flex; flex-direction: column; justify-content: space-between; gap: 14px; cursor: pointer; background: ' + tp.bg + '; color: ' + tp.fg,
+labelStyle: 'font-family: ' + tp.font + '; font-weight: ' + tp.dw + '; font-size: ' + (isDate ? 38 : 28) + 'px; line-height: 1.05; letter-spacing: ' + (tp.dls === '0' ? '0' : '0.01em'),
+pick: () => this.setState({ card: toId, n: n >= 10 ? 1 : n + 1 })
+};
+};
+const options = [ mk('Lieu', nav[id].lieu), mk('Date', nav[id].date) ];
+const paras = c.paras.map((t, i) => (i === 0
+? { drop: true, plain: false, letter: t.charAt(0), rest: t.slice(1), text: '', dropStyle: 'float: left; font-family: ' + cur.font + '; font-weight: ' + cur.dw + '; font-size: 58px; line-height: 0.78; padding: 6px 8px 0 0; color: ' + cur.tx }
+: { drop: false, plain: true, letter: '', rest: '', text: t, dropStyle: '' }));
+return {
+tabs: tabs, options: options, n: n,
+bg: cur.bg, tx: cur.tx, continent: m.continent,
+band1: band.d1, band2: band.d2, bandW1: band.w1, bandW2: band.w2,
+title: c.title,
+titleStyle: 'margin: 0; font-family: ' + cur.font + '; font-size: ' + cur.ts + 'px; line-height: ' + cur.tl + '; font-weight: ' + cur.tw + '; text-wrap: balance',
+datelineStyle: 'display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 14px; padding: 9px 0; border-top: 1px solid ' + cur.tx + '; border-bottom: 1px solid ' + cur.tx,
+placeStyle: 'font-family: ' + cur.font + '; font-weight: ' + cur.tw + '; font-size: ' + cur.dsz + 'px; line-height: 1.2; text-transform: ' + cur.dcase + '; letter-spacing: ' + cur.dls + '; color: #1B1A17',
+dateStyle: 'font-family: ' + cur.font + '; font-weight: ' + cur.tw + '; font-size: ' + cur.dsz + 'px; line-height: 1.2; text-transform: ' + cur.dcase + '; letter-spacing: ' + cur.dls + '; color: ' + cur.tx,
+place: c.place, dateText: dateOf(c),
+paras: paras,
+anecdote: c.anecdote,
+headStyle: 'font-family: ' + cur.font + '; font-size: 22px; line-height: 1.1; font-weight: ' + cur.tw,
+headBig: 'font-family: ' + cur.font + '; font-size: 30px; line-height: 1.05; font-weight: ' + cur.dw
+};
+}
+}
+</script>
+</body>
+</html>

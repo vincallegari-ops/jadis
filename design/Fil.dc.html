@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Fil et frise</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; background: #F4F1EA; color: #1B1B1F; font-family: 'DM Sans', system-ui, sans-serif; display: flex; flex-direction: column; overflow: hidden">
+
+<div style="padding: 18px 12px 10px; background: #F4F1EA; border-bottom: 1px solid #E3DDCF">
+<div style="position: relative">
+<div style="position: absolute; left: 10%; right: 10%; top: 10px; height: 2px; background: #D6D0C1; border-radius: 1px"></div>
+<div style="position: absolute; left: 10%; top: 10px; height: 2px; border-radius: 1px; width: {{fillWidth}}; background: {{color}}"></div>
+<div style="position: relative; display: flex">
+<sc-for list="{{periods}}" as="p" hint-placeholder-count="5">
+<button type="button" onClick="{{ p.pick }}" aria-pressed="{{ p.active }}" style="flex: 1; min-width: 0; min-height: 56px; padding: 0 0 4px; border: 0; background: transparent; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px; font-family: inherit">
+<span style="height: 22px; display: flex; align-items: center; justify-content: center">
+<span style="{{ p.dotStyle }}"></span>
+</span>
+<span style="{{ p.labelStyle }}">{{ p.name }}</span>
+</button>
+</sc-for>
+</div>
+</div>
+</div>
+
+<div style="flex: 1; min-height: 0; overflow-y: auto; padding: 18px 14px 20px; display: flex; flex-direction: column; gap: 14px">
+
+<div style="padding: 0 4px; display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; color: {{color}}">{{range}}</span>
+<span style="font-family: 'Fraunces', Georgia, serif; font-size: 26px; line-height: 1.1; font-weight: 700; color: #1B1B1F">{{periodName}}</span>
+<span style="font-family: 'Source Serif 4', Georgia, serif; font-size: 15px; line-height: 1.4; color: #55555D">{{periodDesc}}</span>
+</div>
+
+<sc-for list="{{cards}}" as="c" hint-placeholder-count="2">
+<article style="background: #FFFFFF; border: 1px solid #E3DDCF; border-radius: 20px; padding: 18px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px">
+<span style="font-family: 'Fraunces', Georgia, serif; font-size: 20px; font-weight: 600; color: {{color}}">{{ c.date }}</span>
+<span style="font-size: 12px; font-weight: 500; border-radius: 999px; padding: 4px 10px; background: {{tint}}; color: {{color}}">{{ c.theme }}</span>
+</div>
+<div style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #5B5B63">
+<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#5B5B63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+<span>{{ c.place }}</span>
+</div>
+<h2 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 21px; line-height: 1.2; font-weight: 600; color: #1B1B1F">{{ c.title }}</h2>
+<p style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 16px; line-height: 1.5; color: #33333A">{{ c.excerpt }}</p>
+<div style="display: flex; align-items: center; gap: 12px; margin-top: 2px">
+<span style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #33333A">
+<sc-if value="{{ c.isOk }}" hint-placeholder-val="{{ true }}">
+<svg width="12" height="12" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="6" fill="#2E7D5B"/></svg>
+</sc-if>
+<sc-if value="{{ c.isDebated }}" hint-placeholder-val="{{ false }}">
+<svg width="12" height="12" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="#9A6A12" stroke-width="2"/></svg>
+</sc-if>
+{{ c.conf }}
+</span>
+<span style="font-size: 13px; color: #5B5B63">{{ c.sources }} sources</span>
+<span style="flex: 1"></span>
+<button type="button" aria-label="Ajouter aux favoris" style="width: 44px; height: 44px; margin: -6px -8px -6px 0; border: 0; background: transparent; color: #33333A; display: flex; align-items: center; justify-content: center; cursor: pointer">
+<svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>
+</button>
+</div>
+<button type="button" style="min-height: 44px; border: 0; border-radius: 12px; background: {{color}}; color: #FFFFFF; font-family: inherit; font-size: 15px; font-weight: 600; cursor: pointer">Lire la carte · 1 min</button>
+</article>
+</sc-for>
+
+<div style="background: #FFFFFF; border: 1px solid #E3DDCF; border-radius: 20px; padding: 18px; display: flex; flex-direction: column; gap: 10px" aria-label="Chargement de la carte suivante" role="img">
+<div style="width: 90px; height: 18px; border-radius: 6px; background: {{tint}}"></div>
+<div style="width: 140px; height: 12px; border-radius: 6px; background: #ECE7DA"></div>
+<div style="width: 100%; height: 20px; border-radius: 6px; background: #ECE7DA"></div>
+<div style="width: 80%; height: 20px; border-radius: 6px; background: #ECE7DA"></div>
+</div>
+
+</div>
+
+<div style="display: flex; justify-content: space-around; align-items: center; padding: 6px 12px 16px; background: #F4F1EA; border-top: 1px solid #E3DDCF">
+<button type="button" aria-current="page" style="min-width: 64px; min-height: 48px; border: 0; background: transparent; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font-family: inherit; color: {{color}}; cursor: pointer">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+<span style="font-size: 11px; font-weight: 600">Fil</span>
+</button>
+<button type="button" style="min-width: 64px; min-height: 48px; border: 0; background: transparent; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font-family: inherit; color: #5B5B63; cursor: pointer">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>
+<span style="font-size: 11px">Favoris</span>
+</button>
+<button type="button" style="min-width: 64px; min-height: 48px; border: 0; background: transparent; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font-family: inherit; color: #5B5B63; cursor: pointer">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>
+<span style="font-size: 11px">Atlas</span>
+</button>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() {
+const data = [
+{ name: 'Antiquité', range: 'Des origines à 476', desc: 'Des premières cités à la chute de Rome.', color: '#8F5F0F', tint: '#F3E7CF', cards: [
+{ date: 'vers −240', place: 'Alexandrie, Égypte', theme: 'Science', title: 'Comment Ératosthène a-t-il mesuré la Terre avec un bâton ?', excerpt: 'À Syène, le Soleil éclaire le fond d’un puits au solstice d’été. À Alexandrie, au même moment, un bâton projette une ombre. L’écart d’angle suffit à estimer la taille du globe.', conf: 'Établi', ok: true, sources: 3 },
+{ date: 'Ier siècle', place: 'Gaule romaine', theme: 'Ingénierie', title: 'Pourquoi le Pont du Gard a-t-il survécu à l’Empire romain ?', excerpt: 'Ce pont n’est qu’un tronçon d’un aqueduc qui amenait l’eau jusqu’à Nîmes. Sa pente est si faible que l’eau y coule presque à plat sur des dizaines de kilomètres.', conf: 'Débattu', ok: false, sources: 2 }
+] },
+{ name: 'Moyen Âge', range: '476 → 1492', desc: 'Royaumes, routes commerciales et grandes épidémies.', color: '#2F5D8A', tint: '#DCE7F2', cards: [
+{ date: '1324', place: 'Mali, Afrique de l’Ouest', theme: 'Commerce', title: 'Comment un roi a-t-il fait chuter le cours de l’or au Caire ?', excerpt: 'Mansa Musa, empereur du Mali, part pour La Mecque avec une caravane immense. Au Caire, il distribue tant d’or que, selon al-Umari, le cours du métal s’effondre.', conf: 'Débattu', ok: false, sources: 3 },
+{ date: '1347', place: 'Messine, Sicile', theme: 'Santé', title: 'Comment la peste noire est-elle entrée en Europe ?', excerpt: 'À l’automne 1347, des navires venus de la mer Noire accostent à Messine avec des marins malades. En quelques années, l’épidémie traverse tout le continent.', conf: 'Établi', ok: true, sources: 3 }
+] },
+{ name: 'Renaissance', range: 'XVe – XVIe siècle', desc: 'Imprimerie, grandes explorations et nouveaux mondes.', color: '#6B4C9A', tint: '#E6DEF0', cards: [
+{ date: 'vers 1450', place: 'Mayence, Saint-Empire', theme: 'Techniques', title: 'Qui a vraiment inventé l’imprimerie ?', excerpt: 'En Chine et en Corée, on imprimait avec des caractères mobiles bien avant Gutenberg. Son apport à Mayence : un procédé complet, du moule des lettres à la presse.', conf: 'Établi', ok: true, sources: 3 },
+{ date: '1519', place: 'Tenochtitlan, Mexique', theme: 'Rencontres', title: 'Quelle impression Tenochtitlan a-t-elle faite aux Espagnols ?', excerpt: 'Les compagnons de Cortés la comparent aux villes des romans de chevalerie : chaussées sur le lac, marchés immenses, canaux. Bernal Díaz del Castillo en laisse un récit.', conf: 'Établi', ok: true, sources: 2 }
+] },
+{ name: 'Révolutions', range: '1775 → 1848', desc: 'Des insurrections qui redessinent la carte politique.', color: '#B3262E', tint: '#F3DADB', cards: [
+{ date: '1789', place: 'Paris, France', theme: 'Politique', title: 'Combien de prisonniers la Bastille contenait-elle le 14 juillet ?', excerpt: 'Sept, selon les registres : quatre faussaires, deux fous et un noble enfermé à la demande de sa famille. Le symbole comptait plus que la forteresse.', conf: 'Établi', ok: true, sources: 3 },
+{ date: '1791', place: 'Saint-Domingue, Caraïbes', theme: 'Esclavage', title: 'Comment des esclaves ont-ils fondé un État ?', excerpt: 'En août 1791, une insurrection éclate dans le nord de Saint-Domingue. Treize ans plus tard, Haïti proclame son indépendance, première république fondée par d’anciens esclaves.', conf: 'Établi', ok: true, sources: 3 }
+] },
+{ name: 'Industrielle', range: '1800 → 1900', desc: 'Vapeur, rails, usines et canaux creusés à travers le monde.', color: '#2E6B5E', tint: '#D8E9E3', cards: [
+{ date: '1825', place: 'Nord de l’Angleterre', theme: 'Transports', title: 'Le premier chemin de fer public a-t-il vraiment été à vapeur ?', excerpt: 'La ligne Stockton–Darlington s’ouvre en 1825 avec une locomotive de George Stephenson. Mais une partie du trafic y est encore assurée par des chevaux.', conf: 'Établi', ok: true, sources: 2 },
+{ date: '1869', place: 'Isthme de Suez, Égypte', theme: 'Commerce', title: 'Qui a creusé le canal de Suez ?', excerpt: 'Inauguré en novembre 1869, le canal est l’œuvre de la compagnie de Ferdinand de Lesseps. Les chantiers ont d’abord reposé sur la corvée de paysans égyptiens, avant d’être mécanisés.', conf: 'Établi', ok: true, sources: 3 }
+] }
+];
+const st = this.state && this.state.period != null ? this.state.period : 1;
+const cur = data[st];
+const periods = data.map((d, i) => {
+const active = i === st;
+const past = i < st;
+const dot = active
+? 'width: 18px; height: 18px; border-radius: 50%; background: ' + d.color + '; box-shadow: 0 0 0 4px ' + d.tint
+: past
+? 'width: 10px; height: 10px; border-radius: 50%; background: ' + d.color
+: 'width: 10px; height: 10px; border-radius: 50%; background: #F4F1EA; border: 2px solid #8C8676; box-sizing: border-box';
+const label = 'font-size: 12px; line-height: 1.1; white-space: nowrap; font-weight: ' + (active ? '600' : '400') + '; color: ' + (active ? d.color : '#5B5B63');
+return { name: d.name, active: active, dotStyle: dot, labelStyle: label, pick: () => this.setState({ period: i }) };
+});
+const cards = cur.cards.map((c) => ({ date: c.date, place: c.place, theme: c.theme, title: c.title, excerpt: c.excerpt, conf: c.conf, sources: c.sources, isOk: c.ok, isDebated: !c.ok }));
+return { periods: periods, cards: cards, color: cur.color, tint: cur.tint, range: cur.range, periodName: cur.name === 'Industrielle' ? 'Ère industrielle' : cur.name, periodDesc: cur.desc, fillWidth: (st / 4 * 80) + '%' };
+}
+}
+</script>
+</body>
+</html>

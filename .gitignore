@@ -1,0 +1,11 @@
+# On ne publie que l'appli, les maquettes et la doc projet.
+/*
+!/.gitignore
+!/CLAUDE.md
+!/README.md
+!/app/
+!/design/
+!/.claude/
+/.claude/*
+!/.claude/serve.js
+!/.claude/launch.json

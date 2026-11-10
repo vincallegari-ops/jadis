@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Une histoire à la fois</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; background: #F4F1EA; color: #1B1B1F; font-family: 'DM Sans', system-ui, sans-serif; display: flex; flex-direction: column; overflow: hidden">
+
+<div style="padding: 16px 16px 8px; border-bottom: 1px solid #E3DDCF; display: flex; flex-direction: column; gap: 6px">
+<div style="display: flex; justify-content: space-between; align-items: baseline; padding: 0 4px">
+<span style="font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #5B5B63; font-weight: 500">Aujourd'hui</span>
+<span style="font-size: 13px; font-weight: 500">{{counter}}</span>
+</div>
+<div style="position: relative">
+<div style="position: absolute; left: 10%; right: 10%; top: 8px; height: 2px; background: #D6D0C1; border-radius: 1px"></div>
+<div style="position: relative; display: flex">
+<sc-for list="{{periods}}" as="p" hint-placeholder-count="5">
+<div style="flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 5px">
+<span style="height: 18px; display: flex; align-items: center; justify-content: center"><span style="{{ p.dotStyle }}"></span></span>
+<span style="{{ p.labelStyle }}">{{ p.name }}</span>
+</div>
+</sc-for>
+</div>
+</div>
+</div>
+
+<div id="scroller" style="flex: 1; min-height: 0; overflow-y: auto; padding: 22px 22px 32px; display: flex; flex-direction: column; gap: 16px">
+
+<div style="display: flex; flex-wrap: wrap; gap: 6px">
+<span style="font-size: 12px; font-weight: 600; border-radius: 999px; padding: 5px 10px; background: {{color}}; color: #FFFFFF">{{period}}</span>
+<span style="font-size: 12px; font-weight: 500; border-radius: 999px; padding: 5px 10px; background: {{tint}}; color: {{color}}">{{zone}}</span>
+<span style="font-size: 12px; font-weight: 500; border-radius: 999px; padding: 5px 10px; background: {{tint}}; color: {{color}}">{{theme}}</span>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 6px">
+<div style="font-family: 'Fraunces', Georgia, serif; font-size: 52px; line-height: 0.95; font-weight: 600; color: {{color}}; letter-spacing: -0.02em">{{date}}</div>
+<div style="display: flex; align-items: center; gap: 6px; font-size: 14px; color: #5B5B63">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#5B5B63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+<span>{{place}}</span>
+</div>
+</div>
+
+<h1 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 27px; line-height: 1.15; font-weight: 700; color: #1B1B1F">{{title}}</h1>
+
+<p style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 18px; line-height: 1.55; color: #2A2A30">{{p1}}</p>
+<p style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 18px; line-height: 1.55; color: #2A2A30">{{p2}}</p>
+
+<div style="background: {{tint}}; border-radius: 16px; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: {{color}}; font-weight: 600">L'anecdote</span>
+<p style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 18px; line-height: 1.5; color: #1B1B1F">{{anecdote}}</p>
+</div>
+
+<div style="display: flex; align-items: center; gap: 8px; font-size: 14px; color: #2A2A30">
+<sc-if value="{{ isOk }}" hint-placeholder-val="{{ true }}">
+<svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="6" fill="#2E7D5B"/></svg>
+</sc-if>
+<sc-if value="{{ isDebated }}" hint-placeholder-val="{{ false }}">
+<svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="#9A6A12" stroke-width="2"/></svg>
+</sc-if>
+<span><b style="font-weight: 600">{{conf}}</b> · {{confNote}}</span>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #5B5B63; font-weight: 500">Sources</span>
+<sc-for list="{{sources}}" as="s" hint-placeholder-count="2">
+<a href="#scroller" style="display: flex; align-items: center; min-height: 44px; font-size: 14px; line-height: 1.35; color: #2A2A30; text-decoration: none; border-bottom: 1px solid #E3DDCF">{{ s.text }}</a>
+</sc-for>
+</div>
+
+<div style="margin-top: 14px; display: flex; flex-direction: column; gap: 4px">
+<span style="font-family: 'Fraunces', Georgia, serif; font-size: 24px; font-weight: 700; color: #1B1B1F">Et ensuite ?</span>
+<span style="font-size: 14px; color: #5B5B63">Choisis la direction de la prochaine histoire.</span>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 10px">
+<sc-for list="{{options}}" as="o" hint-placeholder-count="2">
+<button type="button" onClick="{{ o.pick }}" style="text-align: left; border: 1px solid #D6D0C1; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; min-height: 76px; display: flex; flex-direction: column; gap: 4px; cursor: pointer; font-family: inherit; color: #1B1B1F">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #5B5B63; font-weight: 600">
+<span style="{{ o.dotStyle }}"></span>{{ o.kind }}
+</span>
+<span style="font-family: 'Fraunces', Georgia, serif; font-size: 22px; font-weight: 600">{{ o.label }}</span>
+<span style="font-size: 13px; color: #5B5B63">{{ o.hint }}</span>
+</button>
+</sc-for>
+</div>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+componentDidUpdate(prevProps, prevState) {
+try {
+const el = document.getElementById('scroller');
+if (el) el.scrollTop = 0;
+} catch (e) {}
+}
+renderVals() {
+const per = [
+{ name: 'Antiquité', color: '#8F5F0F', tint: '#F3E7CF' },
+{ name: 'Moyen Âge', color: '#2F5D8A', tint: '#DCE7F2' },
+{ name: 'Renaissance', color: '#6B4C9A', tint: '#E6DEF0' },
+{ name: 'Révolutions', color: '#B3262E', tint: '#F3DADB' },
+{ name: 'Industrielle', color: '#2E6B5E', tint: '#D8E9E3' }
+];
+const cards = {
+mansa: { per: 1, zone: 'Afrique', theme: 'Commerce', date: '1324', place: 'Mali · Afrique de l’Ouest',
+title: 'Comment un roi a-t-il fait chuter le cours de l’or au Caire ?',
+p1: 'En 1324, Mansa Musa, empereur du Mali, part en pèlerinage à La Mecque. Sa caravane atteint Le Caire en juillet. Les chroniqueurs parlent de dizaines de milliers de personnes : ces chiffres sont sans doute exagérés.',
+p2: 'Ce qui est solide, c’est la générosité du roi. Selon l’historien al-Umari, il dépense tant d’or au Caire que le cours du métal s’y effondre pour des années.',
+anecdote: 'Selon al-Umari, Musa aurait dû emprunter de l’argent à des marchands du Caire pour finir son voyage.',
+ok: false, conf: 'Débattu', confNote: 'taille de la caravane, durée de la chute',
+sources: ['Levtzion et Hopkins, Corpus of Early Arabic Sources, 1981', 'Michael A. Gomez, African Dominion, Princeton UP, 2018'],
+opts: [ { kind: 'Zone', label: 'Chine', to: 'song' }, { kind: 'Thème', label: 'Médecine', to: 'peste' } ] },
+song: { per: 1, zone: 'Chine', theme: 'Commerce', date: 'vers 1024', place: 'Sichuan · Chine',
+title: 'Pourquoi la Chine a-t-elle inventé le billet de banque ?',
+p1: 'Au Sichuan, les pièces de fer sont si lourdes qu’un achat important demande une charrette. Des marchands de Chengdu commencent à échanger des reçus de dépôt en papier.',
+p2: 'Vers 1024, l’État des Song reprend le système à son compte et émet ses propres billets. Le papier-monnaie devient une affaire d’État.',
+anecdote: 'Quand l’État émet trop de billets, leur valeur chute : la Chine connaît l’inflation du papier-monnaie dès le XIe siècle.',
+ok: true, conf: 'Établi', confNote: 'origine privée puis reprise par l’État',
+sources: ['Richard von Glahn, The Economic History of China, CUP, 2016', 'Jacques Gernet, Le Monde chinois'],
+opts: [ { kind: 'Période', label: 'Antiquité', to: 'erato' }, { kind: 'Zone', label: 'États-Unis', to: 'promontory' } ] },
+peste: { per: 1, zone: 'Europe', theme: 'Médecine', date: '1347', place: 'Messine · Sicile',
+title: 'Comment la peste noire est-elle entrée en Europe ?',
+p1: 'À l’automne 1347, des navires venus de la mer Noire accostent à Messine avec des marins malades. Les habitants chassent les navires, mais le mal est déjà dans la ville.',
+p2: 'En quelques années, l’épidémie traverse le continent. Sa cause, la bactérie Yersinia pestis, n’a été confirmée par l’ADN ancien qu’au XXIe siècle.',
+anecdote: 'Raguse impose dès 1377 un isolement de 30 jours aux navires. La durée passera ensuite à 40 jours : de là vient le mot « quarantaine ».',
+ok: true, conf: 'Établi', confNote: 'arrivée par la mer, cause identifiée',
+sources: ['Ole Benedictow, The Black Death 1346–1353, 2004', 'Bos et al., Nature, 2011'],
+opts: [ { kind: 'Période', label: 'Ère industrielle', to: 'promontory' }, { kind: 'Zone', label: 'Chine', to: 'song' } ] },
+erato: { per: 0, zone: 'Égypte', theme: 'Science', date: 'vers −240', place: 'Alexandrie · Égypte',
+title: 'Comment Ératosthène a-t-il mesuré la Terre avec un bâton ?',
+p1: 'À Syène, au solstice d’été, le Soleil éclaire le fond d’un puits : il est à la verticale. Au même moment à Alexandrie, un bâton plante une ombre.',
+p2: 'Ératosthène mesure l’angle de cette ombre et le rapporte à la distance entre les deux villes. Il en déduit la circonférence de la Terre.',
+anecdote: 'Son résultat est étonnamment proche de la réalité, mais on ne sait pas à quelle valeur du stade il correspond exactement.',
+ok: false, conf: 'Débattu', confNote: 'précision du résultat',
+sources: ['Cléomède, Théorie élémentaire, trad. R. Goulet', 'Germaine Aujac, Ératosthène de Cyrène, 2001'],
+opts: [ { kind: 'Période', label: 'Moyen Âge', to: 'mansa' }, { kind: 'Thème', label: 'Médecine', to: 'peste' } ] },
+promontory: { per: 4, zone: 'États-Unis', theme: 'Transports', date: '1869', place: 'Promontory Summit · Utah',
+title: 'Comment relie-t-on deux océans avec deux lignes de chemin de fer ?',
+p1: 'Le 10 mai 1869, à Promontory Summit, l’Union Pacific et la Central Pacific se rejoignent. Le premier chemin de fer transcontinental des États-Unis est achevé.',
+p2: 'Le trajet entre l’Est et la Californie passe de plusieurs mois à environ une semaine. Des milliers d’ouvriers chinois ont posé les rails de la Central Pacific.',
+anecdote: 'Le crampon d’or de la cérémonie n’a jamais servi de vraie fixation : on l’a retiré aussitôt après, remplacé par un crampon ordinaire.',
+ok: true, conf: 'Établi', confNote: 'date, jonction, cérémonie',
+sources: ['Stephen Ambrose, Nothing Like It in the World, 2000', 'National Park Service, Golden Spike National Historical Park'],
+opts: [ { kind: 'Période', label: 'Antiquité', to: 'erato' }, { kind: 'Zone', label: 'Afrique', to: 'mansa' } ] }
+};
+const s = this.state || {};
+const id = s.card || 'mansa';
+const n = s.n || 3;
+const c = cards[id];
+const cur = per[c.per];
+const periods = per.map((d, i) => {
+const active = i === c.per;
+const dot = active
+? 'width: 16px; height: 16px; border-radius: 50%; background: ' + d.color + '; box-shadow: 0 0 0 4px ' + d.tint
+: 'width: 9px; height: 9px; border-radius: 50%; background: #F4F1EA; border: 2px solid #8C8676; box-sizing: border-box';
+const label = 'font-size: 11px; line-height: 1.1; white-space: nowrap; font-weight: ' + (active ? '600' : '400') + '; color: ' + (active ? d.color : '#5B5B63');
+return { name: d.name, dotStyle: dot, labelStyle: label };
+});
+const options = c.opts.map((o) => {
+const t = cards[o.to];
+const tp = per[t.per];
+return { kind: o.kind, label: o.label, hint: t.date + ' · ' + t.place,
+dotStyle: 'width: 10px; height: 10px; border-radius: 50%; background: ' + tp.color,
+pick: () => this.setState({ card: o.to, n: n >= 10 ? 1 : n + 1 }) };
+});
+return {
+periods: periods, options: options,
+counter: 'Histoire ' + n + ' / 10',
+color: cur.color, tint: cur.tint, period: cur.name === 'Industrielle' ? 'Ère industrielle' : cur.name,
+zone: c.zone, theme: c.theme, date: c.date, place: c.place, title: c.title, p1: c.p1, p2: c.p2, anecdote: c.anecdote,
+isOk: c.ok, isDebated: !c.ok, conf: c.conf, confNote: c.confNote,
+sources: c.sources.map((t) => ({ text: t }))
+};
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+{ "version": "0.0.1", "configurations": [ { "name": "jadis", "runtimeExecutable": "node", "runtimeArgs": [".claude/serve.js"], "port": 5173 } ] }

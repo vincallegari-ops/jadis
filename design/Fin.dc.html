@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Carte : fin</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#E0B04A}a:hover{color:#F2CB7A}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; background: #0F1722; color: #EDE6D6; font-family: 'Instrument Sans', system-ui, sans-serif; display: flex; flex-direction: column; overflow: hidden">
+
+<div style="padding: 20px 20px 14px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<span style="font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #A9B1BD; font-weight: 500">Aujourd'hui</span>
+<span style="font-size: 13px; color: #EDE6D6; font-weight: 500">3 / 10</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 4px">
+<div style="height: 3px; border-radius: 2px; background: {{accent}}"></div>
+<div style="height: 3px; border-radius: 2px; background: {{accent}}"></div>
+<div style="height: 3px; border-radius: 2px; background: {{accent}}"></div>
+<div style="height: 3px; border-radius: 2px; background: #2A3547"></div>
+<div style="height: 3px; border-radius: 2px; background: #2A3547"></div>
+<div style="height: 3px; border-radius: 2px; background: #2A3547"></div>
+<div style="height: 3px; border-radius: 2px; background: #2A3547"></div>
+<div style="height: 3px; border-radius: 2px; background: #2A3547"></div>
+<div style="height: 3px; border-radius: 2px; background: #2A3547"></div>
+<div style="height: 3px; border-radius: 2px; background: #2A3547"></div>
+</div>
+</div>
+
+<div style="flex: 1; min-height: 0; margin: 0 12px; border-radius: 24px; background: #172233; position: relative; overflow: hidden; display: flex; flex-direction: column">
+
+<div style="padding: 16px 22px 14px; background: #172233; display: flex; align-items: baseline; gap: 12px; border-bottom: 1px solid #243247">
+<span style="font-family: 'Newsreader', Georgia, serif; font-size: 22px; font-weight: 500; color: {{accent}}">1324</span>
+<span style="font-family: 'Newsreader', Georgia, serif; font-size: 15px; line-height: 1.3; color: #A9B1BD; font-style: italic">Mansa Musa et l'or du Caire</span>
+</div>
+
+<div style="padding: 18px 22px 0; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'Newsreader', Georgia, serif; font-size: 18px; line-height: 1.5; color: #E4DDCC">Musa distribue et dépense de l'or sans compter. Quelques années plus tard, l'historien al-Umari rapporte, d'après des témoins cairotes, que le cours de l'or s'était effondré en Égypte et n'était pas remonté douze ans après.</p>
+
+<div style="background: #1E2D44; border-radius: 16px; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: {{accent}}; font-weight: 600">L'anecdote</span>
+<p style="margin: 0; font-family: 'Newsreader', Georgia, serif; font-size: 18px; line-height: 1.45; color: #F6F0E2">Selon al-Umari, le roi aurait dû emprunter de l'argent à des marchands du Caire, à des taux élevés, pour finir son voyage. Assez riche pour faire plonger une monnaie, puis obligé d'emprunter pour rentrer chez lui.</p>
+</div>
+
+<p style="margin: 0; font-family: 'Newsreader', Georgia, serif; font-size: 18px; line-height: 1.5; color: #E4DDCC">En 1375, l'Atlas catalan le représente tenant une pépite d'or : l'Europe voit désormais le Mali comme un royaume fabuleusement riche.</p>
+</div>
+
+<div style="padding: 18px 22px 0; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; align-items: center; gap: 10px; font-size: 14px; color: #EDE6D6">
+<svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="6" fill="#7FC4A0"/></svg>
+<span><b style="font-weight: 600">Établi</b> · pèlerinage, passage au Caire</span>
+</div>
+<div style="display: flex; align-items: center; gap: 10px; font-size: 14px; color: #EDE6D6">
+<svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="#E0B04A" stroke-width="2"/></svg>
+<span><b style="font-weight: 600">Débattu</b> · taille de la caravane, durée de la chute</span>
+</div>
+</div>
+
+<div id="sources" style="padding: 18px 22px 0; display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #A9B1BD; font-weight: 500">Sources</span>
+<a href="#sources" style="display: flex; align-items: center; min-height: 44px; font-size: 14px; line-height: 1.35; color: #EDE6D6; text-decoration: none; border-bottom: 1px solid #243247">Levtzion et Hopkins, <i style="font-family: 'Newsreader', Georgia, serif">Corpus of Early Arabic Sources</i>, 1981</a>
+<a href="#sources" style="display: flex; align-items: center; min-height: 44px; font-size: 14px; line-height: 1.35; color: #EDE6D6; text-decoration: none; border-bottom: 1px solid #243247">M. Gomez, <i style="font-family: 'Newsreader', Georgia, serif">African Dominion</i>, Princeton UP, 2018</a>
+<a href="#sources" style="display: flex; align-items: center; min-height: 44px; font-size: 14px; line-height: 1.35; color: #EDE6D6; text-decoration: none">Atlas catalan, 1375, BnF</a>
+</div>
+
+<div style="padding: 14px 22px 0">
+<a href="#sources" style="display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; border-radius: 999px; background: {{accent}}; color: #0F1722; font-size: 15px; font-weight: 600; text-decoration: none">Pour aller plus loin
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0F1722" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+</a>
+</div>
+
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 56px; background: linear-gradient(to bottom, rgba(23,34,51,0), #172233 70%)"></div>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 6px; padding: 12px 20px 20px; min-height: 48px; font-size: 13px; color: #A9B1BD">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#A9B1BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+Glisse vers le haut : carte suivante
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#E0B04A","options":["#E0B04A","#E08A5B","#7FB8A4","#9DB4E8"]},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#E0B04A' };
+}
+}
+</script>
+</body>
+</html>
