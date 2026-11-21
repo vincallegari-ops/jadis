@@ -1,5 +1,71 @@
 [
   {
+    "id": "an-594av",
+    "annee": -594,
+    "label": "594 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "Athènes confie à Solon, élu archonte, la tâche de réformer ses lois. Il efface notamment les dettes qui réduisaient des paysans à la servitude."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Psammétique II règne sur l’Égypte. Il mène une campagne vers le sud, en Nubie."
+      },
+      {
+        "pays": "Irak",
+        "continent": "Asie",
+        "texte": "À Babylone, Nabuchodonosor II règne depuis onze ans."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’État de Lu instaure un impôt calculé sur la surface cultivée. C’est l’une des premières taxes foncières attestées en Chine."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Selon la tradition, Tarquin l’Ancien règne sur Rome, où il fait assécher le futur Forum."
+      }
+    ]
+  },
+  {
+    "id": "an-539av",
+    "annee": -539,
+    "label": "539 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Irak",
+        "continent": "Asie",
+        "texte": "En octobre, les troupes de Cyrus II de Perse entrent à Babylone, qui n’est pas détruite."
+      },
+      {
+        "pays": "Perse",
+        "continent": "Asie",
+        "texte": "Le cylindre de Cyrus, retrouvé à Babylone, proclame le retour de leurs dieux dans leurs sanctuaires et celui des populations déplacées."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Amasis II règne sur l’Égypte. Il réserve aux marchands grecs le comptoir de Naucratis."
+      },
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "À Athènes, le tyran Pisistrate gouverne depuis sept ans."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Selon la tradition, Confucius, âgé d’une douzaine d’années, grandit dans l’État de Lu."
+      }
+    ]
+  },
+  {
     "id": "an-480av",
     "annee": -480,
     "label": "480 av. J.-C.",
@@ -29,6 +95,39 @@
         "pays": "Égypte",
         "continent": "Afrique",
         "texte": "Province de l’Empire perse, l’Égypte fournit des navires à la flotte de Xerxès."
+      }
+    ]
+  },
+  {
+    "id": "an-399av",
+    "annee": -399,
+    "label": "399 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "Au printemps, Socrate est condamné à mort par un tribunal athénien. Il boit la ciguë."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "L’Égypte s’est libérée de la domination perse cinq ans plus tôt, sous Amyrtée."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Quatre ans plus tôt, la cour des Zhou a reconnu comme États séparés Han, Zhao et Wei, issus de l’ancien État de Jin."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Rome assiège depuis plusieurs années la cité étrusque de Véies."
+      },
+      {
+        "pays": "Perse",
+        "continent": "Asie",
+        "texte": "Le Grand Roi Artaxerxès II règne. Il y a deux ans, son frère Cyrus le Jeune a été tué à Counaxa, ce qui a lancé la retraite des Dix-Mille."
       }
     ]
   },
@@ -66,6 +165,72 @@
     ]
   },
   {
+    "id": "an-312av",
+    "annee": -312,
+    "label": "312 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le censeur Appius Claudius fait commencer la voie Appienne et le premier aqueduc de Rome."
+      },
+      {
+        "pays": "Empire séleucide",
+        "continent": "Asie",
+        "texte": "Séleucos reprend Babylone. L’ère séleucide, longtemps utilisée au Proche-Orient, compte les années à partir de cette date."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "À Gaza, Ptolémée Ier bat Démétrios Poliorcète."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Chandragupta Maurya règne sur le Magadha, dont il fait le cœur d’un grand empire."
+      },
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "À Athènes, le philosophe Démétrios de Phalère gouverne la cité depuis cinq ans."
+      }
+    ]
+  },
+  {
+    "id": "an-256av",
+    "annee": -256,
+    "label": "256 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Selon la tradition, Li Bing achève le système d’irrigation de Dujiangyan, sur le fleuve Min, au Sichuan."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Les premiers édits d’Ashoka, gravés sur des rochers et des piliers, apparaissent vers cette époque."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Ptolémée II règne depuis Alexandrie, où ont été fondés le Musée et la Bibliothèque."
+      },
+      {
+        "pays": "Tunisie",
+        "continent": "Afrique",
+        "texte": "Une armée romaine, commandée par Régulus, débarque près de Carthage. Elle sera battue l’année suivante."
+      },
+      {
+        "pays": "Macédoine",
+        "continent": "Europe",
+        "texte": "Antigone II Gonatas règne sur la Macédoine, dont il a restauré la puissance."
+      }
+    ]
+  },
+  {
     "id": "an-221av",
     "annee": -221,
     "label": "221 av. J.-C.",
@@ -95,6 +260,72 @@
         "pays": "Empire séleucide",
         "continent": "Asie",
         "texte": "Le jeune roi Antiochos III doit faire face à la révolte de Molon, gouverneur des provinces de l’Est."
+      }
+    ]
+  },
+  {
+    "id": "an-202av",
+    "annee": -202,
+    "label": "202 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Liu Bang, vainqueur de son rival Xiang Yu, devient empereur : c’est le début de la dynastie Han."
+      },
+      {
+        "pays": "Tunisie",
+        "continent": "Afrique",
+        "texte": "À Zama, Scipion l’Africain bat Hannibal. La deuxième guerre punique s’achève."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Ptolémée V, un enfant d’environ huit ans, règne depuis deux ans."
+      },
+      {
+        "pays": "Empire séleucide",
+        "continent": "Asie",
+        "texte": "Antiochos III est de retour d’une longue expédition en Orient, qui l’a mené jusqu’en Bactriane et aux frontières de l’Inde."
+      },
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "Depuis la prise de Gadès, en 206, Carthage a perdu ses possessions d’Espagne au profit de Rome."
+      }
+    ]
+  },
+  {
+    "id": "an-196av",
+    "annee": -196,
+    "label": "196 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Le 27 mars, à Memphis, un décret des prêtres en l’honneur de Ptolémée V est gravé en trois écritures. C’est la pierre de Rosette."
+      },
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "Aux Jeux isthmiques, le général romain Flamininus proclame la liberté des cités grecques."
+      },
+      {
+        "pays": "Empire séleucide",
+        "continent": "Asie",
+        "texte": "Antiochos III passe en Thrace et relève la ville de Lysimacheia."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Gaozu, fondateur des Han, vit ses dernières années. Il mourra en 195."
+      },
+      {
+        "pays": "Tunisie",
+        "continent": "Afrique",
+        "texte": "À Carthage, Hannibal, élu suffète, réforme les finances de la cité. Il s’exilera l’année suivante."
       }
     ]
   },
@@ -198,6 +429,204 @@
     ]
   },
   {
+    "id": "an-150",
+    "annee": 150,
+    "label": "150",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Vers 150, à Alexandrie, Claude Ptolémée rédige l’Almageste, son grand traité d’astronomie."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Vers 150, le satrape Rudradaman fait graver à Junagadh, au Gujarat, une grande inscription en sanskrit classique."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Huan règne sur les Han, dont la cour est dominée par la famille Liang."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Antonin le Pieux règne sur l’Empire romain, en paix."
+      },
+      {
+        "pays": "Empire parthe",
+        "continent": "Asie",
+        "texte": "Vologèse IV règne sur l’empire parthe."
+      }
+    ]
+  },
+  {
+    "id": "an-166",
+    "annee": 166,
+    "label": "166",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Une ambassade venue de « Daqin », que les Chinois identifient à l’Empire romain, se présente à la cour des Han. Elle se dit envoyée par « Andun », peut-être Marc Aurèle."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Marc Aurèle règne à Rome. La peste dite antonine, rapportée d’Orient par l’armée, commence à frapper l’Empire."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "L’empire kouchan, qui contrôle la Bactriane et le nord de l’Inde, est dirigé par Huvishka."
+      },
+      {
+        "pays": "Éthiopie",
+        "continent": "Afrique",
+        "texte": "Le royaume d’Aksoum commerce avec l’Empire romain par son port d’Adoulis."
+      },
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "À Athènes, le riche mécène Hérode Atticus a fait bâtir cinq ans plus tôt l’Odéon, au pied de l’Acropole."
+      }
+    ]
+  },
+  {
+    "id": "an-220",
+    "annee": 220,
+    "label": "220",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Cao Cao meurt en mars. En décembre, son fils Cao Pi accepte l’abdication du dernier empereur Han : la dynastie prend fin et le royaume de Wei naît."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Élagabal, un adolescent venu de Syrie, règne à Rome."
+      },
+      {
+        "pays": "Empire parthe",
+        "continent": "Asie",
+        "texte": "L’empire parthe s’affaiblit. Quatre ans plus tard, Ardachir le renversera et fondera la dynastie sassanide."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Vasudeva Ier règne sur l’empire kouchan, qui se désagrège peu à peu."
+      },
+      {
+        "pays": "Tunisie",
+        "continent": "Afrique",
+        "texte": "Tertullien, premier grand auteur chrétien de langue latine, meurt à Carthage vers 220."
+      }
+    ]
+  },
+  {
+    "id": "an-330",
+    "annee": 330,
+    "label": "330",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Empire romain",
+        "continent": "Europe",
+        "texte": "Le 11 mai, Constantin inaugure Constantinople, sur le site de l’ancienne Byzance."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Shi Le, un chef d’origine jie, prend le titre d’empereur et fonde la dynastie des Zhao postérieurs."
+      },
+      {
+        "pays": "Perse",
+        "continent": "Asie",
+        "texte": "Chapour II, roi dès sa naissance, règne sur la Perse sassanide. Il a une vingtaine d’années."
+      },
+      {
+        "pays": "Éthiopie",
+        "continent": "Afrique",
+        "texte": "Le roi Ézana règne à Aksoum, qui frappe sa propre monnaie."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "L’empire des Gupta, qui connaîtra son apogée sous Samudragupta, se met en place dans le nord."
+      }
+    ]
+  },
+  {
+    "id": "an-399",
+    "annee": 399,
+    "label": "399",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le moine Faxian quitte Chang’an pour l’Inde, à la recherche de textes bouddhiques."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Chandragupta II règne sur l’empire des Gupta, que Faxian traversera."
+      },
+      {
+        "pays": "Perse",
+        "continent": "Asie",
+        "texte": "Yazdgard Ier devient roi de Perse."
+      },
+      {
+        "pays": "Algérie",
+        "continent": "Afrique",
+        "texte": "Augustin, évêque d’Hippone, écrit ses Confessions, entre 397 et 400 environ."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Honorius, empereur d’Occident depuis quatre ans, règne à Milan sous la tutelle du général Stilicon."
+      }
+    ]
+  },
+  {
+    "id": "an-476",
+    "annee": 476,
+    "label": "476",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le 4 septembre, Odoacre dépose le jeune Romulus Augustule. On retient cette date pour la fin de l’Empire romain d’Occident."
+      },
+      {
+        "pays": "Empire byzantin",
+        "continent": "Europe",
+        "texte": "Zénon reprend le trône de Constantinople en août, après un an et demi d’exil."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Xianwen, des Wei du Nord, meurt."
+      },
+      {
+        "pays": "Tunisie",
+        "continent": "Afrique",
+        "texte": "Genséric, roi des Vandales, règne à Carthage. Il mourra l’année suivante."
+      },
+      {
+        "pays": "Perse",
+        "continent": "Asie",
+        "texte": "Péroz Ier règne sur la Perse sassanide."
+      }
+    ]
+  },
+  {
     "id": "an-529",
     "annee": 529,
     "label": "529",
@@ -264,6 +693,105 @@
     ]
   },
   {
+    "id": "an-710",
+    "annee": 710,
+    "label": "710",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Au printemps, la cour s’installe à Heijô-kyô, la future Nara."
+      },
+      {
+        "pays": "Syrie",
+        "continent": "Asie",
+        "texte": "À Damas, le calife omeyyade al-Walid Ier règne. Il a fait bâtir la Grande Mosquée de la ville."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Zhongzong, des Tang, meurt en juillet. Sa succession est disputée."
+      },
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Bède, prêtre depuis quelques années, écrit au monastère de Jarrow."
+      },
+      {
+        "pays": "Guatemala",
+        "continent": "Amérique",
+        "texte": "À Tikal, le roi maya Jasaw Chan K’awiil Ier règne depuis vingt-huit ans."
+      }
+    ]
+  },
+  {
+    "id": "an-762",
+    "annee": 762,
+    "label": "762",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Irak",
+        "continent": "Asie",
+        "texte": "Le calife abbasside al-Mansour fonde Bagdad, sur le Tigre."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le poète Li Bai meurt, ainsi que l’ancien empereur Xuanzong."
+      },
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "À Cordoue, l’émir Abd al-Rahman Ier, de la dynastie omeyyade, règne depuis six ans."
+      },
+      {
+        "pays": "Algérie",
+        "continent": "Afrique",
+        "texte": "Vers 761, Abd al-Rahman ibn Rustam fonde Tahert, qui deviendra un foyer de commerce et de lettres."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "À Nara, le monastère du Tôshôdai-ji, fondé par le moine chinois Ganjin, a été créé trois ans plus tôt."
+      }
+    ]
+  },
+  {
+    "id": "an-794",
+    "annee": 794,
+    "label": "794",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "L’empereur Kanmu installe la cour à Heian-kyô, la future Kyoto, qui restera capitale pendant plus de mille ans."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Charlemagne réunit à Francfort une grande assemblée du royaume et de l’Église."
+      },
+      {
+        "pays": "Irak",
+        "continent": "Asie",
+        "texte": "Hâroun al-Rachîd règne depuis Bagdad, devenue l’une des plus grandes villes du monde."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Dezong règne sur les Tang depuis quinze ans."
+      },
+      {
+        "pays": "Honduras",
+        "continent": "Amérique",
+        "texte": "À Copán, le roi maya Yax Pasaj Chan Yopaat règne depuis une trentaine d’années."
+      }
+    ]
+  },
+  {
     "id": "an-800",
     "annee": 800,
     "label": "800",
@@ -293,6 +821,138 @@
         "pays": "Japon",
         "continent": "Asie",
         "texte": "L’empereur Kanmu règne depuis Heian-kyô, la future Kyoto, où il a installé la cour six ans plus tôt."
+      }
+    ]
+  },
+  {
+    "id": "an-836",
+    "annee": 836,
+    "label": "836",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Irak",
+        "continent": "Asie",
+        "texte": "Le calife abbasside al-Mu’tasim fonde Samarra, sur le Tigre, pour y installer sa cour et son armée."
+      },
+      {
+        "pays": "Tunisie",
+        "continent": "Afrique",
+        "texte": "À Kairouan, l’émir aghlabide Ziyadat Allah Ier fait reconstruire la Grande Mosquée."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Wenzong règne sur les Tang. L’année précédente, un coup de force contre les eunuques de la cour a échoué."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le moine Kûkai est mort l’année précédente, sur le mont Kôya."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Louis le Pieux règne sur l’empire carolingien, que ses fils se disputent."
+      }
+    ]
+  },
+  {
+    "id": "an-868",
+    "annee": 868,
+    "label": "868",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le 11 mai, on imprime le Sûtra du Diamant, le plus ancien livre imprimé daté qui nous soit parvenu."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Fujiwara no Yoshifusa gouverne en régent au nom de l’empereur."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Ahmad ibn Tûlûn arrive en Égypte comme gouverneur. Il fondera une dynastie presque indépendante."
+      },
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Alfred, qui n’est pas encore roi de Wessex, se marie avec Ealhswith."
+      },
+      {
+        "pays": "Irak",
+        "continent": "Asie",
+        "texte": "À Samarra, capitale des califes abbassides, les luttes entre chefs militaires turcs sont constantes."
+      }
+    ]
+  },
+  {
+    "id": "an-910",
+    "annee": 910,
+    "label": "910",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le duc Guillaume Ier d’Aquitaine fonde l’abbaye de Cluny."
+      },
+      {
+        "pays": "Tunisie",
+        "continent": "Afrique",
+        "texte": "À Raqqada, près de Kairouan, Abd Allah al-Mahdi est proclamé calife : c’est le début des Fatimides."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Les Tang ont disparu en 907. Le nord de la Chine est aux mains des Liang postérieurs."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Le roi chola Parantaka Ier règne sur le sud de l’Inde."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le Kokinshû, grande anthologie de poèmes japonais, a été compilé cinq ans plus tôt."
+      }
+    ]
+  },
+  {
+    "id": "an-936",
+    "annee": 936,
+    "label": "936",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Otton Ier est couronné roi à Aix-la-Chapelle."
+      },
+      {
+        "pays": "Corée",
+        "continent": "Asie",
+        "texte": "Wang Geon, fondateur de Goryeo, réunifie la péninsule."
+      },
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "À Cordoue, Abd al-Rahman III fait commencer la cité palatine de Madinat al-Zahra."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Les Jin postérieurs sont fondés. Ils cèdent aux Khitans seize préfectures du nord."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Muhammad ibn Tughj, qui a reçu le titre d’ikhchid un an plus tôt, gouverne l’Égypte."
       }
     ]
   },
@@ -330,6 +990,105 @@
     ]
   },
   {
+    "id": "an-1010",
+    "annee": 1010,
+    "label": "1010",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Le roi chola Rajaraja Ier fait consacrer le temple Brihadishvara, à Thanjavur."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Murasaki Shikibu a écrit le Dit du Genji, dont une première version circulait vers 1008."
+      },
+      {
+        "pays": "Iran",
+        "continent": "Asie",
+        "texte": "Le poète Ferdowsi achève le Shâhnâmeh, le Livre des Rois."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Au Caire, le calife fatimide al-Hakim règne. Cinq ans plus tôt, il a fondé la Maison de la science."
+      },
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Le manuscrit unique du poème Beowulf est copié vers l’an mille."
+      }
+    ]
+  },
+  {
+    "id": "an-1025",
+    "annee": 1025,
+    "label": "1025",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Iran",
+        "continent": "Asie",
+        "texte": "Avicenne achève, vers 1025, son Canon de la médecine."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Le calife fatimide al-Zahir règne depuis quatre ans."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Fujiwara no Michinaga domine la cour de Heian. Il a fait bâtir le temple Hôjô-ji."
+      },
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Knut le Grand règne sur l’Angleterre et le Danemark."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Renzong, encore enfant, règne sous la régence de l’impératrice Liu."
+      }
+    ]
+  },
+  {
+    "id": "an-1054",
+    "annee": 1054,
+    "label": "1054",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "En juillet, les astronomes des Song notent une « étoile invitée » : c’est la supernova qui a formé la nébuleuse du Crabe."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Au Caire, le médecin Ali ibn Ridwan décrit lui aussi cette étoile."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Des chroniques japonaises mentionnent la même étoile."
+      },
+      {
+        "pays": "Écosse",
+        "continent": "Europe",
+        "texte": "Le 27 juillet, Siward de Northumbrie bat l’armée de Macbeth, dans une bataille traditionnellement située à Dunsinane."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le pape Léon IX meurt en avril."
+      }
+    ]
+  },
+  {
     "id": "an-1066",
     "annee": 1066,
     "label": "1066",
@@ -359,6 +1118,39 @@
         "pays": "Empire seldjoukide",
         "continent": "Asie",
         "texte": "Le sultan Alp Arslan règne sur la Perse et l’Irak. Cinq ans plus tard, il battra l’armée byzantine à Manzikert."
+      }
+    ]
+  },
+  {
+    "id": "an-1086",
+    "annee": 1086,
+    "label": "1086",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Guillaume le Conquérant fait achever le Domesday Book, un inventaire des terres du royaume. En août, il réunit à Salisbury les propriétaires pour qu’ils lui prêtent serment."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Les deux grands rivaux politiques, Wang Anshi et Sima Guang, meurent à quelques mois d’écart."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Shirakawa abdique et inaugure le gouvernement des empereurs retirés."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "Le 23 octobre, l’émir almoravide Yusuf ibn Tashfin, venu de Marrakech, bat le roi Alphonse VI de Castille à Zallaqa."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Le roi chola Kulottunga Ier règne depuis seize ans."
       }
     ]
   },
@@ -396,6 +1188,72 @@
     ]
   },
   {
+    "id": "an-1130",
+    "annee": 1130,
+    "label": "1130",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "À Noël, Roger II est couronné roi de Sicile, à Palerme."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "La dynastie Song règne depuis le sud, après avoir perdu le nord trois ans plus tôt."
+      },
+      {
+        "pays": "Cambodge",
+        "continent": "Asie",
+        "texte": "Suryavarman II règne sur l’empire khmer. Il fera bâtir Angkor Vat."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "Ibn Tûmart, fondateur du mouvement almohade, meurt vers 1130."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "L’empereur retiré Toba gouverne la cour."
+      }
+    ]
+  },
+  {
+    "id": "an-1154",
+    "annee": 1154,
+    "label": "1154",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Roger II de Sicile meurt en février. Peu avant, le géographe al-Idrissi lui a remis un grand atlas du monde."
+      },
+      {
+        "pays": "Cambodge",
+        "continent": "Asie",
+        "texte": "Angkor Vat, achevé quelques années plus tôt, domine la capitale khmère."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "Sept ans plus tôt, les Almohades ont fait de Marrakech leur capitale."
+      },
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Le 19 décembre, Henri II est couronné roi d’Angleterre."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Les Song du Sud règnent depuis Hangzhou."
+      }
+    ]
+  },
+  {
     "id": "an-1187",
     "annee": 1187,
     "label": "1187",
@@ -425,6 +1283,39 @@
         "pays": "Cambodge",
         "continent": "Asie",
         "texte": "Jayavarman VII règne sur l’empire khmer, où il fait bâtir des temples et des hôpitaux."
+      }
+    ]
+  },
+  {
+    "id": "an-1192",
+    "annee": 1192,
+    "label": "1192",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Minamoto no Yoritomo reçoit le titre de shogun : c’est le début du shogunat de Kamakura."
+      },
+      {
+        "pays": "Palestine",
+        "continent": "Asie",
+        "texte": "Début septembre, Saladin et Richard Cœur de Lion concluent la trêve de Jaffa, parfois appelée trêve de Ramla."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "À Tarain, Muhammad de Ghor bat Prithviraj Chauhan, ce qui ouvre la voie au sultanat de Delhi."
+      },
+      {
+        "pays": "Autriche",
+        "continent": "Europe",
+        "texte": "Le roi d’Angleterre Richard, de retour de croisade, est capturé en décembre près de Vienne."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Saladin, qui règne sur l’Égypte et la Syrie, est malade. Il mourra en mars 1193."
       }
     ]
   },
@@ -495,6 +1386,39 @@
     ]
   },
   {
+    "id": "an-1235",
+    "annee": 1235,
+    "label": "1235",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Mali",
+        "continent": "Afrique",
+        "texte": "À Kirina, Soundiata Keïta bat le roi des Sosso. Selon la tradition, c’est la naissance de l’empire du Mali."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Le sultan de Delhi Iltutmish a fait achever le Qutb Minar, un minaret de grès rouge."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "À Kamakura, le code Jôei Shikimoku, promulgué en 1232, fixe les règles de justice pour les guerriers."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Louis IX, devenu majeur, règne sur la France."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "La dynastie Jin est tombée l’année précédente. Les Song du Sud voisinent désormais avec les Mongols."
+      }
+    ]
+  },
+  {
     "id": "an-1250",
     "annee": 1250,
     "label": "1250",
@@ -524,6 +1448,72 @@
         "pays": "Mongolie",
         "continent": "Asie",
         "texte": "Depuis la mort du grand khan Güyük en 1248, l’empire mongol attend un nouveau souverain. Möngke sera élu en 1251."
+      }
+    ]
+  },
+  {
+    "id": "an-1260",
+    "annee": 1260,
+    "label": "1260",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le 5 mai, Kubilai est proclamé grand khan."
+      },
+      {
+        "pays": "Palestine",
+        "continent": "Asie",
+        "texte": "Le 3 septembre, à Aïn Djalout, les Mamelouks arrêtent l’avancée mongole."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "À Pise, Nicola Pisano signe la chaire du baptistère."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Hôjô Tokiyori, retiré du pouvoir mais encore influent, dirige le shogunat."
+      },
+      {
+        "pays": "Tunisie",
+        "continent": "Afrique",
+        "texte": "Le souverain hafside al-Mustansir, qui règne à Tunis, s’est proclamé calife l’année précédente."
+      }
+    ]
+  },
+  {
+    "id": "an-1265",
+    "annee": 1265,
+    "label": "1265",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "En janvier, Simon de Montfort réunit un parlement où siègent, pour la première fois, des représentants des villes."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Dante naît à Florence, au printemps."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Kubilai Khan prépare l’installation de sa capitale à Dadu."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "À Delhi, Balban, vizir du sultan, est le véritable maître du sultanat."
+      },
+      {
+        "pays": "Tunisie",
+        "continent": "Afrique",
+        "texte": "Le souverain hafside al-Mustansir règne à Tunis, devenue un grand centre de commerce et de lettres."
       }
     ]
   },
@@ -590,6 +1580,39 @@
         "pays": "Égypte",
         "continent": "Afrique",
         "texte": "Al-Ashraf Khalil, qui a succédé en novembre 1290 à son père Qalawun, règne sur l’Égypte comme sultan mamelouk."
+      }
+    ]
+  },
+  {
+    "id": "an-1321",
+    "annee": 1321,
+    "label": "1321",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Dante achève la Divine Comédie et meurt à Ravenne, en septembre."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "L’empereur Go-Daigo commence à gouverner directement, après la fin du pouvoir de son père retiré."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Ghiyath ud-Din Tughlaq règne à Delhi depuis un an."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Sous les Yuan, l’empereur Yingzong règne depuis un an."
+      },
+      {
+        "pays": "Éthiopie",
+        "continent": "Afrique",
+        "texte": "Le négus Amda Seyon règne sur l’Éthiopie chrétienne depuis sept ans."
       }
     ]
   },
@@ -693,6 +1716,39 @@
     ]
   },
   {
+    "id": "an-1356",
+    "annee": 1356,
+    "label": "1356",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "L’empereur Charles IV promulgue la Bulle d’or, qui fixe l’élection des empereurs par sept princes électeurs."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Zhu Yuanzhang prend Nankin, qui deviendra sa capitale."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "À Fès, Ibn Battuta dicte au lettré Ibn Juzayy le récit de ses voyages, la Rihla."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Firuz Shah Tughlaq règne à Delhi depuis cinq ans."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le poète Nijô Yoshimoto compile le Tsukubashû, la première grande anthologie de poèmes enchaînés."
+      }
+    ]
+  },
+  {
     "id": "an-1368",
     "annee": 1368,
     "label": "1368",
@@ -722,6 +1778,72 @@
         "pays": "Inde",
         "continent": "Asie",
         "texte": "Bukka Raya règne sur l’empire de Vijayanagara, dans le sud de l’Inde."
+      }
+    ]
+  },
+  {
+    "id": "an-1387",
+    "annee": 1387,
+    "label": "1387",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Geoffrey Chaucer commence à écrire les Contes de Canterbury, vers 1387."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Hongwu règne sur les Ming depuis dix-neuf ans."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Firuz Shah Tughlaq, très âgé, règne à Delhi. Il mourra l’année suivante."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Ashikaga Yoshimitsu est shogun depuis près de vingt ans."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Barqouq règne au Caire comme sultan mamelouk depuis cinq ans."
+      }
+    ]
+  },
+  {
+    "id": "an-1392",
+    "annee": 1392,
+    "label": "1392",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Corée",
+        "continent": "Asie",
+        "texte": "Yi Seong-gye fonde la dynastie Joseon."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Les deux cours impériales du Japon, en conflit depuis plus d’un demi-siècle, se réunifient."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "En août, le roi Charles VI est pris d’un accès de folie dans la forêt du Mans."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le prince héritier des Ming meurt. Son père Hongwu règne encore."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Barqouq, revenu au pouvoir en 1390, règne sur l’Égypte et la Syrie."
       }
     ]
   },
@@ -759,6 +1881,39 @@
     ]
   },
   {
+    "id": "an-1420",
+    "annee": 1420,
+    "label": "1420",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Yongle fait achever la Cité interdite, à Pékin."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "À Florence, Brunelleschi commence la coupole de la cathédrale."
+      },
+      {
+        "pays": "Afghanistan",
+        "continent": "Asie",
+        "texte": "Shah Rukh, fils de Tamerlan, règne depuis Hérat sur l’empire timouride."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le peintre Sesshû naît."
+      },
+      {
+        "pays": "Zimbabwe",
+        "continent": "Afrique",
+        "texte": "Le Grand Zimbabwe, ville de pierre, est à son apogée."
+      }
+    ]
+  },
+  {
     "id": "an-1431",
     "annee": 1431,
     "label": "1431",
@@ -788,6 +1943,72 @@
         "pays": "Suisse",
         "continent": "Europe",
         "texte": "Le concile de Bâle s’ouvre en juillet."
+      }
+    ]
+  },
+  {
+    "id": "an-1434",
+    "annee": 1434,
+    "label": "1434",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "En octobre, Cosme de Médicis revient d’exil à Florence."
+      },
+      {
+        "pays": "Éthiopie",
+        "continent": "Afrique",
+        "texte": "Zara Yaqob est couronné à Aksoum."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Xuande règne sur les Ming. Il mourra l’année suivante."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "Itzcóatl règne à Tenochtitlan."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Ashikaga Yoshinori est shogun depuis cinq ans."
+      }
+    ]
+  },
+  {
+    "id": "an-1452",
+    "annee": 1452,
+    "label": "1452",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le 15 avril, Léonard de Vinci naît près du village de Vinci."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "À Mayence, Gutenberg travaille à l’impression de la Bible."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Bahlul Lodi, qui a fondé la dynastie Lodi un an plus tôt, règne à Delhi."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Jingtai règne sur les Ming depuis trois ans."
+      },
+      {
+        "pays": "Éthiopie",
+        "continent": "Afrique",
+        "texte": "Zara Yaqob règne depuis dix-huit ans."
       }
     ]
   },
@@ -854,6 +2075,105 @@
         "pays": "Chine",
         "continent": "Asie",
         "texte": "L’empereur Jingtai règne depuis six ans sur les Ming."
+      }
+    ]
+  },
+  {
+    "id": "an-1476",
+    "annee": 1476,
+    "label": "1476",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "William Caxton installe à Westminster la première imprimerie anglaise."
+      },
+      {
+        "pays": "Songhaï",
+        "continent": "Afrique",
+        "texte": "Sunni Ali règne sur Gao depuis douze ans."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Chenghua règne sur les Ming depuis douze ans."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "Axayacatl règne à Tenochtitlan."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "La guerre d’Ônin, qui a ravagé Kyoto, touche à sa fin."
+      }
+    ]
+  },
+  {
+    "id": "an-1483",
+    "annee": 1483,
+    "label": "1483",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Au printemps, Raphaël naît à Urbino."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Le 10 novembre, Martin Luther naît à Eisleben."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Ashikaga Yoshimasa a fait commencer l’année précédente le Pavillon d’argent, Ginkaku-ji."
+      },
+      {
+        "pays": "Congo",
+        "continent": "Afrique",
+        "texte": "Le navigateur portugais Diogo Cão remonte l’embouchure du fleuve Congo."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Chenghua règne sur les Ming depuis dix-neuf ans."
+      }
+    ]
+  },
+  {
+    "id": "an-1488",
+    "annee": 1488,
+    "label": "1488",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Afrique du Sud",
+        "continent": "Afrique",
+        "texte": "Bartolomeu Dias contourne l’extrémité sud de l’Afrique sans la voir, puis aperçoit à son retour le cap de Bonne-Espérance."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Hongzhi règne depuis un an."
+      },
+      {
+        "pays": "Écosse",
+        "continent": "Europe",
+        "texte": "Le roi Jacques III est tué à Sauchieburn, en juin."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le sculpteur Verrocchio meurt à Venise."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Dans la province de Kaga, des paysans et des fidèles bouddhistes chassent le gouverneur. La province se gouvernera elle-même pendant presque un siècle."
       }
     ]
   },
