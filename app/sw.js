@@ -1,4 +1,4 @@
-const VERSION = "jadis-v13";
+const VERSION = "jadis-v15";
 const FONT_CSS = "https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bricolage+Grotesque:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@700&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Grenze+Gotisch:wght@700;800&family=Libre+Baskerville:wght@700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&family=Marcellus&display=swap";
 const SHELL = [
   "./", "index.html", "manifest.webmanifest", "data/articles.json", "data/annees.json",

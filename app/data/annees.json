@@ -99,6 +99,39 @@
     ]
   },
   {
+    "id": "an-450av",
+    "annee": -450,
+    "label": "450 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Selon la tradition, à Rome, des décemvirs rédigent les premières lois écrites, les Douze Tables, affichées sur le Forum."
+      },
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "Périclès, élu stratège chaque année, domine la vie politique d’Athènes."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Vers cette époque, l’historien grec Hérodote visite l’Égypte, alors province de l’Empire perse."
+      },
+      {
+        "pays": "Perse",
+        "continent": "Asie",
+        "texte": "Artaxerxès Ier règne sur l’Empire perse depuis quinze ans."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Vers cette époque, dans les États chinois en guerre, le penseur Mozi enseigne l’amour universel."
+      }
+    ]
+  },
+  {
     "id": "an-399av",
     "annee": -399,
     "label": "399 av. J.-C.",
@@ -363,6 +396,39 @@
     ]
   },
   {
+    "id": "an-126av",
+    "annee": -126,
+    "label": "126 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Zhang Qian rentre à Chang’an après treize ans d’absence, avec des informations précieuses sur l’Asie centrale."
+      },
+      {
+        "pays": "Bactriane",
+        "continent": "Asie",
+        "texte": "Zhang Qian y a trouvé les Yuezhi, installés dans la région après une longue migration."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Ptolémée VIII, dit Physcon, règne à Alexandrie."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le jeune Caius Gracchus part comme questeur en Sardaigne."
+      },
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "À Delphes, on grave vers cette date les hymnes à Apollon, avec leur notation musicale."
+      }
+    ]
+  },
+  {
     "id": "an-44av",
     "annee": -44,
     "label": "44 av. J.-C.",
@@ -425,6 +491,72 @@
         "pays": "Gaule",
         "continent": "Europe",
         "texte": "Auguste séjourne en Gaule, où il fait organiser un recensement."
+      }
+    ]
+  },
+  {
+    "id": "an-2",
+    "annee": 2,
+    "label": "2",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le recensement des Han compte près de 58 millions d’habitants : ce sont les plus anciennes données connues pour l’ensemble de la Chine."
+      },
+      {
+        "pays": "Rome",
+        "continent": "Europe",
+        "texte": "En août, Lucius César, petit-fils et héritier d’Auguste, meurt à Marseille."
+      },
+      {
+        "pays": "Empire parthe",
+        "continent": "Asie",
+        "texte": "L’année précédente, le roi Phraatace et Caius César se sont rencontrés sur une île de l’Euphrate pour régler la question d’Arménie."
+      },
+      {
+        "pays": "Gaule",
+        "continent": "Europe",
+        "texte": "Lyon est la capitale des Trois Gaules."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Alexandrie, l’une des plus grandes villes de l’Empire, est administrée par un préfet romain."
+      }
+    ]
+  },
+  {
+    "id": "an-132",
+    "annee": 132,
+    "label": "132",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’astronome Zhang Heng présente à la cour son sismoscope, un instrument censé signaler les séismes lointains."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "À Rome, le Panthéon, reconstruit sous Hadrien, est en service depuis quelques années."
+      },
+      {
+        "pays": "Bretagne",
+        "continent": "Europe",
+        "texte": "Le mur d’Hadrien, commencé en 122, est achevé pour l’essentiel."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "L’empereur Hadrien a visité l’Égypte deux ans plus tôt."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Kanishka règne sur l’empire kouchan depuis Purushapura, l’actuelle Peshawar."
       }
     ]
   },
@@ -2244,6 +2376,72 @@
     ]
   },
   {
+    "id": "an-1500",
+    "annee": 1500,
+    "label": "1500",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Brésil",
+        "continent": "Amérique",
+        "texte": "Le 22 avril, le navigateur portugais Pedro Álvares Cabral aperçoit la côte du Brésil."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Albrecht Dürer peint son autoportrait de face, dans une pose rare à l’époque."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Michel-Ange a achevé à Rome sa Pietà de Saint-Pierre, l’année précédente."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Hongzhi règne sur les Ming depuis treize ans."
+      },
+      {
+        "pays": "Songhaï",
+        "continent": "Afrique",
+        "texte": "Askia Mohammed, revenu du pèlerinage de La Mecque trois ans plus tôt, règne sur l’empire songhaï."
+      }
+    ]
+  },
+  {
+    "id": "an-1503",
+    "annee": 1503,
+    "label": "1503",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "À Florence, Léonard de Vinci commence, vers cette date, le portrait de Lisa Gherardini, la Joconde."
+      },
+      {
+        "pays": "Écosse",
+        "continent": "Europe",
+        "texte": "Jacques IV d’Écosse épouse Marguerite Tudor, fille d’Henri VII d’Angleterre. Un siècle plus tard, leur descendance réunira les couronnes."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "Moctezuma II règne à Tenochtitlan depuis l’année précédente."
+      },
+      {
+        "pays": "Perse",
+        "continent": "Asie",
+        "texte": "Ismaïl Ier, proclamé chah deux ans plus tôt à Tabriz, fonde la dynastie des Séfévides."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Hongzhi règne sur les Ming depuis seize ans."
+      }
+    ]
+  },
+  {
     "id": "an-1506",
     "annee": 1506,
     "label": "1506",
@@ -2409,6 +2607,39 @@
     ]
   },
   {
+    "id": "an-1534",
+    "annee": 1534,
+    "label": "1534",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Canada",
+        "continent": "Amérique",
+        "texte": "En juillet, au cours de son premier voyage vers le golfe du Saint-Laurent, Jacques Cartier plante une croix à Gaspé."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Martin Luther publie sa Bible complète en allemand."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Michel-Ange quitte Florence pour Rome, où il peindra le Jugement dernier."
+      },
+      {
+        "pays": "Perse",
+        "continent": "Asie",
+        "texte": "Tahmasp Ier règne sur la Perse safavide depuis dix ans."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Jiajing règne sur les Ming depuis treize ans."
+      }
+    ]
+  },
+  {
     "id": "an-1543",
     "annee": 1543,
     "label": "1543",
@@ -2475,6 +2706,72 @@
     ]
   },
   {
+    "id": "an-1561",
+    "annee": 1561,
+    "label": "1561",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Russie",
+        "continent": "Europe",
+        "texte": "Le 12 juillet, la cathédrale Saint-Basile est consacrée à Moscou."
+      },
+      {
+        "pays": "Écosse",
+        "continent": "Europe",
+        "texte": "Le 19 août, Marie Stuart, veuve du roi de France à dix-huit ans, rentre en Écosse."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Jiajing règne sur les Ming depuis quarante ans."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Akbar, âgé de dix-huit ans, gouverne seul depuis un an, après la chute de son régent Bairam Khan."
+      },
+      {
+        "pays": "Songhaï",
+        "continent": "Afrique",
+        "texte": "Askia Daoud règne sur l’empire songhaï depuis douze ans."
+      }
+    ]
+  },
+  {
+    "id": "an-1565",
+    "annee": 1565,
+    "label": "1565",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 8 septembre, l’Espagnol Pedro Menéndez de Avilés fonde Saint Augustine, en Floride."
+      },
+      {
+        "pays": "Belgique",
+        "continent": "Europe",
+        "texte": "Pieter Bruegel l’Ancien peint la série des Mois, dont les Chasseurs dans la neige."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Akbar fait commencer la construction du fort d’Agra."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Jiajing règne sur les Ming depuis quarante-quatre ans."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "Les Saadiens règnent depuis Marrakech."
+      }
+    ]
+  },
+  {
     "id": "an-1571",
     "annee": 1571,
     "label": "1571",
@@ -2504,6 +2801,39 @@
         "pays": "Russie",
         "continent": "Europe",
         "texte": "En mai, les Tatars de Crimée incendient Moscou."
+      }
+    ]
+  },
+  {
+    "id": "an-1575",
+    "annee": 1575,
+    "label": "1575",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le 29 juin, à Nagashino, les arquebusiers d’Oda Nobunaga battent la cavalerie du clan Takeda."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Zhang Juzheng, grand secrétaire, gouverne l’empire au nom du jeune empereur Wanli."
+      },
+      {
+        "pays": "Chili",
+        "continent": "Amérique",
+        "texte": "Le 16 décembre, un puissant séisme détruit Valdivia."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Akbar fait bâtir la nouvelle cité de Fatehpur Sikri."
+      },
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "En juillet, au château de Kenilworth, le comte de Leicester offre à Élisabeth Ire dix-neuf jours de fêtes."
       }
     ]
   },
@@ -2541,6 +2871,39 @@
     ]
   },
   {
+    "id": "an-1585",
+    "annee": 1585,
+    "label": "1585",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Hideyoshi devient kampaku, régent civil de l’empereur."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le 3 mars, on inaugure à Vicence le Teatro Olimpico, dernière œuvre de Palladio."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Une expédition envoyée par Walter Raleigh s’installe sur l’île de Roanoke. La colonie finira par disparaître."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Wanli règne sur les Ming depuis treize ans."
+      },
+      {
+        "pays": "Éthiopie",
+        "continent": "Afrique",
+        "texte": "Le négus Sarsa Dengel règne sur l’Éthiopie chrétienne depuis vingt-deux ans."
+      }
+    ]
+  },
+  {
     "id": "an-1588",
     "annee": 1588,
     "label": "1588",
@@ -2570,6 +2933,39 @@
         "pays": "Maroc",
         "continent": "Afrique",
         "texte": "Le sultan Ahmed al-Mansour règne depuis Marrakech. Il prépare l’expédition qu’il lancera contre l’empire songhaï."
+      }
+    ]
+  },
+  {
+    "id": "an-1596",
+    "annee": 1596,
+    "label": "1596",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le Bencao gangmu, grande encyclopédie de pharmacopée de Li Shizhen, est imprimé."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le 31 mars, René Descartes naît à La Haye, en Touraine."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Johannes Kepler publie le Mysterium cosmographicum."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le 5 septembre, un violent séisme frappe la région de Kyoto et d’Osaka et endommage le château de Fushimi."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "En septembre, la ville de Monterrey, dans le nord du pays, est fondée."
       }
     ]
   },
@@ -2673,6 +3069,72 @@
     ]
   },
   {
+    "id": "an-1610",
+    "annee": 1610,
+    "label": "1610",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "En janvier, Galilée découvre quatre lunes de Jupiter. Il les publie en mars dans le Messager des étoiles."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le 14 mai, Henri IV est assassiné à Paris. Son fils Louis XIII a huit ans."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le 11 mai, le jésuite Matteo Ricci meurt à Pékin, où il vivait depuis neuf ans."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Les Espagnols fondent Santa Fe, au Nouveau-Mexique."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Jahangir règne sur l’empire moghol depuis cinq ans."
+      }
+    ]
+  },
+  {
+    "id": "an-1628",
+    "annee": 1628,
+    "label": "1628",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "William Harvey publie son traité sur la circulation du sang, le De motu cordis."
+      },
+      {
+        "pays": "Suède",
+        "continent": "Europe",
+        "texte": "Le 10 août, le Vasa, fierté de la flotte suédoise, coule au large de Stockholm lors de son voyage inaugural."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Shah Jahan, le futur bâtisseur du Taj Mahal, devient empereur moghol."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Chongzhen, monté sur le trône l’année précédente, règne sur les Ming."
+      },
+      {
+        "pays": "Cuba",
+        "continent": "Amérique",
+        "texte": "En septembre, le Néerlandais Piet Heyn s’empare dans la baie de Matanzas de la flotte espagnole chargée d’argent."
+      }
+    ]
+  },
+  {
     "id": "an-1632",
     "annee": 1632,
     "label": "1632",
@@ -2702,6 +3164,39 @@
         "pays": "Japon",
         "continent": "Asie",
         "texte": "Le shogun retiré Tokugawa Hidetada meurt en janvier. Son fils Iemitsu gouverne désormais seul."
+      }
+    ]
+  },
+  {
+    "id": "an-1637",
+    "annee": 1637,
+    "label": "1637",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Pays-Bas",
+        "continent": "Europe",
+        "texte": "En février, la spéculation sur les bulbes de tulipes s’effondre. En juin, Descartes publie à Leyde le Discours de la méthode."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le Cid de Corneille est joué à Paris et déclenche une querelle littéraire."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Song Yingxing publie le Tiangong kaiwu, une encyclopédie des techniques."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le Harvard College, fondé en 1636 dans le Massachusetts, est le premier collège des colonies anglaises."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Le chantier du Taj Mahal se poursuit à Agra."
       }
     ]
   },
@@ -2805,6 +3300,39 @@
     ]
   },
   {
+    "id": "an-1675",
+    "annee": 1675,
+    "label": "1675",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Charles II fait fonder l’Observatoire royal de Greenwich. John Flamsteed en est le premier astronome royal."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "À Paris, Leibniz met au point les notations du calcul différentiel et intégral."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Shivaji a été couronné roi des Marathes à Raigad l’année précédente."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "Moulay Ismaïl règne depuis trois ans."
+      },
+      {
+        "pays": "Pays-Bas",
+        "continent": "Europe",
+        "texte": "À Delft, vers cette date, Antoni van Leeuwenhoek observe au microscope des êtres vivants invisibles à l’œil nu dans l’eau."
+      }
+    ]
+  },
+  {
     "id": "an-1683",
     "annee": 1683,
     "label": "1683",
@@ -2867,6 +3395,39 @@
         "pays": "Chine",
         "continent": "Asie",
         "texte": "L’empereur Kangxi, qui règne depuis vingt-six ans, s’intéresse aux sciences européennes qu’enseignent les jésuites à sa cour."
+      }
+    ]
+  },
+  {
+    "id": "an-1700",
+    "annee": 1700,
+    "label": "1700",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Russie",
+        "continent": "Europe",
+        "texte": "Pierre le Grand décrète que l’année commencera le 1er janvier, comme dans le reste de l’Europe."
+      },
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "Le roi Charles II meurt le 1er novembre, sans héritier direct."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "L’ère Genroku, âge d’or de la culture des marchands d’Edo et d’Osaka, bat son plein."
+      },
+      {
+        "pays": "Ghana",
+        "continent": "Afrique",
+        "texte": "Vers 1701, Osei Tutu fonde la confédération ashanti."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Kangxi règne depuis trente-neuf ans."
       }
     ]
   },
@@ -2937,6 +3498,39 @@
     ]
   },
   {
+    "id": "an-1752",
+    "annee": 1752,
+    "label": "1752",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Selon la tradition, Benjamin Franklin mène à Philadelphie, en juin, son expérience du cerf-volant dans l’orage."
+      },
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "En septembre, la Grande-Bretagne adopte le calendrier grégorien : le 2 septembre est suivi du 14."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Qianlong règne depuis dix-sept ans."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "L’ère Hôreki vient de commencer."
+      },
+      {
+        "pays": "Éthiopie",
+        "continent": "Afrique",
+        "texte": "L’empereur Iyasu II règne à Gondar."
+      }
+    ]
+  },
+  {
     "id": "an-1755",
     "annee": 1755,
     "label": "1755",
@@ -2970,6 +3564,39 @@
     ]
   },
   {
+    "id": "an-1762",
+    "annee": 1762,
+    "label": "1762",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Rousseau publie Du contrat social en avril, puis Émile. Les deux livres sont condamnés."
+      },
+      {
+        "pays": "Russie",
+        "continent": "Europe",
+        "texte": "Le 9 juillet, Catherine II prend le pouvoir après le renversement de son mari Pierre III."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Qianlong règne depuis vingt-sept ans."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Benjamin Franklin met au point l’harmonica de verre."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Tokugawa Ieharu est shogun depuis deux ans."
+      }
+    ]
+  },
+  {
     "id": "an-1769",
     "annee": 1769,
     "label": "1769",
@@ -2999,6 +3626,39 @@
         "pays": "Russie",
         "continent": "Europe",
         "texte": "Catherine II fait émettre les premiers billets de banque russes, les assignats."
+      }
+    ]
+  },
+  {
+    "id": "an-1774",
+    "annee": 1774,
+    "label": "1774",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Le 1er août, Joseph Priestley isole de l’oxygène en chauffant de l’oxyde de mercure."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le 10 mai, Louis XVI devient roi, à dix-neuf ans."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "En septembre, le premier Congrès continental se réunit à Philadelphie."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "À Edo paraît le Kaitai shinsho, première traduction japonaise d’un traité d’anatomie occidental."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Qianlong règne depuis trente-neuf ans."
       }
     ]
   },
