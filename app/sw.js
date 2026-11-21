@@ -1,4 +1,4 @@
-const VERSION = "jadis-v2";
+const VERSION = "jadis-v3";
 const FONT_CSS = "https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bricolage+Grotesque:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@700&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Grenze+Gotisch:wght@700;800&family=Libre+Baskerville:wght@700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&family=Marcellus&display=swap";
 const SHELL = [
   "./", "index.html", "manifest.webmanifest", "data/articles.json",
@@ -40,6 +40,9 @@ self.addEventListener("fetch", (e) => {
   const url = new URL(req.url);
   const isFont = FONT_HOSTS.includes(url.hostname);
   if (url.origin !== location.origin && !isFont) return;
+  // Les fichiers audio passent directement par le réseau (requêtes Range gérées par le navigateur) ;
+  // hors connexion, l'appli bascule sur la voix du navigateur.
+  if (url.pathname.endsWith(".mp3")) return;
 
   // Cache d'abord, rafraîchi en arrière-plan : lecture instantanée et possible sans réseau.
   e.respondWith((async () => {

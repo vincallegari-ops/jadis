@@ -19,6 +19,7 @@ Fond dégradé aux couleurs de l'époque, pièces de papier déchiré (fonction 
 ## Code
 - `app/index.html` : application complète (HTML, CSS et JS vanilla, aucun build). Elle charge `data/articles.json` (92 articles du corpus validé, issu de `articles-runtime.json`). Serveur local : `node .claude/serve.js` (PORT=5173 par défaut).
 - PWA : `app/manifest.webmanifest`, `app/sw.js` (cache de l’appli, des données et des polices Google, stratégie cache d’abord ; changer `VERSION` dans sw.js à chaque livraison), `app/icons/`. Retour du téléphone géré par `pushIfHome`/`goHome`/`popstate`.
+- Audio : `tools/gen_audio.py` génère `app/audio/<id>.mp3` (+ `index.json`) avec Kokoro-82M via kokoro-onnx, voix française `ff_siwis`, mp3 64 kbit/s. Environnement : `tools/.venv` (Python 3.12), modèle dans `tools/models/` (kokoro-v1.0.onnx + voices-v1.0.bin, non versionnés, release `model-files-v1.0` de thewh1teagle/kokoro-onnx), FFmpeg. Le script reprend où il s’est arrêté ; ~1,3x le temps réel sur l’i5-1155G7. Prononciation : `tools/lexique.json` ({"écrit": "lu"}) et normalisation dans `normalise()` (siècles en chiffres romains, av. J.-C., %). L’appli lit le mp3 s’il est listé dans `audio/index.json`, sinon la voix du navigateur ; `sw.js` ne met pas les mp3 en cache.
 - État du lecteur : `localStorage`, clé `jadis.v1` (`{ read: [], saved: [] }`). Une histoire est « lue » quand le repère `#endmark` entre dans l'écran (IntersectionObserver).
 - Fonctions clés : `pickN(currentId, n)` (choix des indices), `surprisePick`, `chooseHook` (écran de transition date et lieu), `runSplash` (animation d'ouverture), `toggleSpeech`.
 - `app/articles.json` : 150 articles dans la version publiée (champs : id, titre, hook, epoque, continent, annee, lat, lon, lieu, theme, date{pre,big,post}, paragraphes[], anecdote, mots).
@@ -37,7 +38,7 @@ Reportage d'historien : attaque concrète, pivot qui dit pourquoi c'est importan
 
 ## À faire
 1. PWA : fait (manifeste, icônes, service worker, hors ligne). Reste : hébergement HTTPS sur un domaine à soi (dossier `app/` tel quel).
-2. Audio français : comparer des voix neuronales, lexique de prononciation (noms propres), fichiers pré-générés pour les articles validés seulement.
+2. Audio français : Kokoro-82M en place (voir Code). Reste : écouter et corriger les noms propres via `tools/lexique.json`, éventuellement cacher l’audio des histoires gardées pour l’écoute hors ligne (le service worker devra gérer les requêtes Range).
 3. Algorithme de préférence : signaux supplémentaires (temps passé, articles gardés, écoute), en gardant la règle « jamais un article lu ».
 4. Corpus : terminer la relecture des lots, réécrire les textes sous 380 mots, trancher les moai (étiquette « Vers 1250 » non étayée), brancher seulement les articles validés.
 5. Tests : l'ancien script Playwright ciblait une version antérieure de l'appli (boutons `data-go`) ; en écrire un nouveau (boutons `data-hook`).

@@ -103,28 +103,51 @@ function toggleSaved(id) {
 
 var view = { name: 'home', id: null, revealed: false };
 var speechState = { playing: false, articleId: null };
+/* Audio pré-généré (Kokoro-82M) : audio/<id>.mp3, listé dans audio/index.json. Repli : voix du navigateur. */
+var AUDIO = {};
+var player = null;
+function hasAudio(id) { return !!AUDIO[id]; }
 function stopSpeech() {
   if (window.speechSynthesis) { try { window.speechSynthesis.cancel(); } catch (e) {} }
+  if (player) { try { player.el.pause(); } catch (e) {} player.el.onended = player.el.onerror = null; player = null; }
   speechState.playing = false;
   speechState.articleId = null;
 }
-function toggleSpeech(a) {
-  if (!window.speechSynthesis || !window.SpeechSynthesisUtterance) return;
-  if (speechState.playing && speechState.articleId === a.id) {
-    stopSpeech();
-    render(false);
-    return;
-  }
-  stopSpeech();
-  var text = a.titre + '. ' + a.paragraphes.join(' ') + ' ' + a.anecdote;
-  var u = new SpeechSynthesisUtterance(text);
+function speechDone(a) { if (speechState.articleId === a.id) { stopSpeech(); render(false); } }
+function browserSpeak(a) {
+  if (!window.speechSynthesis || !window.SpeechSynthesisUtterance) { speechDone(a); return; }
+  var u = new SpeechSynthesisUtterance(a.titre + '. ' + a.paragraphes.join(' ') + ' ' + a.anecdote);
   u.lang = 'fr-FR';
   u.rate = 0.98;
-  u.onend = function () { if (speechState.articleId === a.id) { speechState.playing = false; speechState.articleId = null; render(false); } };
-  u.onerror = function () { if (speechState.articleId === a.id) { speechState.playing = false; speechState.articleId = null; render(false); } };
+  u.onend = u.onerror = function () { speechDone(a); };
   speechState.playing = true;
   speechState.articleId = a.id;
   window.speechSynthesis.speak(u);
+}
+function toggleSpeech(a) {
+  if (player && player.id === a.id) { /* pause / reprise du fichier audio */
+    if (player.el.paused) { player.el.play().catch(function () {}); speechState.playing = true; }
+    else { player.el.pause(); speechState.playing = false; }
+    render(false);
+    return;
+  }
+  if (speechState.playing && speechState.articleId === a.id) { stopSpeech(); render(false); return; }
+  stopSpeech();
+  if (hasAudio(a.id)) {
+    var el = new Audio('audio/' + a.id + '.mp3');
+    el.preload = 'auto';
+    player = { id: a.id, el: el };
+    speechState.playing = true;
+    speechState.articleId = a.id;
+    var fallback = function () { if (player && player.id === a.id) { stopSpeech(); browserSpeak(a); render(false); } };
+    el.onended = function () { speechDone(a); };
+    el.onerror = fallback;
+    var p = el.play();
+    if (p && p.catch) p.catch(function (err) { if (!err || err.name !== 'AbortError') fallback(); });
+    render(false);
+    return;
+  }
+  browserSpeak(a);
   render(false);
 }
 
@@ -269,7 +292,7 @@ function libraryHTML() {
 function storyHTML(a) {
   var e = ERAS[a.epoque], seed = hash(a.id);
   var saved = isSaved(a.id);
-  var speechSupported = !!(window.speechSynthesis && window.SpeechSynthesisUtterance);
+  var speechSupported = hasAudio(a.id) || !!(window.speechSynthesis && window.SpeechSynthesisUtterance);
   var speaking = speechState.playing && speechState.articleId === a.id;
   var bar = '<div class="bar gx" style="padding-left:max(8px,env(safe-area-inset-left,0px));padding-right:max(8px,env(safe-area-inset-right,0px))">' +
     '<button type="button" class="opt" data-home="1" aria-label="Retour à l’accueil" style="justify-self:start">' + ICON_HOME + '</button>' +
@@ -293,7 +316,7 @@ function storyHTML(a) {
     '<p style="margin:0;font:italic 17px/1.55 var(--serif);color:' + INK + '">' + esc(a.anecdote) + '</p></div></div>' +
     '<div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap">' +
     '<button type="button" class="pill opt" data-save="' + a.id + '" aria-pressed="' + saved + '" style="border:2px solid ' + e.fg + ';color:' + e.fg + '">' + iconBookmark(saved ? e.fg : 'none', e.fg) + '<span>' + (saved ? 'Gardée' : 'Garder') + '</span></button>' +
-    (speechSupported ? '<button type="button" class="pill opt" data-speak="' + a.id + '" aria-pressed="' + speaking + '" style="border:2px solid ' + e.fg + ';color:' + e.fg + '"><span aria-hidden="true">' + (speaking ? '⏸' : '🔊') + '</span><span>' + (speaking ? 'Pause' : 'Écouter') + '</span></button>' : '') +
+    (speechSupported ? '<button type="button" class="pill opt" data-speak="' + a.id + '" aria-pressed="' + speaking + '" style="border:2px solid ' + e.fg + ';color:' + e.fg + '"><span aria-hidden="true">' + (speaking ? '⏸' : '🔊') + '</span><span>' + (speaking ? 'Pause' : (player && player.id === a.id ? 'Reprendre' : 'Écouter')) + '</span></button>' : '') +
     '</div>' +
     '<div id="endmark" style="padding-top:10px;display:flex;flex-direction:column;gap:4px;color:' + e.fg + '"><span style="font-family:' + e.font + ';font-size:32px;line-height:1.05;font-weight:' + e.dw + '">À suivre</span>' +
     '<span style="font:16px/1.5 var(--serif)">' + (next.length ? 'Deux indices, ou laisse faire le hasard.' : 'Vous avez parcouru toutes les escales disponibles.') + '</span></div>' +
@@ -507,7 +530,7 @@ function loadingHTML(failed) {
 }
 function startApp() {
   root.innerHTML = loadingHTML(false);
-  fetch('data/articles.json')
+  fetch('audio/index.json').then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }).then(function (idx) { AUDIO = idx || {}; return fetch('data/articles.json'); })
     .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(function (data) {
       if (!Array.isArray(data) || !data.length) throw new Error('empty dataset');

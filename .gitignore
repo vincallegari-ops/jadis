@@ -10,3 +10,8 @@
 !/.claude/serve.js
 !/.claude/launch.json
 !/.github/
+!/tools/
+/tools/.venv/
+/tools/models/
+/tools/logs/
+__pycache__/
