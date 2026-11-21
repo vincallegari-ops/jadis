@@ -1,0 +1,1652 @@
+[
+  {
+    "id": "an-480av",
+    "annee": -480,
+    "label": "480 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "Une poignée de Grecs, les Spartiates de Léonidas en tête, retient l’armée perse aux Thermopyles. Quelques semaines plus tard, la flotte grecque bat celle de Xerxès à Salamine."
+      },
+      {
+        "pays": "Perse",
+        "continent": "Asie",
+        "texte": "Le Grand Roi Xerxès entre dans Athènes évacuée et incendie l’Acropole."
+      },
+      {
+        "pays": "Sicile",
+        "continent": "Europe",
+        "texte": "À Himère, le tyran Gélon de Syracuse écrase l’armée carthaginoise. Une tradition sicilienne, rapportée par Hérodote, veut que la bataille ait eu lieu le jour même de Salamine."
+      },
+      {
+        "pays": "Carthage",
+        "continent": "Afrique",
+        "texte": "Le général Hamilcar a péri à Himère. Carthage ne reviendra en force en Sicile que soixante-dix ans plus tard."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Province de l’Empire perse, l’Égypte fournit des navires à la flotte de Xerxès."
+      }
+    ]
+  },
+  {
+    "id": "an-221av",
+    "annee": -221,
+    "label": "221 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le roi de Qin soumet la dernière principauté indépendante, celle de Qi, et unifie le pays. Il prend un titre nouveau, celui de Premier Empereur."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Ptolémée IV succède à son père sur le trône des Lagides. Depuis Alexandrie, la dynastie règne sur l’Égypte et une partie de la Méditerranée orientale."
+      },
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "Après l’assassinat du chef carthaginois Hasdrubal, l’armée d’Ibérie choisit pour lui succéder le jeune Hannibal. Rome ne se doute pas encore de ce que ce choix lui coûtera."
+      },
+      {
+        "pays": "Macédoine",
+        "continent": "Europe",
+        "texte": "Le roi Antigone Doson meurt, et son pupille Philippe V, encore adolescent, prend le pouvoir."
+      },
+      {
+        "pays": "Empire séleucide",
+        "continent": "Asie",
+        "texte": "Le jeune roi Antiochos III doit faire face à la révolte de Molon, gouverneur des provinces de l’Est."
+      }
+    ]
+  },
+  {
+    "id": "an-146av",
+    "annee": -146,
+    "label": "146 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Tunisie",
+        "continent": "Afrique",
+        "texte": "Rome détruit Carthage au printemps, après un siège de trois ans. Son territoire devient la province romaine d’Afrique."
+      },
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "Le consul Mummius prend et détruit Corinthe. La Grèce passe sous la tutelle de Rome."
+      },
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "En Lusitanie, le chef Viriathe tient tête aux légions romaines."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Sous l’empereur Jing, la dynastie Han règne depuis Chang’an. Elle sort à peine de la révolte des sept royaumes, écrasée huit ans plus tôt."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Ptolémée VIII règne depuis Alexandrie, sous le regard de plus en plus attentif de Rome."
+      }
+    ]
+  },
+  {
+    "id": "an-44av",
+    "annee": -44,
+    "label": "44 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Rome",
+        "continent": "Europe",
+        "texte": "Le 15 mars, aux ides, Jules César est assassiné en plein Sénat par un groupe de sénateurs. Rome retombe dans les guerres civiles."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Cléopâtre VII, qui séjournait à Rome auprès de César, rentre à Alexandrie après son assassinat. Son fils Césarion, né de César, deviendra son corégent."
+      },
+      {
+        "pays": "Empire parthe",
+        "continent": "Asie",
+        "texte": "L’empire parthe, qui a anéanti l’armée de Crassus à Carrhes neuf ans plus tôt, domine l’Iran et la Mésopotamie."
+      },
+      {
+        "pays": "Gaule",
+        "continent": "Europe",
+        "texte": "La Gaule, soumise par César après la défaite de Vercingétorix à Alésia en 52, est désormais romaine."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Sous l’empereur Yuan, qui favorise les lettrés confucéens, la dynastie Han règne sur la Chine."
+      }
+    ]
+  },
+  {
+    "id": "an-622",
+    "annee": 622,
+    "label": "622",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Arabie",
+        "continent": "Asie",
+        "texte": "Muhammad quitte La Mecque pour Yathrib, la future Médine. C’est l’Hégire, point de départ du calendrier musulman."
+      },
+      {
+        "pays": "Empire byzantin",
+        "continent": "Europe",
+        "texte": "L’empereur Héraclius part en campagne contre la Perse sassanide, avec laquelle l’Empire est en guerre depuis vingt ans."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "La dynastie Tang, fondée en 618, consolide son emprise sur le pays."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le prince Shôtoku, régent de l’impératrice Suiko, meurt. Il avait encouragé le bouddhisme et instauré un système de rangs à la cour."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "À Palenque, dans le monde maya, le roi K’inich Janaab’ Pakal règne depuis 615."
+      }
+    ]
+  },
+  {
+    "id": "an-800",
+    "annee": 800,
+    "label": "800",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le soir de Noël, à Rome, le pape Léon III couronne Charlemagne empereur. Le titre n’avait plus été porté en Occident depuis la chute de l’Empire romain d’Occident, plus de trois siècles plus tôt."
+      },
+      {
+        "pays": "Irak",
+        "continent": "Asie",
+        "texte": "À Bagdad, le calife abbasside Hâroun al-Rachîd règne sur un empire qui s’étend de l’Asie centrale à l’Afrique du Nord."
+      },
+      {
+        "pays": "Tunisie",
+        "continent": "Afrique",
+        "texte": "Ibrahim ibn al-Aghlab reçoit du calife le gouvernement de l’Ifriqiya et fonde la dynastie aghlabide, dont la capitale sera Kairouan."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Sous l’empereur Dezong, la dynastie Tang se remet encore des troubles du milieu du siècle."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "L’empereur Kanmu règne depuis Heian-kyô, la future Kyoto, où il a installé la cour six ans plus tôt."
+      }
+    ]
+  },
+  {
+    "id": "an-962",
+    "annee": 962,
+    "label": "962",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Saint-Empire",
+        "continent": "Europe",
+        "texte": "Le 2 février, à Rome, le pape Jean XII couronne Otton Ier empereur."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "À Kaifeng, Zhao Kuangyin, devenu empereur Taizu des Song deux ans plus tôt, prépare la réunification du pays."
+      },
+      {
+        "pays": "Afghanistan",
+        "continent": "Asie",
+        "texte": "Un ancien général samanide, Alp Tegin, s’empare de Ghazni, qui deviendra la capitale d’un puissant empire."
+      },
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "À Cordoue, le calife al-Hakam II, qui vient de succéder à son père, protège les savants et réunit une immense bibliothèque."
+      },
+      {
+        "pays": "Tunisie",
+        "continent": "Afrique",
+        "texte": "Le calife fatimide al-Muizz règne depuis l’Ifriqiya. Il prépare la conquête de l’Égypte, qui aura lieu sept ans plus tard."
+      }
+    ]
+  },
+  {
+    "id": "an-1066",
+    "annee": 1066,
+    "label": "1066",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Guillaume de Normandie bat le roi Harold à Hastings, le 14 octobre. Il est couronné à Westminster le jour de Noël."
+      },
+      {
+        "pays": "Norvège",
+        "continent": "Europe",
+        "texte": "Le roi Harald Hardrada, qui prétendait au trône d’Angleterre, est tué à Stamford Bridge, quelques semaines avant Hastings."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Sous les califes fatimides, le pays traverse depuis quelques années une grande famine, liée à des crues du Nil trop faibles."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Sous les Song, le lettré Sima Guang présente à l’empereur les premiers chapitres de la vaste chronique qu’il compilera pendant près de vingt ans."
+      },
+      {
+        "pays": "Empire seldjoukide",
+        "continent": "Asie",
+        "texte": "Le sultan Alp Arslan règne sur la Perse et l’Irak. Cinq ans plus tard, il battra l’armée byzantine à Manzikert."
+      }
+    ]
+  },
+  {
+    "id": "an-1099",
+    "annee": 1099,
+    "label": "1099",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le pape Urbain II meurt en juillet. Pascal II, élu en août, lui succède."
+      },
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "Le Cid meurt à Valence, qu’il avait conquise cinq ans plus tôt."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "L’émir almoravide Yusuf ibn Tashfin règne depuis Marrakech sur le Maghreb et sur une grande partie de l’Espagne musulmane."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Sous l’empereur Zhezong, la cour des Song se déchire sur l’héritage des réformes de Wang Anshi."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Le roi chola Kulottunga Ier règne sur le sud de l’Inde depuis près de trente ans."
+      }
+    ]
+  },
+  {
+    "id": "an-1187",
+    "annee": 1187,
+    "label": "1187",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Palestine",
+        "continent": "Asie",
+        "texte": "Le 4 juillet, à Hattin, Saladin écrase l’armée des royaumes francs. Il entre à Jérusalem le 2 octobre."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le pape Grégoire VIII, élu en octobre, appelle l’Europe à la troisième croisade."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "Le calife almohade Yaqub al-Mansur règne sur le Maghreb et sur al-Andalus."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Après avoir vaincu les Taira, Minamoto no Yoshitsune, brouillé avec son frère Yoritomo, trouve refuge dans le nord, chez les Fujiwara d’Hiraizumi."
+      },
+      {
+        "pays": "Cambodge",
+        "continent": "Asie",
+        "texte": "Jayavarman VII règne sur l’empire khmer, où il fait bâtir des temples et des hôpitaux."
+      }
+    ]
+  },
+  {
+    "id": "an-1206",
+    "annee": 1206,
+    "label": "1206",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Mongolie",
+        "continent": "Asie",
+        "texte": "Au bord de l’Onon, une assemblée de chefs proclame Temüjin Gengis Khan."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "À Delhi, Qutb ud-Din Aibak, ancien esclave devenu général, prend le pouvoir : c’est le début du sultanat de Delhi."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "À Assise, le jeune François, fils d’un drapier, renonce publiquement à l’héritage de son père."
+      },
+      {
+        "pays": "Cambodge",
+        "continent": "Asie",
+        "texte": "Jayavarman VII poursuit ses grands chantiers à Angkor."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Le sultan ayyoubide al-Adil, frère de Saladin, règne depuis Le Caire sur l’Égypte et la Syrie."
+      }
+    ]
+  },
+  {
+    "id": "an-1215",
+    "annee": 1215,
+    "label": "1215",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Le 15 juin, à Runnymede, le roi Jean sans Terre scelle la Grande Charte sous la pression de ses barons."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le quatrième concile du Latran, réuni à Rome en novembre par Innocent III, impose à chaque fidèle de se confesser au moins une fois par an."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Les armées de Gengis Khan prennent Zhongdu, la capitale des Jin, près de l’actuelle Pékin."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "Le calife almohade Yusuf II, encore adolescent, règne depuis Marrakech sur un empire que la défaite de Las Navas de Tolosa a ébranlé trois ans plus tôt."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "À Kamakura, le régent Hôjô Yoshitoki gouverne au nom du shogun."
+      }
+    ]
+  },
+  {
+    "id": "an-1271",
+    "annee": 1271,
+    "label": "1271",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Niccolò et Maffeo Polo quittent Venise pour l’Asie, avec le jeune Marco, âgé d’environ dix-sept ans."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "En décembre, Kubilai Khan donne à son empire le nom chinois de Yuan."
+      },
+      {
+        "pays": "Syrie",
+        "continent": "Asie",
+        "texte": "En avril, le sultan mamelouk Baybars prend le Krak des Chevaliers aux croisés."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Des envoyés mongols réclament la soumission de l’archipel. Le moine Nichiren est exilé sur l’île de Sado."
+      },
+      {
+        "pays": "Éthiopie",
+        "continent": "Afrique",
+        "texte": "Un an plus tôt, Yekouno Amlak a renversé la dynastie zagwé et fondé la dynastie salomonide, qui régnera jusqu’en 1974."
+      }
+    ]
+  },
+  {
+    "id": "an-1324",
+    "annee": 1324,
+    "label": "1324",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Mali",
+        "continent": "Afrique",
+        "texte": "Le mansa Moussa part en pèlerinage vers La Mecque, avec une suite immense et beaucoup d’or."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Au Caire, en juillet, Moussa dépense tant d’or que son cours baisse, selon des chroniqueurs de l’époque."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "À Paris, Marsile de Padoue achève le Defensor pacis, qui conteste le pouvoir du pape sur les rois."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "À Kyoto, un complot de l’empereur Go-Daigo contre le shogunat de Kamakura est découvert : c’est l’incident de Shôchû."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Ghiyath ud-Din Tughlaq règne sur le sultanat de Delhi, où il vient de faire bâtir la forteresse de Tughlaqabad."
+      }
+    ]
+  },
+  {
+    "id": "an-1348",
+    "annee": 1348,
+    "label": "1348",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "La peste noire frappe Florence. Boccaccio y situe les dix jeunes gens du Décaméron, qui fuient la ville pour se raconter des histoires."
+      },
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "La peste débarque à Melcombe, dans le Dorset, au début de l’été. Elle atteindra Londres à l’automne."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Arrivée à Alexandrie à l’automne 1347, la peste atteint Le Caire, capitale des sultans mamelouks, à la fin de l’été 1348."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Sur la côte du Zhejiang, Fang Guozhen se soulève contre la dynastie mongole des Yuan, dont l’autorité commence à se fissurer."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "À Shijônawate, l’armée du shogunat écrase celle de la cour du Sud, dans la guerre qui oppose deux cours impériales rivales."
+      }
+    ]
+  },
+  {
+    "id": "an-1431",
+    "annee": 1431,
+    "label": "1431",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le 30 mai, Jeanne d’Arc est brûlée vive à Rouen."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Une septième et dernière expédition maritime de Zheng He quitte Nankin vers l’océan Indien."
+      },
+      {
+        "pays": "Cambodge",
+        "continent": "Asie",
+        "texte": "Selon la tradition, c’est l’année où le royaume d’Ayutthaya prend Angkor."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "Trois ans plus tôt, les Mexicas, Texcoco et Tlacopan se sont alliés et ont vaincu Azcapotzalco. Leur Triple Alliance domine désormais la vallée de Mexico."
+      },
+      {
+        "pays": "Suisse",
+        "continent": "Europe",
+        "texte": "Le concile de Bâle s’ouvre en juillet."
+      }
+    ]
+  },
+  {
+    "id": "an-1453",
+    "annee": 1453,
+    "label": "1453",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Empire ottoman",
+        "continent": "Asie",
+        "texte": "Le 29 mai, Mehmed II prend Constantinople. C’est la fin de l’Empire byzantin."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le 17 juillet, la victoire française de Castillon met fin, de fait, à la guerre de Cent Ans."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Sous l’empereur Jingtai, les Ming se remettent de la défaite de Tumu, quatre ans plus tôt, où l’empereur précédent a été capturé par les Mongols."
+      },
+      {
+        "pays": "Pérou",
+        "continent": "Amérique",
+        "texte": "À Cuzco, selon la tradition, l’Inca Pachacutec poursuit l’expansion de son empire."
+      },
+      {
+        "pays": "Éthiopie",
+        "continent": "Afrique",
+        "texte": "Le négus Zara Yaqob règne depuis près de vingt ans sur l’Éthiopie chrétienne."
+      }
+    ]
+  },
+  {
+    "id": "an-1494",
+    "annee": 1494,
+    "label": "1494",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "Par le traité de Tordesillas, signé le 7 juin, l’Espagne et le Portugal se partagent les terres à découvrir hors d’Europe."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le roi de France Charles VIII franchit les Alpes et entre en Italie. Il sera à Naples au début de 1495."
+      },
+      {
+        "pays": "Songhaï",
+        "continent": "Afrique",
+        "texte": "Un an plus tôt, Askia Mohammed a pris le pouvoir à Gao. L’empire songhaï atteindra bientôt sa plus grande étendue."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Hongzhi, réputé pour sa modération, règne sur les Ming."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "Le souverain aztèque Ahuitzotl règne depuis Tenochtitlan et étend l’empire vers le sud."
+      }
+    ]
+  },
+  {
+    "id": "an-1498",
+    "annee": 1498,
+    "label": "1498",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Le 20 mai, Vasco de Gama jette l’ancre devant Calicut : c’est la première liaison maritime directe entre l’Europe et l’Inde."
+      },
+      {
+        "pays": "Kenya",
+        "continent": "Afrique",
+        "texte": "Quelques semaines plus tôt, à Malindi, Gama a trouvé un pilote qui connaît la route de l’Inde."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le 23 mai, à Florence, Savonarole est pendu puis brûlé sur la place de la Seigneurie."
+      },
+      {
+        "pays": "Venezuela",
+        "continent": "Amérique",
+        "texte": "Lors de son troisième voyage, Christophe Colomb aperçoit en août la terre ferme sud-américaine, près de l’embouchure de l’Orénoque."
+      },
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Jean Cabot appareille de Bristol pour un second voyage vers l’ouest. On perd sa trace."
+      }
+    ]
+  },
+  {
+    "id": "an-1517",
+    "annee": 1517,
+    "label": "1517",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Le 31 octobre, selon la tradition, Martin Luther affiche à Wittenberg ses quatre-vingt-quinze thèses sur les indulgences."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Le sultan ottoman Selim Ier prend Le Caire et met fin au sultanat mamelouk."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Un navire portugais jette l’ancre à Canton. C’est le premier envoyé portugais à atteindre la Chine par la mer."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "L’expédition de Francisco Hernández de Córdoba aborde la côte du Yucatán."
+      },
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "Le jeune Charles, futur Charles Quint, débarque dans les Asturies et vient prendre possession de son royaume."
+      }
+    ]
+  },
+  {
+    "id": "an-1519",
+    "annee": 1519,
+    "label": "1519",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "Hernán Cortés entre à Tenochtitlan le 8 novembre. Moctezuma l’accueille sur la chaussée qui mène à la capitale aztèque."
+      },
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "Le 20 septembre, cinq navires quittent Sanlúcar de Barrameda sous les ordres de Magellan. Ils cherchent un passage vers les îles aux épices par l’ouest."
+      },
+      {
+        "pays": "Saint-Empire",
+        "continent": "Europe",
+        "texte": "Les princes électeurs choisissent Charles de Habsbourg comme empereur, après une élection où les banquiers ont compté autant que les ducs."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Conquise deux ans plus tôt par le sultan ottoman Selim Ier, l’Égypte est devenue une province de l’Empire ottoman."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Venu de Kaboul, Bâbur prend le fort de Bajaur, aux portes de l’Inde. Il battra le sultan de Delhi à Panipat sept ans plus tard."
+      }
+    ]
+  },
+  {
+    "id": "an-1543",
+    "annee": 1543,
+    "label": "1543",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Pologne",
+        "continent": "Europe",
+        "texte": "Nicolas Copernic fait paraître De revolutionibus, qui place le Soleil au centre. Il meurt la même année, en mai."
+      },
+      {
+        "pays": "Suisse",
+        "continent": "Europe",
+        "texte": "À Bâle, Vésale publie De humani corporis fabrica, un traité d’anatomie fondé sur la dissection."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Selon la tradition, des marins portugais abordent l’île de Tanegashima et y font connaître l’arquebuse."
+      },
+      {
+        "pays": "Éthiopie",
+        "continent": "Afrique",
+        "texte": "Soutenu par des soldats portugais, le négus Galawdewos bat à Wayna Daga l’armée du sultanat d’Adal, dont le chef Ahmad Gragn est tué."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Sher Shah Suri règne sur le nord de l’Inde, après avoir chassé Humayun trois ans plus tôt."
+      }
+    ]
+  },
+  {
+    "id": "an-1571",
+    "annee": 1571,
+    "label": "1571",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "Le 7 octobre, la flotte de la Sainte Ligue bat la flotte ottomane à Lépante, dans le golfe de Patras."
+      },
+      {
+        "pays": "Philippines",
+        "continent": "Asie",
+        "texte": "Miguel López de Legazpi fonde Manille, qui devient la capitale de la colonie espagnole des Philippines."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le seigneur Ômura Sumitada ouvre le port de Nagasaki aux navires portugais."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "L’Inquisition est officiellement établie en Nouvelle-Espagne."
+      },
+      {
+        "pays": "Russie",
+        "continent": "Europe",
+        "texte": "En mai, les Tatars de Crimée incendient Moscou."
+      }
+    ]
+  },
+  {
+    "id": "an-1588",
+    "annee": 1588,
+    "label": "1588",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "En juillet et en août, la flotte anglaise repousse dans la Manche l’Invincible Armada envoyée par Philippe II."
+      },
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "Privée du retour par la Manche, l’Armada rentre en contournant l’Écosse et l’Irlande. Beaucoup de navires se perdent dans les tempêtes."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Hideyoshi ordonne la « chasse aux sabres » : les paysans doivent rendre leurs armes."
+      },
+      {
+        "pays": "Perse",
+        "continent": "Asie",
+        "texte": "Abbas Ier devient chah. Il réformera l’armée et déplacera la capitale à Ispahan."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "Le sultan Ahmed al-Mansour règne depuis Marrakech. Il prépare l’expédition qu’il lancera contre l’empire songhaï."
+      }
+    ]
+  },
+  {
+    "id": "an-1600",
+    "annee": 1600,
+    "label": "1600",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le philosophe Giordano Bruno est brûlé vif à Rome, sur le Campo de’ Fiori, le 17 février."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "À Sekigahara, le 21 octobre, Tokugawa Ieyasu remporte la bataille qui lui ouvre la route du pouvoir. Un navire hollandais, avec à son bord le pilote anglais William Adams, a accosté quelques mois plus tôt."
+      },
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "La reine Élisabeth Ire accorde, le 31 décembre, une charte à la Compagnie des Indes orientales."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "Le sultan saadien Ahmed al-Mansour règne depuis Marrakech. Neuf ans plus tôt, ses troupes ont pris Tombouctou, sur le Niger."
+      },
+      {
+        "pays": "Perse",
+        "continent": "Asie",
+        "texte": "Le chah Abbas Ier a transféré sa capitale à Ispahan quelques années plus tôt, et il y lance de grands travaux."
+      }
+    ]
+  },
+  {
+    "id": "an-1607",
+    "annee": 1607,
+    "label": "1607",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 14 mai, des colons anglais fondent Jamestown, en Virginie, la première colonie anglaise durable en Amérique."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Tokugawa Ieyasu a quitté le titre de shogun en 1605 au profit de son fils Hidetada, mais il garde le pouvoir réel depuis Sunpu."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "À Mantoue, Monteverdi fait jouer L’Orfeo, souvent présenté comme le premier grand opéra."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Jahangir règne sur l’empire moghol depuis deux ans."
+      },
+      {
+        "pays": "Empire ottoman",
+        "continent": "Asie",
+        "texte": "Un an plus tôt, la paix de Zsitvatorok a mis fin à la longue guerre contre les Habsbourg."
+      }
+    ]
+  },
+  {
+    "id": "an-1648",
+    "annee": 1648,
+    "label": "1648",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Les traités de Münster et d’Osnabrück, signés en octobre, mettent fin à la guerre de Trente Ans."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "À Paris, la journée des Barricades, fin août, ouvre la Fronde contre Mazarin."
+      },
+      {
+        "pays": "Ukraine",
+        "continent": "Europe",
+        "texte": "Le hetman Bohdan Khmelnytsky soulève les Cosaques contre la Pologne-Lituanie et remporte ses premières victoires au printemps."
+      },
+      {
+        "pays": "Brésil",
+        "continent": "Amérique",
+        "texte": "À Guararapes, en avril, les Portugais du Brésil battent les troupes hollandaises."
+      },
+      {
+        "pays": "Empire ottoman",
+        "continent": "Asie",
+        "texte": "Le sultan Ibrahim est détrôné en août. Il est remplacé par son fils Mehmed IV, âgé de six ans."
+      }
+    ]
+  },
+  {
+    "id": "an-1666",
+    "annee": 1666,
+    "label": "1666",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Du 2 au 6 septembre, le Grand Incendie détruit une grande partie de Londres."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Le chef marathe Shivaji s’échappe d’Agra, où l’empereur Aurangzeb le retenait."
+      },
+      {
+        "pays": "Empire ottoman",
+        "continent": "Asie",
+        "texte": "Le prétendu messie juif Sabbataï Tsevi, arrêté, se convertit à l’islam en septembre."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Kangxi, âgé de douze ans, règne sous la tutelle de régents."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "Moulay Rachid, de la dynastie alaouite, prend Fès."
+      }
+    ]
+  },
+  {
+    "id": "an-1683",
+    "annee": 1683,
+    "label": "1683",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Autriche",
+        "continent": "Europe",
+        "texte": "Le 12 septembre, une armée de secours menée par Jean III Sobieski bat les Ottomans devant Vienne."
+      },
+      {
+        "pays": "Taïwan",
+        "continent": "Asie",
+        "texte": "Les Qing prennent les Pescadores puis Taïwan aux derniers descendants de Koxinga."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Des familles germanophones, venues de Krefeld, fondent Germantown, près de Philadelphie."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "Moulay Ismaïl règne depuis Meknès. Il reprendra Tanger aux Anglais l’année suivante."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "L’empereur Aurangzeb poursuit dans le Deccan une guerre qui l’occupe depuis 1681."
+      }
+    ]
+  },
+  {
+    "id": "an-1703",
+    "annee": 1703,
+    "label": "1703",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Russie",
+        "continent": "Europe",
+        "texte": "Le 27 mai, Pierre le Grand fonde Saint-Pétersbourg dans les marais de la Neva."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le 4 février, les quarante-sept rônin d’Akô, qui ont vengé leur maître, s’ouvrent le ventre sur ordre du shogunat."
+      },
+      {
+        "pays": "Empire ottoman",
+        "continent": "Asie",
+        "texte": "Le sultan Mustafa II est déposé. Son frère Ahmed III lui succède."
+      },
+      {
+        "pays": "Brésil",
+        "continent": "Amérique",
+        "texte": "L’or découvert dans les Minas Gerais attire des milliers de colons."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Aurangzeb, qui règne depuis près de cinquante ans, fait toujours la guerre dans le Deccan."
+      }
+    ]
+  },
+  {
+    "id": "an-1755",
+    "annee": 1755,
+    "label": "1755",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Portugal",
+        "continent": "Europe",
+        "texte": "Le 1er novembre, un séisme suivi d’un tsunami et d’incendies détruit Lisbonne."
+      },
+      {
+        "pays": "Birmanie",
+        "continent": "Asie",
+        "texte": "Alaungpaya, fondateur de la dynastie Konbaung, fonde Yangon."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Les armées Qing mettent fin au khanat dzoungar, en Asie centrale."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 9 juillet, sur la Monongahela, l’armée britannique du général Braddock est battue par des Français et des Amérindiens."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Rousseau publie le Discours sur l’origine et les fondements de l’inégalité parmi les hommes."
+      }
+    ]
+  },
+  {
+    "id": "an-1776",
+    "annee": 1776,
+    "label": "1776",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 4 juillet, le Congrès adopte la Déclaration d’indépendance des treize colonies."
+      },
+      {
+        "pays": "Grande-Bretagne",
+        "continent": "Europe",
+        "texte": "En mars, Adam Smith publie La Richesse des nations. Le 12 juillet, James Cook appareille de Plymouth pour son troisième voyage."
+      },
+      {
+        "pays": "Argentine",
+        "continent": "Amérique",
+        "texte": "L’Espagne crée la vice-royauté du Río de la Plata, avec Buenos Aires pour capitale."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Les lettrés de l’empereur Qianlong poursuivent la compilation du Siku quanshu, une vaste collection de livres."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le ministre Turgot est renvoyé en mai, après l’échec de ses réformes."
+      }
+    ]
+  },
+  {
+    "id": "an-1789",
+    "annee": 1789,
+    "label": "1789",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le 14 juillet, la foule parisienne prend la Bastille. Le 26 août, l’Assemblée adopte la Déclaration des droits de l’homme et du citoyen."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "George Washington prête serment à New York, le 30 avril, comme premier président du pays."
+      },
+      {
+        "pays": "Empire ottoman",
+        "continent": "Asie",
+        "texte": "Selim III monte sur le trône au printemps. Il rêve de moderniser l’armée de l’Empire."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Au sud, Tipû Sultan, souverain de Mysore, attaque le Travancore en décembre. La troisième guerre contre les Britanniques commence."
+      },
+      {
+        "pays": "Australie",
+        "continent": "Océanie",
+        "texte": "Dans la jeune colonie britannique de Sydney, une épidémie, probablement de variole, ravage les Aborigènes de la baie."
+      }
+    ]
+  },
+  {
+    "id": "an-1804",
+    "annee": 1804,
+    "label": "1804",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Haïti",
+        "continent": "Amérique",
+        "texte": "Le 1er janvier, aux Gonaïves, Dessalines proclame l’indépendance d’Haïti."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le Code civil est promulgué en mars. Napoléon est sacré empereur à Notre-Dame le 2 décembre."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "En mai, Lewis et Clark quittent les environs de Saint-Louis pour remonter le Missouri."
+      },
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "Au pays de Galles, en février, la locomotive à vapeur de Richard Trevithick tire un train chargé de fonte."
+      },
+      {
+        "pays": "Nigeria",
+        "continent": "Afrique",
+        "texte": "Dans le pays haoussa, Ousmane dan Fodio lance le djihad qui mènera à la fondation du califat de Sokoto."
+      }
+    ]
+  },
+  {
+    "id": "an-1815",
+    "annee": 1815,
+    "label": "1815",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Belgique",
+        "continent": "Europe",
+        "texte": "Le 18 juin, à Waterloo, Napoléon est battu par les armées de Wellington et de Blücher. Il ne reviendra plus."
+      },
+      {
+        "pays": "Indonésie",
+        "continent": "Asie",
+        "texte": "En avril, le volcan Tambora, sur l’île de Sumbawa, entre en éruption. Les aérosols projetés dans l’atmosphère refroidiront le climat de l’hémisphère Nord et vaudra à 1816 le surnom d’année sans été."
+      },
+      {
+        "pays": "Autriche",
+        "continent": "Europe",
+        "texte": "Les puissances européennes signent l’Acte final du congrès de Vienne, qui redessine la carte du continent après vingt ans de guerres."
+      },
+      {
+        "pays": "Brésil",
+        "continent": "Amérique",
+        "texte": "Réfugiée à Rio de Janeiro depuis 1808, la cour portugaise fait du Brésil un royaume à part entière, uni au Portugal."
+      },
+      {
+        "pays": "Jamaïque",
+        "continent": "Amérique",
+        "texte": "Depuis Kingston, Simón Bolívar écrit en septembre sa célèbre lettre où il imagine l’avenir de l’Amérique du Sud, libérée de l’Espagne."
+      }
+    ]
+  },
+  {
+    "id": "an-1821",
+    "annee": 1821,
+    "label": "1821",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "En mars, la révolte contre les Ottomans commence dans le Péloponnèse et dans les principautés danubiennes."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "Le 27 septembre, l’armée Trigarante entre à Mexico. Le pays est indépendant."
+      },
+      {
+        "pays": "Pérou",
+        "continent": "Amérique",
+        "texte": "Le 28 juillet, à Lima, San Martín proclame l’indépendance."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "La grande carte des côtes du Japon, commencée par Inô Tadataka, mort trois ans plus tôt, est achevée par ses collaborateurs."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Napoléon meurt à Sainte-Hélène, le 5 mai."
+      }
+    ]
+  },
+  {
+    "id": "an-1830",
+    "annee": 1830,
+    "label": "1830",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Les 27, 28 et 29 juillet, les Trois Glorieuses chassent Charles X. Louis-Philippe lui succède."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Rammohan Roy embarque pour l’Angleterre comme envoyé de l’empereur moghol."
+      },
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "Le 15 septembre, la ligne Liverpool–Manchester, première ligne de chemin de fer entre deux grandes villes, est inaugurée."
+      },
+      {
+        "pays": "Belgique",
+        "continent": "Europe",
+        "texte": "La révolution éclate à Bruxelles en août. L’indépendance est proclamée le 4 octobre."
+      },
+      {
+        "pays": "Colombie",
+        "continent": "Amérique",
+        "texte": "Simón Bolívar meurt près de Santa Marta, le 17 décembre."
+      }
+    ]
+  },
+  {
+    "id": "an-1848",
+    "annee": 1848,
+    "label": "1848",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "En février, la révolution renverse Louis-Philippe et proclame la Deuxième République."
+      },
+      {
+        "pays": "Hongrie",
+        "continent": "Europe",
+        "texte": "Le 15 mars, la révolution éclate à Pest."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "En janvier, on découvre de l’or à Sutter’s Mill, en Californie. En juillet, la convention de Seneca Falls réclame le droit de vote pour les femmes."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "Le traité de Guadalupe Hidalgo, signé le 2 février, met fin à la guerre avec les États-Unis. Le Mexique perd près de la moitié de son territoire."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "La seconde guerre anglo-sikhe éclate au Pendjab."
+      }
+    ]
+  },
+  {
+    "id": "an-1857",
+    "annee": 1857,
+    "label": "1857",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Le 10 mai, à Meerut, des cipayes se révoltent contre la Compagnie des Indes. La révolte gagne le nord du pays."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Flaubert publie Madame Bovary, et Baudelaire Les Fleurs du mal. Tous deux sont poursuivis en justice."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "En août, la faillite d’une compagnie d’assurance de l’Ohio déclenche une panique financière dans tout le pays."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "La seconde guerre de l’opium se poursuit. Britanniques et Français prennent Canton en décembre."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "En juin, la convention de Shimoda élargit les droits des Américains au Japon."
+      }
+    ]
+  },
+  {
+    "id": "an-1861",
+    "annee": 1861,
+    "label": "1861",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 12 avril, les Confédérés tirent sur Fort Sumter. La guerre de Sécession commence."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le 17 mars, Victor-Emmanuel II est proclamé roi d’Italie."
+      },
+      {
+        "pays": "Russie",
+        "continent": "Europe",
+        "texte": "Le 3 mars, le tsar Alexandre II abolit le servage par un manifeste."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "Après la suspension du paiement de la dette, des troupes espagnoles, anglaises et françaises débarquent à Veracruz, de décembre à janvier."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Xianfeng meurt en août. Cixi, mère du jeune héritier, prend bientôt un rôle central."
+      }
+    ]
+  },
+  {
+    "id": "an-1869",
+    "annee": 1869,
+    "label": "1869",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Le canal de Suez est inauguré en novembre. Il raccourcit de milliers de kilomètres la route entre l’Europe et l’Asie."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 10 mai, à Promontory, dans l’Utah, on enfonce le dernier crampon doré du premier chemin de fer transcontinental."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "L’empereur Meiji s’installe à Tokyo, l’ancienne Edo, où la cour fixe sa résidence. La dernière résistance des partisans du shogun s’éteint à Hakodate, en juin."
+      },
+      {
+        "pays": "Russie",
+        "continent": "Europe",
+        "texte": "À Saint-Pétersbourg, le chimiste Dmitri Mendeleïev publie un tableau qui range les éléments par masse atomique et laisse des cases vides."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Le 2 octobre naît à Porbandar, sur la côte du Gujarat, un garçon prénommé Mohandas, le futur Gandhi."
+      }
+    ]
+  },
+  {
+    "id": "an-1871",
+    "annee": 1871,
+    "label": "1871",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Du 18 mars à la fin mai, la Commune de Paris tient tête au gouvernement installé à Versailles."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Le 18 janvier, dans la galerie des Glaces de Versailles, Guillaume Ier est proclamé empereur allemand."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 8 octobre, un incendie ravage une grande partie de Chicago."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "En août, le gouvernement abolit les domaines féodaux. En décembre, la mission Iwakura part pour l’Occident."
+      },
+      {
+        "pays": "Tanzanie",
+        "continent": "Afrique",
+        "texte": "Le 10 novembre, à Ujiji, sur le lac Tanganyika, Henry Morton Stanley retrouve David Livingstone."
+      }
+    ]
+  },
+  {
+    "id": "an-1884",
+    "annee": 1884,
+    "label": "1884",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "En octobre, à Washington, la conférence internationale du Méridien choisit Greenwich comme méridien de référence."
+      },
+      {
+        "pays": "Soudan",
+        "continent": "Afrique",
+        "texte": "Le général Gordon arrive à Khartoum en février. La ville est assiégée par les troupes du Mahdi à partir de mars."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le 23 août, la flotte française détruit la flotte chinoise à Fuzhou, pendant la guerre franco-chinoise."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "La statue de la Liberté, achevée à Paris en juillet, est remise à l’ambassadeur des États-Unis."
+      },
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "Une loi de réforme étend le droit de vote à de nombreux ouvriers agricoles."
+      }
+    ]
+  },
+  {
+    "id": "an-1896",
+    "annee": 1896,
+    "label": "1896",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "En avril, Athènes accueille les premiers Jeux olympiques modernes."
+      },
+      {
+        "pays": "Éthiopie",
+        "continent": "Afrique",
+        "texte": "Le 1er mars, à Adwa, l’armée de Ménélik II bat l’armée italienne."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Début mars, Henri Becquerel découvre la radioactivité de l’uranium."
+      },
+      {
+        "pays": "Canada",
+        "continent": "Amérique",
+        "texte": "Le 16 août, on trouve de l’or sur un affluent du Klondike, bientôt rebaptisé Bonanza. La ruée vers l’or commencera l’été suivant."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Li Hongzhang, haut dignitaire des Qing, entreprend un grand voyage en Europe et en Amérique."
+      }
+    ]
+  },
+  {
+    "id": "an-1898",
+    "annee": 1898,
+    "label": "1898",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 15 février, le cuirassé Maine explose dans le port de La Havane. En avril, la guerre contre l’Espagne commence."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le 13 janvier, Zola publie « J’accuse » dans L’Aurore. En décembre, Pierre et Marie Curie annoncent la découverte du radium."
+      },
+      {
+        "pays": "Soudan",
+        "continent": "Afrique",
+        "texte": "Le 2 septembre, à Omdurman, une armée anglo-égyptienne bat celle des mahdistes."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Guangxu lance la réforme des Cent-Jours, interrompue en septembre par l’impératrice douairière Cixi."
+      },
+      {
+        "pays": "Philippines",
+        "continent": "Asie",
+        "texte": "Le 12 juin, Emilio Aguinaldo proclame l’indépendance à Kawit."
+      }
+    ]
+  },
+  {
+    "id": "an-1900",
+    "annee": 1900,
+    "label": "1900",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Les Boxers assiègent les légations étrangères de Pékin, du 20 juin à la mi-août."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "L’Exposition universelle ouvre à Paris en avril. La première ligne du métro est inaugurée en juillet."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Le 2 juillet, le premier Zeppelin s’élève au-dessus du lac de Constance."
+      },
+      {
+        "pays": "Afrique du Sud",
+        "continent": "Afrique",
+        "texte": "Le 17 mai, Mafeking est délivrée après sept mois de siège."
+      },
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "Arthur Evans commence à fouiller Cnossos, en Crète."
+      }
+    ]
+  },
+  {
+    "id": "an-1905",
+    "annee": 1905,
+    "label": "1905",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Russie",
+        "continent": "Europe",
+        "texte": "Le 22 janvier, la troupe tire sur des manifestants à Saint-Pétersbourg : c’est le Dimanche rouge, début de la révolution de 1905."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Fin mai, la flotte japonaise détruit la flotte russe à Tsushima. La paix est signée à Portsmouth en septembre."
+      },
+      {
+        "pays": "Suisse",
+        "continent": "Europe",
+        "texte": "À Berne, Albert Einstein publie ses articles sur la relativité restreinte et sur l’effet photoélectrique."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Le 16 octobre, la partition du Bengale entre en vigueur et déclenche un mouvement de boycott."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "Le 31 mars, Guillaume II débarque à Tanger et se pose en défenseur de l’indépendance du sultan."
+      }
+    ]
+  },
+  {
+    "id": "an-1911",
+    "annee": 1911,
+    "label": "1911",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le 10 octobre, l’insurrection de Wuchang déclenche la révolution qui renversera les Qing."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "Le 25 mai, Porfirio Díaz démissionne après plus de trente ans de pouvoir. Madero lui succède en novembre."
+      },
+      {
+        "pays": "Libye",
+        "continent": "Afrique",
+        "texte": "En octobre, l’Italie débarque à Tripoli, au début de la guerre italo-turque."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "En décembre, au Durbar de Delhi, George V annonce le transfert de la capitale de Calcutta à Delhi."
+      },
+      {
+        "pays": "Pérou",
+        "continent": "Amérique",
+        "texte": "Le 24 juillet, l’explorateur américain Hiram Bingham atteint le Machu Picchu, guidé par des paysans de la région."
+      }
+    ]
+  },
+  {
+    "id": "an-1912",
+    "annee": 1912,
+    "label": "1912",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "Le 15 avril, le Titanic coule dans l’Atlantique Nord."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le 1er janvier, Sun Yat-sen proclame la République. Le 12 février, l’empereur Puyi abdique."
+      },
+      {
+        "pays": "Bulgarie",
+        "continent": "Europe",
+        "texte": "En octobre, la Bulgarie, la Serbie, la Grèce et le Monténégro attaquent l’Empire ottoman : c’est la première guerre des Balkans."
+      },
+      {
+        "pays": "Afrique du Sud",
+        "continent": "Afrique",
+        "texte": "Le 8 janvier, à Bloemfontein, naît le Congrès national africain, sous le nom de South African Native National Congress."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "En novembre, Woodrow Wilson est élu président."
+      }
+    ]
+  },
+  {
+    "id": "an-1914",
+    "annee": 1914,
+    "label": "1914",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Bosnie",
+        "continent": "Europe",
+        "texte": "Le 28 juin, à Sarajevo, l’archiduc François-Ferdinand est assassiné. Un mois plus tard, l’Europe est en guerre."
+      },
+      {
+        "pays": "Panama",
+        "continent": "Amérique",
+        "texte": "Le canal de Panama ouvre à la navigation le 15 août, dix ans après le début des travaux américains."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "En janvier, Henry Ford annonce à Detroit un salaire de cinq dollars par jour pour ses ouvriers."
+      },
+      {
+        "pays": "Togo",
+        "continent": "Afrique",
+        "texte": "Les troupes britanniques et françaises envahissent la colonie allemande en août. Les Allemands capitulent le 26 août, trois semaines après le début de l’offensive."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Allié des Britanniques, le Japon déclare la guerre à l’Allemagne le 23 août et vise ses possessions du Pacifique et de Chine."
+      }
+    ]
+  }
+]

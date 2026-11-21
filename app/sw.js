@@ -1,7 +1,7 @@
-const VERSION = "jadis-v3";
+const VERSION = "jadis-v9";
 const FONT_CSS = "https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bricolage+Grotesque:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@700&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Grenze+Gotisch:wght@700;800&family=Libre+Baskerville:wght@700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&family=Marcellus&display=swap";
 const SHELL = [
-  "./", "index.html", "manifest.webmanifest", "data/articles.json",
+  "./", "index.html", "manifest.webmanifest", "data/articles.json", "data/annees.json",
   "icons/icon.svg", "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png", "icons/apple-touch-icon.png",
 ];
 const FONT_HOSTS = ["fonts.googleapis.com", "fonts.gstatic.com"];
