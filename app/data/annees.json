@@ -33,6 +33,39 @@
     ]
   },
   {
+    "id": "an-323av",
+    "annee": -323,
+    "label": "323 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Irak",
+        "continent": "Asie",
+        "texte": "Le 10 ou le 11 juin, Alexandre le Grand meurt à Babylone, à trente-deux ans."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Dans le partage de Babylone, Ptolémée reçoit l’Égypte. Il y fondera la dynastie des Lagides."
+      },
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "À Athènes et dans d’autres cités, la nouvelle de la mort d’Alexandre déclenche la guerre lamiaque contre la Macédoine."
+      },
+      {
+        "pays": "Macédoine",
+        "continent": "Europe",
+        "texte": "Antipater, qui gouverne la Macédoine et la Grèce pour Alexandre, doit faire face à cette révolte."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "À Rome, la République poursuit les guerres contre les Samnites, commencées vingt ans plus tôt."
+      }
+    ]
+  },
+  {
     "id": "an-221av",
     "annee": -221,
     "label": "221 av. J.-C.",
@@ -128,6 +161,72 @@
         "pays": "Chine",
         "continent": "Asie",
         "texte": "Sous l’empereur Yuan, qui favorise les lettrés confucéens, la dynastie Han règne sur la Chine."
+      }
+    ]
+  },
+  {
+    "id": "an-27av",
+    "annee": -27,
+    "label": "27 av. J.-C.",
+    "epoque": "Antiquité",
+    "pays": [
+      {
+        "pays": "Rome",
+        "continent": "Europe",
+        "texte": "Le 16 janvier, le Sénat donne à Octave le nom d’Auguste. Le régime que l’on appellera plus tard l’Empire commence."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Depuis la mort de Cléopâtre, trois ans plus tôt, l’Égypte est une province à part, que le prince administre comme son domaine personnel."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Cheng règne depuis Chang’an, mais le pouvoir passe peu à peu à sa mère et à ses oncles du clan Wang."
+      },
+      {
+        "pays": "Empire parthe",
+        "continent": "Asie",
+        "texte": "Phraatès IV règne sur l’empire parthe depuis une dizaine d’années."
+      },
+      {
+        "pays": "Gaule",
+        "continent": "Europe",
+        "texte": "Auguste séjourne en Gaule, où il fait organiser un recensement."
+      }
+    ]
+  },
+  {
+    "id": "an-529",
+    "annee": 529,
+    "label": "529",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Selon la tradition, Benoît de Nursie fonde le monastère du Mont-Cassin."
+      },
+      {
+        "pays": "Empire byzantin",
+        "continent": "Europe",
+        "texte": "Justinien promulgue la première version de son Code, un recueil des lois impériales."
+      },
+      {
+        "pays": "Éthiopie",
+        "continent": "Afrique",
+        "texte": "Le royaume d’Aksoum, qui a envoyé une armée au Yémen vers 525, est à son apogée."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Sous l’empereur Wu, la dynastie Liang règne sur le sud de la Chine."
+      },
+      {
+        "pays": "Perse",
+        "continent": "Asie",
+        "texte": "Le roi sassanide Kavadh Ier règne encore. Son fils Khosro Ier lui succédera en 531."
       }
     ]
   },
@@ -396,6 +495,39 @@
     ]
   },
   {
+    "id": "an-1250",
+    "annee": 1250,
+    "label": "1250",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Au printemps, les mamelouks prennent le pouvoir au Caire. Shajar al-Durr devient sultane."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le roi Louis IX, fait prisonnier en Égypte, est libéré contre rançon en mai."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Dans l’Orissa, le roi Narasimha Ier fait construire, vers cette date, le temple du Soleil de Konârak."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "À Kamakura, le régent Hôjô Tokiyori gouverne au nom du shogun."
+      },
+      {
+        "pays": "Mongolie",
+        "continent": "Asie",
+        "texte": "Depuis la mort du grand khan Güyük en 1248, l’empire mongol attend un nouveau souverain. Möngke sera élu en 1251."
+      }
+    ]
+  },
+  {
     "id": "an-1271",
     "annee": 1271,
     "label": "1271",
@@ -425,6 +557,39 @@
         "pays": "Éthiopie",
         "continent": "Afrique",
         "texte": "Un an plus tôt, Yekouno Amlak a renversé la dynastie zagwé et fondé la dynastie salomonide, qui régnera jusqu’en 1974."
+      }
+    ]
+  },
+  {
+    "id": "an-1291",
+    "annee": 1291,
+    "label": "1291",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Suisse",
+        "continent": "Europe",
+        "texte": "Selon la tradition, un pacte conclu début août unit les vallées d’Uri, de Schwytz et d’Unterwald."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Les Polo quittent la Chine par la mer, avec une princesse mongole qu’ils doivent escorter jusqu’en Perse."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Les frères Vivaldi appareillent de Gênes pour atteindre l’Inde en passant par l’Atlantique. On ne les reverra pas."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Jalal ud-Din Khalji, fondateur de la dynastie des Khalji, règne depuis un an sur le sultanat de Delhi."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Al-Ashraf Khalil, qui a succédé en novembre 1290 à son père Qalawun, règne sur l’Égypte comme sultan mamelouk."
       }
     ]
   },
@@ -462,6 +627,39 @@
     ]
   },
   {
+    "id": "an-1325",
+    "annee": 1325,
+    "label": "1325",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "Selon la tradition, les Mexicas fondent Tenochtitlan sur un îlot du lac de Texcoco."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "En juin, Ibn Battuta, âgé de vingt et un ans, quitte Tanger pour le pèlerinage de La Mecque. Il voyagera pendant près de trente ans."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Muhammad ibn Tughluq succède à son père Ghiyath ud-Din sur le trône du sultanat de Delhi."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Sous l’empereur Yesün Temür, les Yuan gouvernent la Chine depuis Dadu, la future Pékin."
+      },
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "La reine Isabelle passe en France pour négocier avec son frère Charles IV. Elle ne reviendra qu’en 1326, avec une armée."
+      }
+    ]
+  },
+  {
     "id": "an-1348",
     "annee": 1348,
     "label": "1348",
@@ -491,6 +689,72 @@
         "pays": "Japon",
         "continent": "Asie",
         "texte": "À Shijônawate, l’armée du shogunat écrase celle de la cour du Sud, dans la guerre qui oppose deux cours impériales rivales."
+      }
+    ]
+  },
+  {
+    "id": "an-1368",
+    "annee": 1368,
+    "label": "1368",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le 23 janvier, Zhu Yuanzhang se proclame empereur à Nankin : c’est le début de la dynastie Ming."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Ashikaga Yoshimitsu, âgé de dix ans, devient le troisième shogun de la dynastie Ashikaga."
+      },
+      {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "texte": "Vers 1368 ou 1369, le voyageur Ibn Battuta meurt au Maroc, après avoir parcouru une grande partie du monde connu."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Charles V fait installer vers 1368, dans une tour du Louvre, sa bibliothèque, l’une des premières de France."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Bukka Raya règne sur l’empire de Vijayanagara, dans le sud de l’Inde."
+      }
+    ]
+  },
+  {
+    "id": "an-1405",
+    "annee": 1405,
+    "label": "1405",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "En juillet, Zheng He quitte Nankin pour sa première expédition vers l’océan Indien."
+      },
+      {
+        "pays": "Kazakhstan",
+        "continent": "Asie",
+        "texte": "Tamerlan meurt en février, près d’Otrar, alors qu’il part attaquer la Chine."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Christine de Pizan achève La Cité des dames."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "À Azcapotzalco, le souverain tépanèque Tezozomoc domine la vallée de Mexico."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "L’ancien shogun Yoshimitsu, retiré mais encore puissant, développe le commerce avec la Chine des Ming."
       }
     ]
   },
@@ -561,6 +825,39 @@
     ]
   },
   {
+    "id": "an-1455",
+    "annee": 1455,
+    "label": "1455",
+    "epoque": "Moyen Âge",
+    "pays": [
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "À Mayence, Gutenberg met sous presse sa Bible à quarante-deux lignes."
+      },
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Le 22 mai, la première bataille de Saint-Albans ouvre la guerre des Deux-Roses."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le pape Nicolas V meurt en mars. Il avait fondé la bibliothèque vaticane."
+      },
+      {
+        "pays": "Gambie",
+        "continent": "Afrique",
+        "texte": "Le Vénitien Alvise Cadamosto, au service des Portugais, remonte la côte d’Afrique de l’Ouest jusqu’à l’embouchure du fleuve Gambie."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Jingtai règne depuis six ans sur les Ming."
+      }
+    ]
+  },
+  {
     "id": "an-1494",
     "annee": 1494,
     "label": "1494",
@@ -623,6 +920,72 @@
         "pays": "Angleterre",
         "continent": "Europe",
         "texte": "Jean Cabot appareille de Bristol pour un second voyage vers l’ouest. On perd sa trace."
+      }
+    ]
+  },
+  {
+    "id": "an-1506",
+    "annee": 1506,
+    "label": "1506",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "Le 20 mai, Christophe Colomb meurt à Valladolid."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "En janvier, on découvre à Rome le groupe du Laocoon. Le 18 avril, le pape Jules II pose la première pierre de la nouvelle basilique Saint-Pierre."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le très jeune empereur Zhengde, monté sur le trône l’année précédente, règne sur les Ming."
+      },
+      {
+        "pays": "Congo",
+        "continent": "Afrique",
+        "texte": "Afonso Ier, converti au christianisme, devient roi du Kongo."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Sikandar Lodi, sultan de Delhi, a fait d’Agra sa seconde capitale deux ans plus tôt."
+      }
+    ]
+  },
+  {
+    "id": "an-1513",
+    "annee": 1513,
+    "label": "1513",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Panama",
+        "continent": "Amérique",
+        "texte": "Fin septembre, Vasco Núñez de Balboa aperçoit l’océan Pacifique, du haut d’une colline de l’isthme."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "À Florence, Machiavel rédige Le Prince."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Début avril, Juan Ponce de León aborde la côte de la Floride."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Krishnadevaraya règne sur l’empire de Vijayanagara, dont il fait un centre des arts et des lettres."
+      },
+      {
+        "pays": "Écosse",
+        "continent": "Europe",
+        "texte": "Le 9 septembre, à Flodden, l’armée anglaise bat l’armée écossaise. Le roi Jacques IV est tué."
       }
     ]
   },
@@ -693,6 +1056,39 @@
     ]
   },
   {
+    "id": "an-1522",
+    "annee": 1522,
+    "label": "1522",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "Le 6 septembre, la Victoria, commandée par Juan Sebastián Elcano, revient à Sanlúcar : c’est le premier tour du monde, commencé sous les ordres de Magellan."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "En septembre, Martin Luther publie sa traduction allemande du Nouveau Testament."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Jiajing règne depuis un an."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "Charles Quint nomme Hernán Cortés gouverneur de la Nouvelle-Espagne."
+      },
+      {
+        "pays": "Songhaï",
+        "continent": "Afrique",
+        "texte": "Askia Mohammed règne sur l’empire songhaï depuis une trentaine d’années."
+      }
+    ]
+  },
+  {
     "id": "an-1543",
     "annee": 1543,
     "label": "1543",
@@ -726,6 +1122,39 @@
     ]
   },
   {
+    "id": "an-1556",
+    "annee": 1556,
+    "label": "1556",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "En février, Akbar, âgé de treize ans, devient empereur moghol."
+      },
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "En janvier, Charles Quint abdique en faveur de son fils Philippe II."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le 23 janvier, un séisme dévaste la province du Shaanxi. C’est l’une des catastrophes naturelles les plus meurtrières connues."
+      },
+      {
+        "pays": "Russie",
+        "continent": "Europe",
+        "texte": "À Moscou, le chantier de la cathédrale Saint-Basile, commencé en 1555, se poursuit."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "À Pachuca, Bartolomé de Medina met au point, vers 1555, un procédé d’amalgame au mercure pour extraire l’argent."
+      }
+    ]
+  },
+  {
     "id": "an-1571",
     "annee": 1571,
     "label": "1571",
@@ -755,6 +1184,39 @@
         "pays": "Russie",
         "continent": "Europe",
         "texte": "En mai, les Tatars de Crimée incendient Moscou."
+      }
+    ]
+  },
+  {
+    "id": "an-1582",
+    "annee": 1582,
+    "label": "1582",
+    "epoque": "Renaissance",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le pape Grégoire XIII instaure le calendrier qui porte son nom. Dans les premiers pays qui l’adoptent, le 4 octobre est suivi du 15."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "En février, quatre jeunes Japonais s’embarquent à Nagasaki pour rencontrer le pape. Le 21 juin, Oda Nobunaga meurt à Honnô-ji."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le jésuite Matteo Ricci arrive à Macao, d’où il gagnera la Chine."
+      },
+      {
+        "pays": "Pérou",
+        "continent": "Amérique",
+        "texte": "À Lima s’ouvre le troisième concile provincial, qui décide notamment de faire imprimer un catéchisme en quechua et en aymara."
+      },
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "Richard Hakluyt publie Divers Voyages, un recueil de récits d’explorations."
       }
     ]
   },
@@ -858,6 +1320,105 @@
     ]
   },
   {
+    "id": "an-1609",
+    "annee": 1609,
+    "label": "1609",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Galilée construit une lunette et, à l’automne, la tourne vers la Lune."
+      },
+      {
+        "pays": "Tchéquie",
+        "continent": "Europe",
+        "texte": "À Prague, Kepler publie l’Astronomia nova, qui contient ses deux premières lois du mouvement des planètes."
+      },
+      {
+        "pays": "Pays-Bas",
+        "continent": "Europe",
+        "texte": "En avril, la trêve de Douze Ans suspend la guerre entre les Provinces-Unies et l’Espagne."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Les Hollandais ouvrent un comptoir à Hirado, dans le sud-ouest du pays."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "En septembre, Henry Hudson, au service des Hollandais, remonte le fleuve qui portera son nom."
+      }
+    ]
+  },
+  {
+    "id": "an-1632",
+    "annee": 1632,
+    "label": "1632",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "En février, Galilée publie à Florence le Dialogue sur les deux grands systèmes du monde."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "L’empereur Shah Jahan fait commencer à Agra le Taj Mahal, pour son épouse Mumtaz Mahal, morte l’année précédente."
+      },
+      {
+        "pays": "Pays-Bas",
+        "continent": "Europe",
+        "texte": "Rembrandt peint La Leçon d’anatomie du docteur Tulp."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le roi Charles Ier accorde à lord Baltimore la charte du Maryland."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le shogun retiré Tokugawa Hidetada meurt en janvier. Son fils Iemitsu gouverne désormais seul."
+      }
+    ]
+  },
+  {
+    "id": "an-1642",
+    "annee": 1642,
+    "label": "1642",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Galilée meurt à Arcetri, près de Florence, le 8 janvier."
+      },
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "La guerre civile commence en août. Le 25 décembre, selon le calendrier julien alors en usage, naît Isaac Newton."
+      },
+      {
+        "pays": "Canada",
+        "continent": "Amérique",
+        "texte": "Le 17 mai, Paul de Chomedey de Maisonneuve fonde Ville-Marie, la future Montréal."
+      },
+      {
+        "pays": "Tasmanie",
+        "continent": "Océanie",
+        "texte": "Le 24 novembre, le navigateur néerlandais Abel Tasman aperçoit la Tasmanie. En décembre, il atteint la Nouvelle-Zélande."
+      },
+      {
+        "pays": "Pays-Bas",
+        "continent": "Europe",
+        "texte": "Rembrandt achève La Ronde de nuit."
+      }
+    ]
+  },
+  {
     "id": "an-1648",
     "annee": 1648,
     "label": "1648",
@@ -957,6 +1518,39 @@
     ]
   },
   {
+    "id": "an-1687",
+    "annee": 1687,
+    "label": "1687",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "texte": "En juillet, Isaac Newton publie les Principia."
+      },
+      {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "texte": "Le 26 septembre, un obus vénitien fait exploser les poudres entreposées dans le Parthénon."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le shogun Tsunayoshi publie un édit qui protège les animaux, notamment les chiens."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 19 mars, des compagnons de Cavelier de La Salle l’assassinent au Texas."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "L’empereur Kangxi, qui règne depuis vingt-six ans, s’intéresse aux sciences européennes qu’enseignent les jésuites à sa cour."
+      }
+    ]
+  },
+  {
     "id": "an-1703",
     "annee": 1703,
     "label": "1703",
@@ -986,6 +1580,39 @@
         "pays": "Inde",
         "continent": "Asie",
         "texte": "Aurangzeb, qui règne depuis près de cinquante ans, fait toujours la guerre dans le Deccan."
+      }
+    ]
+  },
+  {
+    "id": "an-1735",
+    "annee": 1735,
+    "label": "1735",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Pays-Bas",
+        "continent": "Europe",
+        "texte": "À Leyde, le Suédois Carl Linné publie la première édition du Systema naturae."
+      },
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "John Harrison achève sa première horloge de marine, la H1, conçue pour mesurer la longitude en mer."
+      },
+      {
+        "pays": "Pérou",
+        "continent": "Amérique",
+        "texte": "Une mission de l’Académie des sciences de Paris part pour la région de Quito, dans la vice-royauté du Pérou, mesurer un degré de méridien près de l’équateur."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "En octobre, Qianlong devient empereur."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Aoki Konyô publie un traité sur la culture de la patate douce, que le shogun Yoshimune veut répandre contre les famines."
       }
     ]
   },
@@ -1023,6 +1650,39 @@
     ]
   },
   {
+    "id": "an-1769",
+    "annee": 1769,
+    "label": "1769",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "En janvier, James Watt dépose son brevet pour un condenseur séparé, qui rendra la machine à vapeur bien plus efficace."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Napoléon Bonaparte naît à Ajaccio, en Corse, le 15 août."
+      },
+      {
+        "pays": "Tahiti",
+        "continent": "Océanie",
+        "texte": "Le 3 juin, James Cook observe depuis Tahiti le passage de Vénus devant le Soleil."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 16 juillet, le franciscain Junípero Serra fonde la mission de San Diego, en Californie."
+      },
+      {
+        "pays": "Russie",
+        "continent": "Europe",
+        "texte": "Catherine II fait émettre les premiers billets de banque russes, les assignats."
+      }
+    ]
+  },
+  {
     "id": "an-1776",
     "annee": 1776,
     "label": "1776",
@@ -1056,6 +1716,39 @@
     ]
   },
   {
+    "id": "an-1783",
+    "annee": 1783,
+    "label": "1783",
+    "epoque": "Révolutions",
+    "pays": [
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "En juin, les frères Montgolfier font voler leur ballon à Annonay. Le 21 novembre, deux hommes s’élèvent au-dessus de Paris à bord d’un ballon libre."
+      },
+      {
+        "pays": "Islande",
+        "continent": "Europe",
+        "texte": "À partir de juin, l’éruption du Laki dure des mois. Sa brume gagne une grande partie de l’Europe."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "L’éruption de l’Asama, de mai à août, aggrave les mauvaises récoltes de ces années-là."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 3 septembre, le traité de Paris reconnaît l’indépendance des États-Unis."
+      },
+      {
+        "pays": "Russie",
+        "continent": "Europe",
+        "texte": "L’Académie russe, consacrée à la langue, est fondée à Saint-Pétersbourg, sous la direction d’Ekaterina Dachkova."
+      }
+    ]
+  },
+  {
     "id": "an-1789",
     "annee": 1789,
     "label": "1789",
@@ -1085,6 +1778,39 @@
         "pays": "Australie",
         "continent": "Océanie",
         "texte": "Dans la jeune colonie britannique de Sydney, une épidémie, probablement de variole, ravage les Aborigènes de la baie."
+      }
+    ]
+  },
+  {
+    "id": "an-1801",
+    "annee": 1801,
+    "label": "1801",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le 1er janvier, l’astronome Giuseppe Piazzi découvre à Palerme le premier astéroïde, Cérès."
+      },
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "Le 1er janvier, l’Acte d’Union fait naître le Royaume-Uni de Grande-Bretagne et d’Irlande."
+      },
+      {
+        "pays": "Haïti",
+        "continent": "Amérique",
+        "texte": "En juillet, Toussaint Louverture promulgue une constitution pour Saint-Domingue."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 4 mars, Thomas Jefferson prête serment comme troisième président."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le grand lettré Motoori Norinaga meurt le 5 novembre."
       }
     ]
   },
@@ -1188,6 +1914,39 @@
     ]
   },
   {
+    "id": "an-1825",
+    "annee": 1825,
+    "label": "1825",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "Le 27 septembre, la ligne Stockton–Darlington ouvre : c’est la première à transporter des voyageurs avec des locomotives à vapeur."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 26 octobre, le canal Érié est inauguré."
+      },
+      {
+        "pays": "Bolivie",
+        "continent": "Amérique",
+        "texte": "Le 6 août, l’assemblée de Chuquisaca proclame l’indépendance de la Bolivie."
+      },
+      {
+        "pays": "Brésil",
+        "continent": "Amérique",
+        "texte": "Le Portugal reconnaît l’indépendance du Brésil, proclamée en 1822."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le shogunat ordonne de repousser à coups de canon les navires étrangers qui approchent des côtes."
+      }
+    ]
+  },
+  {
     "id": "an-1830",
     "annee": 1830,
     "label": "1830",
@@ -1217,6 +1976,72 @@
         "pays": "Colombie",
         "continent": "Amérique",
         "texte": "Simón Bolívar meurt près de Santa Marta, le 17 décembre."
+      }
+    ]
+  },
+  {
+    "id": "an-1837",
+    "annee": 1837,
+    "label": "1837",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "Le 20 juin, Victoria, âgée de dix-huit ans, devient reine."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "En mai, une panique financière frappe le pays."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Au printemps, à Osaka, l’ancien fonctionnaire Ôshio Heihachirô se soulève pour dénoncer la famine et la corruption."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Le persan cesse d’être la langue officielle des tribunaux de la Compagnie des Indes orientales. L’anglais et les langues locales le remplacent."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Le roi de Hanovre abolit la constitution. Sept professeurs de Göttingen, dont les frères Grimm, protestent et perdent leur poste."
+      }
+    ]
+  },
+  {
+    "id": "an-1840",
+    "annee": 1840,
+    "label": "1840",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "En mai, le Penny Black, premier timbre-poste adhésif du monde, entre en circulation."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le 15 décembre, les cendres de Napoléon, ramenées de Sainte-Hélène, sont accueillies à Paris."
+      },
+      {
+        "pays": "Canada",
+        "continent": "Amérique",
+        "texte": "Londres vote l’Acte d’Union, qui réunira le Haut-Canada et le Bas-Canada en une seule province."
+      },
+      {
+        "pays": "Prusse",
+        "continent": "Europe",
+        "texte": "En juin, Frédéric-Guillaume IV monte sur le trône."
+      },
+      {
+        "pays": "Tanzanie",
+        "continent": "Afrique",
+        "texte": "Le sultan Saïd d’Oman fait de Zanzibar sa résidence principale."
       }
     ]
   },
@@ -1254,6 +2079,39 @@
     ]
   },
   {
+    "id": "an-1851",
+    "annee": 1851,
+    "label": "1851",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "Le 1er mai, la reine Victoria ouvre la Grande Exposition universelle, dans le Crystal Palace, à Hyde Park."
+      },
+      {
+        "pays": "Australie",
+        "continent": "Océanie",
+        "texte": "En février, la découverte d’or près de Bathurst, en Nouvelle-Galles du Sud, déclenche la ruée vers l’or australienne."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "À la fin de l’année, Herman Melville publie Moby Dick, qui connaît peu de succès."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le 2 décembre, Louis-Napoléon Bonaparte dissout l’Assemblée par un coup d’État."
+      },
+      {
+        "pays": "Zambie",
+        "continent": "Afrique",
+        "texte": "En août, David Livingstone atteint le Zambèze."
+      }
+    ]
+  },
+  {
     "id": "an-1857",
     "annee": 1857,
     "label": "1857",
@@ -1287,6 +2145,39 @@
     ]
   },
   {
+    "id": "an-1859",
+    "annee": 1859,
+    "label": "1859",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "Le 24 novembre, Charles Darwin publie De l’origine des espèces."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 27 août, Edwin Drake fait jaillir du pétrole à Titusville, en Pennsylvanie."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "Le 25 avril, Ferdinand de Lesseps donne le premier coup de pioche du canal de Suez, à Port-Saïd."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "En juillet, le port de Yokohama ouvre au commerce étranger."
+      },
+      {
+        "pays": "Canada",
+        "continent": "Amérique",
+        "texte": "Le 30 juin, l’équilibriste Blondin traverse les chutes du Niagara sur un câble."
+      }
+    ]
+  },
+  {
     "id": "an-1861",
     "annee": 1861,
     "label": "1861",
@@ -1316,6 +2207,72 @@
         "pays": "Chine",
         "continent": "Asie",
         "texte": "L’empereur Xianfeng meurt en août. Cixi, mère du jeune héritier, prend bientôt un rôle central."
+      }
+    ]
+  },
+  {
+    "id": "an-1865",
+    "annee": 1865,
+    "label": "1865",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Tchéquie",
+        "continent": "Europe",
+        "texte": "À Brno, le moine Gregor Mendel présente ses expériences sur l’hybridation des pois."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 14 avril, Abraham Lincoln est blessé mortellement, et meurt le lendemain. En décembre, le treizième amendement abolit l’esclavage."
+      },
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "En novembre, Lewis Carroll publie Alice au pays des merveilles."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Li Hongzhang fonde l’arsenal de Jiangnan, à Shanghai."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Claude Bernard publie l’Introduction à l’étude de la médecine expérimentale."
+      }
+    ]
+  },
+  {
+    "id": "an-1867",
+    "annee": 1867,
+    "label": "1867",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Canada",
+        "continent": "Amérique",
+        "texte": "Le 1er juillet, la Confédération canadienne naît de l’union de quatre provinces."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "En mars, les États-Unis achètent l’Alaska à la Russie."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Le 14 septembre paraît à Hambourg le premier tome du Capital, de Karl Marx."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "En novembre, le shogun Tokugawa Yoshinobu remet le pouvoir à l’empereur."
+      },
+      {
+        "pays": "Autriche",
+        "continent": "Europe",
+        "texte": "Le compromis de février crée l’Autriche-Hongrie, dotée de deux gouvernements."
       }
     ]
   },
@@ -1386,6 +2343,72 @@
     ]
   },
   {
+    "id": "an-1873",
+    "annee": 1873,
+    "label": "1873",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Autriche",
+        "continent": "Europe",
+        "texte": "Le 1er mai, Vienne ouvre une exposition universelle."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "En septembre, la faillite de la banque Jay Cooke and Company précipite une grande crise financière."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le 1er janvier, le Japon adopte le calendrier grégorien."
+      },
+      {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "texte": "Le 11 février, les Cortès proclament la première République espagnole."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "Le jeune empereur Tongzhi prend le pouvoir en main, après la régence de Cixi et de Ci’an."
+      }
+    ]
+  },
+  {
+    "id": "an-1876",
+    "annee": 1876,
+    "label": "1876",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "En mars, Alexander Graham Bell obtient le brevet du téléphone."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "En août, le premier festival de Bayreuth, consacré à Wagner, ouvre avec L’Anneau du Nibelung."
+      },
+      {
+        "pays": "Corée",
+        "continent": "Asie",
+        "texte": "En février, le traité de Ganghwa ouvre trois ports coréens au commerce avec le Japon."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "En juin, la première voie ferrée chinoise, entre Shanghai et Wusong, ouvre. Elle sera démontée l’année suivante."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "En novembre, Porfirio Díaz prend le pouvoir."
+      }
+    ]
+  },
+  {
     "id": "an-1884",
     "annee": 1884,
     "label": "1884",
@@ -1415,6 +2438,138 @@
         "pays": "Royaume-Uni",
         "continent": "Europe",
         "texte": "Une loi de réforme étend le droit de vote à de nombreux ouvriers agricoles."
+      }
+    ]
+  },
+  {
+    "id": "an-1886",
+    "annee": 1886,
+    "label": "1886",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 28 octobre, la statue de la Liberté est inaugurée à New York."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Le 29 janvier, Carl Benz dépose le brevet de sa voiture à moteur."
+      },
+      {
+        "pays": "Afrique du Sud",
+        "continent": "Afrique",
+        "texte": "En septembre, le gouvernement du Transvaal proclame les gisements d’or du Witwatersrand. Johannesburg naît."
+      },
+      {
+        "pays": "Canada",
+        "continent": "Amérique",
+        "texte": "En juin, le premier train de voyageurs transcontinental canadien quitte Montréal pour la côte du Pacifique."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "L’université impériale de Tokyo est créée."
+      }
+    ]
+  },
+  {
+    "id": "an-1888",
+    "annee": 1888,
+    "label": "1888",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Brésil",
+        "continent": "Amérique",
+        "texte": "Le 13 mai, la Loi d’or abolit l’esclavage."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "George Eastman dépose la marque Kodak et lance son premier appareil photo à pellicule."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Vincent van Gogh arrive à Arles en février."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le 15 juillet, l’éruption du Bandai, dans le nord du pays, provoque un glissement de terrain de grande ampleur."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "C’est l’année des trois empereurs : Guillaume Ier meurt en mars, Frédéric III en juin, et Guillaume II prend le trône."
+      }
+    ]
+  },
+  {
+    "id": "an-1889",
+    "annee": 1889,
+    "label": "1889",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le 31 mars, la tour Eiffel est achevée, pour l’Exposition universelle."
+      },
+      {
+        "pays": "Japon",
+        "continent": "Asie",
+        "texte": "Le 11 février, l’empereur Meiji promulgue la constitution."
+      },
+      {
+        "pays": "Brésil",
+        "continent": "Amérique",
+        "texte": "Le 15 novembre, un coup d’État militaire proclame la République."
+      },
+      {
+        "pays": "Éthiopie",
+        "continent": "Afrique",
+        "texte": "En mars, Ménélik II devient négus après la mort de Yohannès IV."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Bismarck fait voter une loi d’assurance invalidité et vieillesse."
+      }
+    ]
+  },
+  {
+    "id": "an-1893",
+    "annee": 1893,
+    "label": "1893",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Nouvelle-Zélande",
+        "continent": "Océanie",
+        "texte": "Le 19 septembre, une loi donne le droit de vote aux femmes. Le pays est le premier à l’accorder à l’échelle nationale."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "En mai, l’Exposition colombienne de Chicago ouvre. On y présente la première grande roue."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Rudolf Diesel obtient le brevet de son moteur."
+      },
+      {
+        "pays": "Afrique du Sud",
+        "continent": "Afrique",
+        "texte": "En mai, Mohandas Gandhi, jeune avocat, arrive à Durban."
+      },
+      {
+        "pays": "Norvège",
+        "continent": "Europe",
+        "texte": "En juin, Fridtjof Nansen part à bord du Fram pour dériver avec la banquise vers le pôle."
       }
     ]
   },
@@ -1518,6 +2673,72 @@
     ]
   },
   {
+    "id": "an-1901",
+    "annee": 1901,
+    "label": "1901",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Australie",
+        "continent": "Océanie",
+        "texte": "Le 1er janvier, six colonies forment le Commonwealth d’Australie."
+      },
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "La reine Victoria meurt le 22 janvier, après soixante-trois ans de règne."
+      },
+      {
+        "pays": "Suède",
+        "continent": "Europe",
+        "texte": "Le 10 décembre, on remet à Stockholm les premiers prix Nobel."
+      },
+      {
+        "pays": "Terre-Neuve",
+        "continent": "Amérique",
+        "texte": "Le 12 décembre, Marconi affirme avoir reçu à Signal Hill le premier signal radio venu de l’autre côté de l’Atlantique."
+      },
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 6 septembre, le président McKinley est blessé par un anarchiste. Il meurt le 14, et Theodore Roosevelt lui succède."
+      }
+    ]
+  },
+  {
+    "id": "an-1903",
+    "annee": 1903,
+    "label": "1903",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 17 décembre, les frères Wright effectuent à Kitty Hawk les premiers vols à moteur."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le 1er juillet, le premier Tour de France part de Montgeron. Le prix Nobel de physique va à Henri Becquerel et à Pierre et Marie Curie."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Le 16 décembre, l’hôtel Taj Mahal Palace ouvre à Bombay."
+      },
+      {
+        "pays": "Panama",
+        "continent": "Amérique",
+        "texte": "Le 3 novembre, le Panama proclame son indépendance de la Colombie."
+      },
+      {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "texte": "Oskar von Miller fonde à Munich le Deutsches Museum, consacré aux sciences et aux techniques."
+      }
+    ]
+  },
+  {
     "id": "an-1905",
     "annee": 1905,
     "label": "1905",
@@ -1547,6 +2768,105 @@
         "pays": "Maroc",
         "continent": "Afrique",
         "texte": "Le 31 mars, Guillaume II débarque à Tanger et se pose en défenseur de l’indépendance du sultan."
+      }
+    ]
+  },
+  {
+    "id": "an-1906",
+    "annee": 1906,
+    "label": "1906",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "Le 18 avril, un séisme et les incendies qui suivent détruisent une grande partie de San Francisco."
+      },
+      {
+        "pays": "France",
+        "continent": "Europe",
+        "texte": "Le 12 juillet, la Cour de cassation innocente Alfred Dreyfus."
+      },
+      {
+        "pays": "Suisse",
+        "continent": "Europe",
+        "texte": "Le 19 mai, le tunnel du Simplon, le plus long du monde, est inauguré entre la Suisse et l’Italie."
+      },
+      {
+        "pays": "Finlande",
+        "continent": "Europe",
+        "texte": "Les Finlandaises obtiennent le droit de vote et d’éligibilité, les premières en Europe."
+      },
+      {
+        "pays": "Perse",
+        "continent": "Asie",
+        "texte": "Le 30 décembre, le chah signe la première constitution du pays."
+      }
+    ]
+  },
+  {
+    "id": "an-1908",
+    "annee": 1908,
+    "label": "1908",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "États-Unis",
+        "continent": "Amérique",
+        "texte": "En octobre, Ford lance la Model T."
+      },
+      {
+        "pays": "Russie",
+        "continent": "Europe",
+        "texte": "Le 30 juin, une explosion au-dessus de la Toungouska, en Sibérie, couche des dizaines de millions d’arbres."
+      },
+      {
+        "pays": "Italie",
+        "continent": "Europe",
+        "texte": "Le 28 décembre, un séisme et un raz-de-marée frappent Messine et Reggio de Calabre."
+      },
+      {
+        "pays": "Empire ottoman",
+        "continent": "Asie",
+        "texte": "En juillet, la révolution des Jeunes-Turcs rétablit la constitution de 1876."
+      },
+      {
+        "pays": "Égypte",
+        "continent": "Afrique",
+        "texte": "En décembre, l’Université égyptienne ouvre au Caire."
+      }
+    ]
+  },
+  {
+    "id": "an-1910",
+    "annee": 1910,
+    "label": "1910",
+    "epoque": "Ère industrielle",
+    "pays": [
+      {
+        "pays": "Portugal",
+        "continent": "Europe",
+        "texte": "Le 5 octobre, la monarchie tombe et la République est proclamée."
+      },
+      {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "texte": "Le 20 novembre, la révolution mexicaine commence, à l’appel de Francisco Madero."
+      },
+      {
+        "pays": "Royaume-Uni",
+        "continent": "Europe",
+        "texte": "Le roi Édouard VII meurt le 6 mai."
+      },
+      {
+        "pays": "Chine",
+        "continent": "Asie",
+        "texte": "En octobre, la première assemblée consultative nationale se réunit à Pékin."
+      },
+      {
+        "pays": "Inde",
+        "continent": "Asie",
+        "texte": "Rabindranath Tagore publie en bengali le recueil de poèmes Gitanjali."
       }
     ]
   },
