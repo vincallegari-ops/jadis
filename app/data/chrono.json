@@ -1881,6 +1881,1326 @@
      "note": "La France perd presque tout en Inde"
     }
    ]
+  },
+  {
+   "id": "athenes-democratie",
+   "theme": "Athènes, de Clisthène à Philippe",
+   "sous": "Démocratie, guerre et défaite.",
+   "epoque": "Antiquité",
+   "cartes": [
+    {
+     "libelle": "Réformes de Clisthène",
+     "annee": -508,
+     "note": "Il réorganise la cité en dix tribus"
+    },
+    {
+     "libelle": "Bataille de Salamine",
+     "annee": -480,
+     "note": "Victoire navale sur la flotte perse"
+    },
+    {
+     "libelle": "Mort de Périclès",
+     "annee": -429,
+     "note": "Emporté par la peste d'Athènes"
+    },
+    {
+     "libelle": "Athènes capitule",
+     "annee": -404,
+     "note": "Fin de la guerre du Péloponnèse"
+    },
+    {
+     "libelle": "Bataille de Chéronée",
+     "annee": -338,
+     "note": "Philippe II bat Athènes et Thèbes"
+    }
+   ]
+  },
+  {
+   "id": "judee-rome",
+   "theme": "La Judée sous Rome",
+   "sous": "De Pompée à Bar Kokhba.",
+   "epoque": "Antiquité",
+   "cartes": [
+    {
+     "libelle": "Pompée à Jérusalem",
+     "annee": -63,
+     "note": "Il prend la ville et le Temple"
+    },
+    {
+     "libelle": "Hérode prend Jérusalem",
+     "annee": -37,
+     "note": "Après trois ans de guerre"
+    },
+    {
+     "libelle": "La Judée province romaine",
+     "annee": 6,
+     "note": "Rome annexe le territoire"
+    },
+    {
+     "libelle": "Destruction du Temple",
+     "annee": 70,
+     "note": "Titus prend Jérusalem"
+    },
+    {
+     "libelle": "Fin de la révolte de Bar Kokhba",
+     "annee": 135,
+     "note": "Rome écrase le soulèvement juif"
+    }
+   ]
+  },
+  {
+   "id": "han-chine",
+   "theme": "La Chine des Han",
+   "sous": "Un empire se construit.",
+   "epoque": "Antiquité",
+   "cartes": [
+    {
+     "libelle": "Fondation des Han",
+     "annee": -202,
+     "note": "Liu Bang, vainqueur de Xiang Yu, prend le titre impérial"
+    },
+    {
+     "libelle": "Han Wudi empereur",
+     "annee": -141,
+     "note": "Un règne de 54 ans"
+    },
+    {
+     "libelle": "Protectorat des régions d'Occident",
+     "annee": -60,
+     "note": "Zheng Ji, premier protecteur général, vers 60 av. J.-C."
+    },
+    {
+     "libelle": "Wang Mang usurpe le trône",
+     "annee": 9,
+     "note": "Interruption de la dynastie Han"
+    },
+    {
+     "libelle": "Cai Lun et le papier",
+     "annee": 105,
+     "note": "Présentation à la cour, selon la tradition"
+    }
+   ]
+  },
+  {
+   "id": "chute-empire",
+   "theme": "La chute de l'Empire romain",
+   "sous": "Goths, Huns et dernier empereur.",
+   "epoque": "Antiquité",
+   "cartes": [
+    {
+     "libelle": "Édit de Milan",
+     "annee": 313,
+     "note": "Constantin et Licinius : tolérance religieuse"
+    },
+    {
+     "libelle": "Bataille d'Andrinople",
+     "annee": 378,
+     "note": "Les Goths battent l'empereur Valens"
+    },
+    {
+     "libelle": "Sac de Rome par Alaric",
+     "annee": 410,
+     "note": "Les Wisigoths prennent la ville"
+    },
+    {
+     "libelle": "Champs catalauniques",
+     "annee": 451,
+     "note": "Aétius et les Wisigoths arrêtent Attila"
+    },
+    {
+     "libelle": "Chute de Romulus Augustule",
+     "annee": 476,
+     "note": "Odoacre le dépose"
+    }
+   ]
+  },
+  {
+   "id": "rome-guerres-civiles",
+   "theme": "Rome en guerres civiles",
+   "sous": "Des Gracques à Auguste.",
+   "epoque": "Antiquité",
+   "cartes": [
+    {
+     "libelle": "Mort de Tiberius Gracchus",
+     "annee": -133,
+     "note": "Tué lors d'une émeute au Capitole"
+    },
+    {
+     "libelle": "Premier consulat de Marius",
+     "annee": -107,
+     "note": "Un homme nouveau à la tête de Rome"
+    },
+    {
+     "libelle": "Victoire de Sylla",
+     "annee": -82,
+     "note": "Il l'emporte devant les portes de Rome"
+    },
+    {
+     "libelle": "Premier triumvirat",
+     "annee": -60,
+     "note": "Alliance secrète, révélée en 59 av. J.-C."
+    },
+    {
+     "libelle": "Octave devient Auguste",
+     "annee": -27,
+     "note": "Le Sénat lui décerne ce titre"
+    }
+   ]
+  },
+  {
+   "id": "afrique-ouest-medievale",
+   "theme": "L'Afrique de l'Ouest médiévale",
+   "sous": "Or, savants et empires.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Mansa Moussa à La Mecque",
+     "annee": 1324,
+     "note": "Pèlerinage fastueux de l'empereur du Mali"
+    },
+    {
+     "libelle": "Ibn Battuta au Mali",
+     "annee": 1352,
+     "note": "Le voyageur marocain visite l'empire"
+    },
+    {
+     "libelle": "L'Atlas catalan",
+     "annee": 1375,
+     "note": "Mansa Moussa y figure tenant une pépite d'or ou un disque d'or"
+    },
+    {
+     "libelle": "Sonni Ali prend Tombouctou",
+     "annee": 1468,
+     "note": "Bâtisseur de l'empire songhaï"
+    },
+    {
+     "libelle": "Askia Muhammad au pouvoir",
+     "annee": 1493,
+     "note": "Il renverse les Sonni"
+    }
+   ]
+  },
+  {
+   "id": "sultanat-delhi",
+   "theme": "Le sultanat de Delhi",
+   "sous": "Des sultans aux Lodi.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Naissance du sultanat de Delhi",
+     "annee": 1206,
+     "note": "Qutb al-Din Aibak, premier sultan"
+    },
+    {
+     "libelle": "Alauddin Khalji sultan",
+     "annee": 1296,
+     "note": "Il étend le sultanat vers le sud"
+    },
+    {
+     "libelle": "Fondation de Vijayanagara",
+     "annee": 1336,
+     "note": "Date traditionnelle de l'empire du sud"
+    },
+    {
+     "libelle": "Timur saccage Delhi",
+     "annee": 1398,
+     "note": "Un pillage meurtrier"
+    },
+    {
+     "libelle": "Les Lodi au pouvoir",
+     "annee": 1451,
+     "note": "Bahlul Lodi devient sultan"
+    }
+   ]
+  },
+  {
+   "id": "japon-samourais",
+   "theme": "Le Japon des samouraïs",
+   "sous": "Clans, shoguns et invasion.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Bataille de Dan-no-ura",
+     "annee": 1185,
+     "note": "Les Minamoto détruisent les Taira"
+    },
+    {
+     "libelle": "Guerre de Jōkyū",
+     "annee": 1221,
+     "note": "L'empereur retiré défie le shogunat"
+    },
+    {
+     "libelle": "Première invasion mongole",
+     "annee": 1274,
+     "note": "Les Mongols débarquent à Hakata"
+    },
+    {
+     "libelle": "Chute de Kamakura",
+     "annee": 1333,
+     "note": "Fin du shogunat des Hōjō"
+    },
+    {
+     "libelle": "Réunification des cours",
+     "annee": 1392,
+     "note": "Fin de la division entre cours du Nord et du Sud"
+    }
+   ]
+  },
+  {
+   "id": "pologne-lituanie",
+   "theme": "Pologne et Lituanie",
+   "sous": "D'une union à une république.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Union de Krewo",
+     "annee": 1385,
+     "note": "Accord de Krewo en 1385 ; mariage en 1386"
+    },
+    {
+     "libelle": "Bataille de Grunwald",
+     "annee": 1410,
+     "note": "Victoire sur l'ordre Teutonique"
+    },
+    {
+     "libelle": "Paix de Thorn",
+     "annee": 1466,
+     "note": "Fin de la guerre de Treize Ans"
+    },
+    {
+     "libelle": "Hommage de Prusse",
+     "annee": 1525,
+     "note": "Albert de Prusse prête hommage au roi de Pologne"
+    },
+    {
+     "libelle": "Union de Lublin",
+     "annee": 1569,
+     "note": "Naissance de la République des Deux Nations"
+    }
+   ]
+  },
+  {
+   "id": "italie-dante",
+   "theme": "L'Italie de Dante au Grand Schisme",
+   "sous": "Poète, jubilé et papes rivaux.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Naissance de Dante",
+     "annee": 1265,
+     "note": "Né à Florence"
+    },
+    {
+     "libelle": "Premier Jubilé",
+     "annee": 1300,
+     "note": "Boniface VIII ouvre l'Année sainte"
+    },
+    {
+     "libelle": "Mort de Dante",
+     "annee": 1321,
+     "note": "À Ravenne"
+    },
+    {
+     "libelle": "Grand Schisme d'Occident",
+     "annee": 1378,
+     "note": "Deux papes, puis trois"
+    },
+    {
+     "libelle": "Concile de Constance",
+     "annee": 1414,
+     "note": "Pour mettre fin au schisme"
+    }
+   ]
+  },
+  {
+   "id": "angleterre-medievale",
+   "theme": "L'Angleterre médiévale",
+   "sous": "Registres, meurtres et parlements.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Domesday Book",
+     "annee": 1086,
+     "note": "Grand recensement des terres"
+    },
+    {
+     "libelle": "Mort d'Henri Ier",
+     "annee": 1135,
+     "note": "Début de l'Anarchie"
+    },
+    {
+     "libelle": "Assassinat de Thomas Becket",
+     "annee": 1170,
+     "note": "Dans la cathédrale de Canterbury"
+    },
+    {
+     "libelle": "Parlement de Simon de Montfort",
+     "annee": 1265,
+     "note": "Chevaliers et bourgeois des villes réunis ensemble pour la 1re fois"
+    },
+    {
+     "libelle": "Parlement modèle",
+     "annee": 1295,
+     "note": "Édouard Ier convoque nobles, clergé et communes"
+    }
+   ]
+  },
+  {
+   "id": "cathedrales",
+   "theme": "Bâtisseurs de cathédrales",
+   "sous": "Pierre, verre et chantiers.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Début de Notre-Dame de Paris",
+     "annee": 1163,
+     "note": "Première pierre vers 1163 (date traditionnelle)"
+    },
+    {
+     "libelle": "Début de la cathédrale d'Amiens",
+     "annee": 1220,
+     "note": "Le plus vaste vaisseau gothique de France"
+    },
+    {
+     "libelle": "Sainte-Chapelle consacrée",
+     "annee": 1248,
+     "note": "Écrin des reliques de la Passion"
+    },
+    {
+     "libelle": "Début du Duomo de Florence",
+     "annee": 1296,
+     "note": "Santa Maria del Fiore"
+    },
+    {
+     "libelle": "Début du Duomo de Milan",
+     "annee": 1386,
+     "note": "Chantier de près de cinq siècles"
+    }
+   ]
+  },
+  {
+   "id": "espagne-habsbourg",
+   "theme": "L'Espagne des Habsbourg",
+   "sous": "Grenade, empire et indépendance du Portugal.",
+   "epoque": "Renaissance",
+   "cartes": [
+    {
+     "libelle": "Chute de Grenade",
+     "annee": 1492,
+     "note": "Fin du dernier royaume musulman d'Espagne"
+    },
+    {
+     "libelle": "Charles Quint roi d'Espagne",
+     "annee": 1516,
+     "note": "Il hérite de l'Espagne et de ses colonies"
+    },
+    {
+     "libelle": "Philippe II roi d'Espagne",
+     "annee": 1556,
+     "note": "Après l'abdication de son père"
+    },
+    {
+     "libelle": "Expulsion des Morisques",
+     "annee": 1609,
+     "note": "Décret de Philippe III"
+    },
+    {
+     "libelle": "Indépendance du Portugal",
+     "annee": 1640,
+     "note": "Jean IV est proclamé roi"
+    }
+   ]
+  },
+  {
+   "id": "amerique-sud",
+   "theme": "L'Amérique du Sud hispanique",
+   "sous": "Vice-royautés, révoltes et guerres.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Vice-royauté de Nouvelle-Grenade",
+     "annee": 1717,
+     "note": "Créée en 1717, supprimée en 1723, rétablie en 1739"
+    },
+    {
+     "libelle": "Révolte de Túpac Amaru II",
+     "annee": 1780,
+     "note": "Soulèvement indigène au Pérou"
+    },
+    {
+     "libelle": "Révolution de Mai",
+     "annee": 1810,
+     "note": "Buenos Aires forme sa première junte"
+    },
+    {
+     "libelle": "Dissolution de la Grande-Colombie",
+     "annee": 1830,
+     "note": "Venezuela et Équateur font sécession en 1830"
+    },
+    {
+     "libelle": "Guerre du Pacifique",
+     "annee": 1879,
+     "note": "Le Chili contre la Bolivie et le Pérou"
+    }
+   ]
+  },
+  {
+   "id": "caraibes",
+   "theme": "Les Caraïbes",
+   "sous": "Îles disputées, révolte et abolitions.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Les Anglais prennent la Jamaïque",
+     "annee": 1655,
+     "note": "Expédition de Cromwell"
+    },
+    {
+     "libelle": "Traité de Ryswick",
+     "annee": 1697,
+     "note": "L'Espagne cède Saint-Domingue à la France"
+    },
+    {
+     "libelle": "Insurrection de Saint-Domingue",
+     "annee": 1791,
+     "note": "Début de la révolution haïtienne"
+    },
+    {
+     "libelle": "Haïti paie son indépendance",
+     "annee": 1825,
+     "note": "La France exige une indemnité"
+    },
+    {
+     "libelle": "Abolition à Cuba",
+     "annee": 1886,
+     "note": "Fin de l'esclavage à Cuba"
+    }
+   ]
+  },
+  {
+   "id": "canada",
+   "theme": "Du Canada français à la Confédération",
+   "sous": "Traités, batailles et constitutions.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Traité d'Utrecht",
+     "annee": 1713,
+     "note": "La France cède l'Acadie et Terre-Neuve"
+    },
+    {
+     "libelle": "Plaines d'Abraham",
+     "annee": 1759,
+     "note": "Wolfe bat Montcalm devant Québec"
+    },
+    {
+     "libelle": "Acte constitutionnel",
+     "annee": 1791,
+     "note": "Le Canada est divisé en deux provinces"
+    },
+    {
+     "libelle": "Rébellions des Patriotes",
+     "annee": 1837,
+     "note": "Soulèvements au Bas et au Haut-Canada"
+    },
+    {
+     "libelle": "Confédération canadienne",
+     "annee": 1867,
+     "note": "Naissance du Dominion du Canada"
+    }
+   ]
+  },
+  {
+   "id": "australie-avant-nation",
+   "theme": "L'Australie avant la nation",
+   "sous": "Côtes, montagnes et or.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Janszoon aperçoit l'Australie",
+     "annee": 1606,
+     "note": "Le Duyfken longe la côte du Queensland"
+    },
+    {
+     "libelle": "Dampier sur la côte australienne",
+     "annee": 1688,
+     "note": "Explore la côte nord-ouest (King Sound)"
+    },
+    {
+     "libelle": "Cook à Botany Bay",
+     "annee": 1770,
+     "note": "Il aborde en avril, puis revendique la côte en août"
+    },
+    {
+     "libelle": "Les Blue Mountains franchies",
+     "annee": 1813,
+     "note": "Blaxland, Lawson et Wentworth"
+    },
+    {
+     "libelle": "Ruée vers l'or australienne",
+     "annee": 1851,
+     "note": "Premières découvertes en Nouvelle-Galles du Sud et Victoria"
+    }
+   ]
+  },
+  {
+   "id": "aotearoa",
+   "theme": "Aotearoa, la Nouvelle-Zélande",
+   "sous": "Caps, missions et traités.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Cook en Nouvelle-Zélande",
+     "annee": 1769,
+     "note": "Il cartographie les côtes"
+    },
+    {
+     "libelle": "Mission de Samuel Marsden",
+     "annee": 1814,
+     "note": "Premier culte chrétien en Nouvelle-Zélande"
+    },
+    {
+     "libelle": "Déclaration d'indépendance maorie",
+     "annee": 1835,
+     "note": "Signée par des chefs du Nord"
+    },
+    {
+     "libelle": "Guerre du Taranaki",
+     "annee": 1860,
+     "note": "Début des combats sur l'île du Nord"
+    },
+    {
+     "libelle": "Première cargaison de viande congelée",
+     "annee": 1882,
+     "note": "Le Dunedin part pour l'Angleterre"
+    }
+   ]
+  },
+  {
+   "id": "prusse-allemagne",
+   "theme": "De la Prusse à l'Allemagne",
+   "sous": "Rois, douanes et chancelier.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Mort de Frédéric II de Prusse",
+     "annee": 1786,
+     "note": "Le roi de Prusse s'éteint à Potsdam"
+    },
+    {
+     "libelle": "Fin du Saint-Empire",
+     "annee": 1806,
+     "note": "François II abdique"
+    },
+    {
+     "libelle": "Union douanière allemande",
+     "annee": 1834,
+     "note": "Le Zollverein entre en vigueur"
+    },
+    {
+     "libelle": "Bataille de Sadowa",
+     "annee": 1866,
+     "note": "La Prusse bat l'Autriche"
+    },
+    {
+     "libelle": "Bismarck quitte le pouvoir",
+     "annee": 1890,
+     "note": "Il démissionne sous la pression de Guillaume II"
+    }
+   ]
+  },
+  {
+   "id": "italie-unifiee",
+   "theme": "L'Italie unifiée",
+   "sous": "Du Risorgimento à la Libye.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Bonaparte en Italie",
+     "annee": 1796,
+     "note": "Première campagne d'Italie"
+    },
+    {
+     "libelle": "La Jeune Italie",
+     "annee": 1831,
+     "note": "Mazzini fonde le mouvement"
+    },
+    {
+     "libelle": "Royaume d'Italie proclamé",
+     "annee": 1861,
+     "note": "Victor-Emmanuel II roi d'Italie"
+    },
+    {
+     "libelle": "Fondation de l'Érythrée",
+     "annee": 1890,
+     "note": "Décret royal : l'Érythrée devient colonie italienne"
+    },
+    {
+     "libelle": "L'Italie attaque la Libye",
+     "annee": 1911,
+     "note": "Guerre italo-turque"
+    }
+   ]
+  },
+  {
+   "id": "balkans",
+   "theme": "Les Balkans et la question d'Orient",
+   "sous": "Traités, indépendances et annexions.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Traité de Küçük Kaynarca",
+     "annee": 1774,
+     "note": "Victoire russe sur les Ottomans"
+    },
+    {
+     "libelle": "Insurrection grecque",
+     "annee": 1821,
+     "note": "Début de la guerre d'indépendance"
+    },
+    {
+     "libelle": "Guerre de Crimée",
+     "annee": 1853,
+     "note": "Début du conflit contre la Russie"
+    },
+    {
+     "libelle": "Congrès de Berlin",
+     "annee": 1878,
+     "note": "Révision de la paix russo-turque"
+    },
+    {
+     "libelle": "Annexion de la Bosnie",
+     "annee": 1908,
+     "note": "L'Autriche-Hongrie annexe la Bosnie-Herzégovine"
+    }
+   ]
+  },
+  {
+   "id": "afrique-explorée",
+   "theme": "L'Afrique explorée et partagée",
+   "sous": "Fleuves, chutes et conférence.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Mungo Park atteint le Niger",
+     "annee": 1796,
+     "note": "L'Écossais atteint Ségou"
+    },
+    {
+     "libelle": "Caillié à Tombouctou",
+     "annee": 1828,
+     "note": "Premier Européen à en revenir"
+    },
+    {
+     "libelle": "Livingstone aux chutes Victoria",
+     "annee": 1855,
+     "note": "Il les baptise"
+    },
+    {
+     "libelle": "Conférence de Berlin",
+     "annee": 1884,
+     "note": "Elle fixe les règles de la colonisation (1884-85)"
+    },
+    {
+     "libelle": "Union d'Afrique du Sud",
+     "annee": 1910,
+     "note": "Naissance du dominion"
+    }
+   ]
+  },
+  {
+   "id": "maroc",
+   "theme": "Le Maroc",
+   "sous": "Rois, batailles et protectorat.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Bataille des Trois Rois",
+     "annee": 1578,
+     "note": "Mort de trois rois, victoire marocaine"
+    },
+    {
+     "libelle": "Moulay Rachid prend Fès",
+     "annee": 1666,
+     "note": "Prend Fès (1666) ; début de la dynastie alaouite"
+    },
+    {
+     "libelle": "Mohammed III sultan",
+     "annee": 1757,
+     "note": "Il ouvre le Maroc au commerce"
+    },
+    {
+     "libelle": "Bataille d'Isly",
+     "annee": 1844,
+     "note": "La France bat les Marocains"
+    },
+    {
+     "libelle": "Protectorat français au Maroc",
+     "annee": 1912,
+     "note": "Traité de Fès"
+    }
+   ]
+  },
+  {
+   "id": "marathes-sikhs",
+   "theme": "Marathes et Sikhs",
+   "sous": "Deux puissances face aux Moghols.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Shivaji couronné",
+     "annee": 1674,
+     "note": "Fondateur de l'empire marathe"
+    },
+    {
+     "libelle": "Mort d'Aurangzeb",
+     "annee": 1707,
+     "note": "Le dernier grand empereur moghol"
+    },
+    {
+     "libelle": "Troisième bataille de Panipat",
+     "annee": 1761,
+     "note": "Les Marathes battus par les Afghans"
+    },
+    {
+     "libelle": "Ranjit Singh prend Lahore",
+     "annee": 1799,
+     "note": "Naissance de l'empire sikh"
+    },
+    {
+     "libelle": "Les Britanniques annexent le Pendjab",
+     "annee": 1849,
+     "note": "Fin de l'empire sikh"
+    }
+   ]
+  },
+  {
+   "id": "perse",
+   "theme": "La Perse, des Safavides aux Qajars",
+   "sous": "Shahs, capitale et chute.",
+   "epoque": "Renaissance",
+   "cartes": [
+    {
+     "libelle": "Ismaïl Ier, shah",
+     "annee": 1501,
+     "note": "Fondation de la dynastie safavide"
+    },
+    {
+     "libelle": "Abbas Ier, roi de Perse",
+     "annee": 1588,
+     "note": "Il monte sur le trône en octobre 1588 ; Ispahan capitale vers 1598"
+    },
+    {
+     "libelle": "Mort d'Abbas Ier",
+     "annee": 1629,
+     "note": "Après plus de quarante ans de règne"
+    },
+    {
+     "libelle": "Chute d'Ispahan",
+     "annee": 1722,
+     "note": "Les Afghans prennent la capitale"
+    },
+    {
+     "libelle": "Les Qajars au pouvoir",
+     "annee": 1796,
+     "note": "Agha Mohammad Khan est couronné"
+    }
+   ]
+  },
+  {
+   "id": "pays-bas",
+   "theme": "Les Pays-Bas, de Bourgogne au désastre",
+   "sous": "Princes, révolte et trêve.",
+   "epoque": "Renaissance",
+   "cartes": [
+    {
+     "libelle": "Mariage de Marie de Bourgogne",
+     "annee": 1477,
+     "note": "Elle épouse Maximilien de Habsbourg"
+    },
+    {
+     "libelle": "Charles Quint abdique",
+     "annee": 1555,
+     "note": "Philippe II reçoit les Pays-Bas"
+    },
+    {
+     "libelle": "Union d'Utrecht",
+     "annee": 1579,
+     "note": "Les provinces du Nord s'allient"
+    },
+    {
+     "libelle": "Trêve de douze ans",
+     "annee": 1609,
+     "note": "Pause dans la guerre contre l'Espagne"
+    },
+    {
+     "libelle": "L'Année du désastre",
+     "annee": 1672,
+     "note": "Invasion française et anglaise"
+    }
+   ]
+  },
+  {
+   "id": "suisse",
+   "theme": "La Suisse des batailles",
+   "sous": "De trois cantons à l'indépendance de fait.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Pacte des trois cantons",
+     "annee": 1291,
+     "note": "Date traditionnelle du pacte fédéral"
+    },
+    {
+     "libelle": "Bataille de Morgarten",
+     "annee": 1315,
+     "note": "Les Confédérés battent les Habsbourg"
+    },
+    {
+     "libelle": "Bataille de Sempach",
+     "annee": 1386,
+     "note": "Victoire sur le duc Léopold III"
+    },
+    {
+     "libelle": "Bataille de Morat",
+     "annee": 1476,
+     "note": "Victoire sur Charles le Téméraire"
+    },
+    {
+     "libelle": "Guerre de Souabe",
+     "annee": 1499,
+     "note": "Indépendance de fait ; traité de Bâle, septembre 1499"
+    }
+   ]
+  },
+  {
+   "id": "habsbourg-ottomans",
+   "theme": "Les Habsbourg et les Ottomans",
+   "sous": "Frontières, batailles et traités.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Bataille de Mohács",
+     "annee": 1526,
+     "note": "Les Ottomans battent le roi de Hongrie"
+    },
+    {
+     "libelle": "Bataille de la Montagne Blanche",
+     "annee": 1620,
+     "note": "Les Habsbourg écrasent les Tchèques protestants"
+    },
+    {
+     "libelle": "Siège de Vienne",
+     "annee": 1683,
+     "note": "Les Ottomans sont repoussés"
+    },
+    {
+     "libelle": "Traité de Rastatt",
+     "annee": 1714,
+     "note": "Paix entre l'empereur et la France ; Utrecht avait clos le reste en 1713"
+    },
+    {
+     "libelle": "Marie-Thérèse hérite des Habsbourg",
+     "annee": 1740,
+     "note": "Charles VI meurt sans fils"
+    }
+   ]
+  },
+  {
+   "id": "rus-kiev",
+   "theme": "La Rus' de Kiev",
+   "sous": "Princes, baptême et sagesse.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Oleg prend Kiev",
+     "annee": 882,
+     "note": "Selon la chronique russe"
+    },
+    {
+     "libelle": "Olga, régente de Kiev",
+     "annee": 945,
+     "note": "Veuve du prince Igor"
+    },
+    {
+     "libelle": "Baptême de la Rus'",
+     "annee": 988,
+     "note": "Vladimir de Kiev se convertit"
+    },
+    {
+     "libelle": "Mort d'Iaroslav le Sage",
+     "annee": 1054,
+     "note": "Il laisse le pays à ses fils"
+    },
+    {
+     "libelle": "Vladimir Monomaque grand-prince",
+     "annee": 1113,
+     "note": "Un règne de paix relative"
+    }
+   ]
+  },
+  {
+   "id": "papes",
+   "theme": "Les papes, d'Avignon au sac de Rome",
+   "sous": "Exil, retour et pillage.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "La papauté s'installe à Avignon",
+     "annee": 1309,
+     "note": "Clément V quitte Rome"
+    },
+    {
+     "libelle": "Le pape revient à Rome",
+     "annee": 1377,
+     "note": "Grégoire XI entre à Rome le 17 janvier (parti d'Avignon en 1376)"
+    },
+    {
+     "libelle": "Martin V élu pape",
+     "annee": 1417,
+     "note": "Fin du Grand Schisme"
+    },
+    {
+     "libelle": "Première pierre de Saint-Pierre",
+     "annee": 1506,
+     "note": "Début du nouveau chantier"
+    },
+    {
+     "libelle": "Sac de Rome",
+     "annee": 1527,
+     "note": "Les troupes de Charles Quint pillent la ville"
+    }
+   ]
+  },
+  {
+   "id": "sicile",
+   "theme": "La Sicile normande et souabe",
+   "sous": "Aventuriers, rois et héritiers.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Les Normands à Aversa",
+     "annee": 1030,
+     "note": "Premier comté normand d'Italie"
+    },
+    {
+     "libelle": "Concordat de Melfi",
+     "annee": 1059,
+     "note": "Le pape reconnaît Robert Guiscard"
+    },
+    {
+     "libelle": "Roger II roi de Sicile",
+     "annee": 1130,
+     "note": "Couronné à Palerme"
+    },
+    {
+     "libelle": "Henri VI conquiert la Sicile",
+     "annee": 1194,
+     "note": "Les Hohenstaufen succèdent aux Normands"
+    },
+    {
+     "libelle": "Bataille de Bénévent",
+     "annee": 1266,
+     "note": "Charles d'Anjou bat Manfred"
+    }
+   ]
+  },
+  {
+   "id": "astronomie",
+   "theme": "Astronomie",
+   "sous": "Orbites, comètes et planètes.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Astronomia nova de Kepler",
+     "annee": 1609,
+     "note": "Les deux premières lois des orbites"
+    },
+    {
+     "libelle": "Huygens découvre Titan",
+     "annee": 1655,
+     "note": "Une lune de Saturne"
+    },
+    {
+     "libelle": "Halley prédit une comète",
+     "annee": 1705,
+     "note": "Publication de son calcul"
+    },
+    {
+     "libelle": "Herschel découvre Uranus",
+     "annee": 1781,
+     "note": "Première planète trouvée au télescope"
+    },
+    {
+     "libelle": "Découverte de Neptune",
+     "annee": 1846,
+     "note": "Trouvée grâce au calcul de Le Verrier"
+    }
+   ]
+  },
+  {
+   "id": "mathematiques",
+   "theme": "Mathématiques",
+   "sous": "Livres qui ont changé le calcul.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Discours de la méthode",
+     "annee": 1637,
+     "note": "Descartes y joint La Géométrie"
+    },
+    {
+     "libelle": "Calcul différentiel de Leibniz",
+     "annee": 1684,
+     "note": "Publié dans les Acta eruditorum"
+    },
+    {
+     "libelle": "Introductio d'Euler",
+     "annee": 1748,
+     "note": "Manuel d'analyse"
+    },
+    {
+     "libelle": "Disquisitiones de Gauss",
+     "annee": 1801,
+     "note": "Traité d'arithmétique"
+    },
+    {
+     "libelle": "Lois de la pensée de Boole",
+     "annee": 1854,
+     "note": "Naissance de la logique algébrique"
+    }
+   ]
+  },
+  {
+   "id": "temps",
+   "theme": "Mesurer le temps",
+   "sous": "Pendules, longitude et méridien.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Horloge à pendule de Huygens",
+     "annee": 1656,
+     "note": "Inventée fin 1656, brevetée en 1657"
+    },
+    {
+     "libelle": "Loi sur la longitude",
+     "annee": 1714,
+     "note": "Le Parlement offre un prix"
+    },
+    {
+     "libelle": "Chronomètre de Harrison",
+     "annee": 1759,
+     "note": "Le H4 est achevé"
+    },
+    {
+     "libelle": "Calendrier républicain",
+     "annee": 1793,
+     "note": "Adopté pendant la Révolution"
+    },
+    {
+     "libelle": "Méridien de Greenwich",
+     "annee": 1884,
+     "note": "Conférence de Washington"
+    }
+   ]
+  },
+  {
+   "id": "soigner",
+   "theme": "Soigner",
+   "sous": "Plantes, sang, éther et rayons.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Digitaline de Withering",
+     "annee": 1785,
+     "note": "Un traité sur la digitale"
+    },
+    {
+     "libelle": "Transfusion réussie de Blundell",
+     "annee": 1818,
+     "note": "Premier succès attesté d'homme à homme, à Londres"
+    },
+    {
+     "libelle": "Anesthésie à l'éther",
+     "annee": 1846,
+     "note": "Démonstration à Boston"
+    },
+    {
+     "libelle": "Antisepsie de Lister",
+     "annee": 1867,
+     "note": "Il publie ses résultats à l'acide phénique"
+    },
+    {
+     "libelle": "Rayons X de Röntgen",
+     "annee": 1895,
+     "note": "Une main, une photographie"
+    }
+   ]
+  },
+  {
+   "id": "peinture",
+   "theme": "La peinture et la modernité",
+   "sous": "Du néoclassicisme à New York.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Le Serment des Horaces",
+     "annee": 1784,
+     "note": "Peint à Rome, exposé au Salon de 1785"
+    },
+    {
+     "libelle": "Le 3 mai 1808, de Goya",
+     "annee": 1814,
+     "note": "Fusillade des insurgés madrilènes"
+    },
+    {
+     "libelle": "Salon des refusés",
+     "annee": 1863,
+     "note": "Manet y expose Le Déjeuner sur l'herbe"
+    },
+    {
+     "libelle": "La Nuit étoilée",
+     "annee": 1889,
+     "note": "Peinte par Van Gogh à Saint-Rémy"
+    },
+    {
+     "libelle": "L'Armory Show",
+     "annee": 1913,
+     "note": "L'art moderne arrive à New York"
+    }
+   ]
+  },
+  {
+   "id": "reforme-catholique",
+   "theme": "L'Église catholique après la Réforme",
+   "sous": "Jésuites, concile et révocation.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Les premiers jésuites",
+     "annee": 1534,
+     "note": "Vœux à Montmartre"
+    },
+    {
+     "libelle": "Fin du concile de Trente",
+     "annee": 1563,
+     "note": "Réforme interne de l'Église"
+    },
+    {
+     "libelle": "Propaganda Fide",
+     "annee": 1622,
+     "note": "Congrégation pour les missions"
+    },
+    {
+     "libelle": "Révocation de l'édit de Nantes",
+     "annee": 1685,
+     "note": "Louis XIV interdit le protestantisme"
+    },
+    {
+     "libelle": "Suppression des jésuites",
+     "annee": 1773,
+     "note": "Bref du pape Clément XIV"
+    }
+   ]
+  },
+  {
+   "id": "glaces",
+   "theme": "Vers les glaces",
+   "sous": "Détroit, cercle et continent blanc.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Bering franchit le détroit",
+     "annee": 1728,
+     "note": "Il ne voit pas l'Amérique, dans la brume"
+    },
+    {
+     "libelle": "Cook franchit le cercle antarctique",
+     "annee": 1773,
+     "note": "Première traversée connue"
+    },
+    {
+     "libelle": "L'Antarctique aperçu",
+     "annee": 1820,
+     "note": "Bellingshausen et Bransfield, la même année"
+    },
+    {
+     "libelle": "Disparition de Franklin",
+     "annee": 1845,
+     "note": "Départ vers le passage du Nord-Ouest"
+    },
+    {
+     "libelle": "Débarquement en Antarctique",
+     "annee": 1895,
+     "note": "Premier débarquement confirmé, 24 janvier 1895, cap Adare"
+    }
+   ]
+  },
+  {
+   "id": "scandinavie",
+   "theme": "La Scandinavie",
+   "sous": "Unions, rois et batailles.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Union de Kalmar",
+     "annee": 1397,
+     "note": "Danemark, Norvège et Suède sous une couronne"
+    },
+    {
+     "libelle": "Christian Ier de Danemark",
+     "annee": 1448,
+     "note": "Première dynastie d'Oldenbourg"
+    },
+    {
+     "libelle": "Gustav Vasa roi de Suède",
+     "annee": 1523,
+     "note": "Fin de l'union de Kalmar"
+    },
+    {
+     "libelle": "Gustave II Adolphe roi",
+     "annee": 1611,
+     "note": "Il monte sur le trône à 16 ans"
+    },
+    {
+     "libelle": "Bataille de Poltava",
+     "annee": 1709,
+     "note": "Pierre le Grand écrase Charles XII"
+    }
+   ]
+  },
+  {
+   "id": "inventions-xix",
+   "theme": "Inventions du XIXe siècle",
+   "sous": "Brevets et petits objets.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Égreneuse de Whitney",
+     "annee": 1794,
+     "note": "Brevet de l'égreneuse à coton"
+    },
+    {
+     "libelle": "Stéthoscope de Laennec",
+     "annee": 1816,
+     "note": "D'abord un rouleau de papier, puis un tube de bois"
+    },
+    {
+     "libelle": "Machine à coudre de Howe",
+     "annee": 1846,
+     "note": "Brevet américain"
+    },
+    {
+     "libelle": "Dynamite de Nobel",
+     "annee": 1867,
+     "note": "Brevet de la dynamite"
+    },
+    {
+     "libelle": "Appareil Kodak",
+     "annee": 1888,
+     "note": "La photographie pour le grand public"
+    }
+   ]
   }
  ]
 }
