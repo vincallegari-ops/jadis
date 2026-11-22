@@ -1,0 +1,1886 @@
+{
+ "_note": "Chrono quiz : libellés courts, date révélée à la fin avec une note. Écarts entre cartes consécutives : 20 à 100 ans. 285 dates vérifiées par recherche web (7 lots) ; voir corpus/chrono_verif/.",
+ "sets": [
+  {
+   "id": "inventions",
+   "theme": "Inventions",
+   "sous": "Cinq idées qui ont changé le quotidien.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Paratonnerre",
+     "annee": 1752,
+     "note": "Franklin invente la tige qui attire la foudre"
+    },
+    {
+     "libelle": "Pile électrique",
+     "annee": 1800,
+     "note": "Volta annonce sa pile"
+    },
+    {
+     "libelle": "Photographie",
+     "annee": 1839,
+     "note": "Le daguerréotype est présenté à Paris"
+    },
+    {
+     "libelle": "Téléphone",
+     "annee": 1876,
+     "note": "Brevet d'Alexander Graham Bell"
+    },
+    {
+     "libelle": "Avion",
+     "annee": 1903,
+     "note": "Premier vol motorisé des frères Wright"
+    }
+   ]
+  },
+  {
+   "id": "grece-rome",
+   "theme": "De la Grèce à Rome",
+   "sous": "Guerres, marbre et conquêtes.",
+   "epoque": "Antiquité",
+   "cartes": [
+    {
+     "libelle": "Bataille de Marathon",
+     "annee": -490,
+     "note": "Les Athéniens battent les Perses"
+    },
+    {
+     "libelle": "Début du Parthénon",
+     "annee": -447,
+     "note": "Début du chantier sur l'Acropole"
+    },
+    {
+     "libelle": "Procès de Socrate",
+     "annee": -399,
+     "note": "Condamné à boire la ciguë"
+    },
+    {
+     "libelle": "Alexandre bat Darius",
+     "annee": -331,
+     "note": "Bataille de Gaugamèles"
+    },
+    {
+     "libelle": "Guerres puniques",
+     "annee": -264,
+     "note": "Début de la première guerre entre Rome et Carthage"
+    }
+   ]
+  },
+  {
+   "id": "traversees",
+   "theme": "Les grandes traversées",
+   "sous": "Navires, caps et nouveaux ports.",
+   "epoque": "Renaissance",
+   "cartes": [
+    {
+     "libelle": "Colomb aux Amériques",
+     "annee": 1492,
+     "note": "Arrivée aux Bahamas"
+    },
+    {
+     "libelle": "Départ de Magellan",
+     "annee": 1519,
+     "note": "La flotte quitte l'Espagne pour le tour du monde"
+    },
+    {
+     "libelle": "Fondation de Manille",
+     "annee": 1571,
+     "note": "Fondée par Legazpi"
+    },
+    {
+     "libelle": "Tasman en Tasmanie",
+     "annee": 1642,
+     "note": "Premier Européen à y aborder"
+    },
+    {
+     "libelle": "Bering en Alaska",
+     "annee": 1741,
+     "note": "Son expédition aperçoit les côtes de l'Alaska"
+    }
+   ]
+  },
+  {
+   "id": "haut-moyen-age",
+   "theme": "Haut Moyen Âge",
+   "sous": "Califes, empereurs et moines.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Bataille de Poitiers",
+     "annee": 732,
+     "note": "Charles Martel arrête une armée venue d'Espagne"
+    },
+    {
+     "libelle": "Fondation de Bagdad",
+     "annee": 762,
+     "note": "Par le calife al-Mansur"
+    },
+    {
+     "libelle": "Sacre de Charlemagne",
+     "annee": 800,
+     "note": "Couronné empereur à Rome, à Noël"
+    },
+    {
+     "libelle": "Traité de Verdun",
+     "annee": 843,
+     "note": "L'empire de Charlemagne partagé en trois"
+    },
+    {
+     "libelle": "Fondation de Cluny",
+     "annee": 910,
+     "note": "Charte de fondation de l'abbaye, en Bourgogne"
+    }
+   ]
+  },
+  {
+   "id": "revoltes",
+   "theme": "Révoltes et révolutions",
+   "sous": "Des peuples reprennent la main.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Indépendance américaine",
+     "annee": 1776,
+     "note": "Déclaration du 4 juillet"
+    },
+    {
+     "libelle": "Indépendance d'Haïti",
+     "annee": 1804,
+     "note": "Proclamée le 1er janvier"
+    },
+    {
+     "libelle": "Les Trois Glorieuses",
+     "annee": 1830,
+     "note": "Révolution de Juillet, à Paris"
+    },
+    {
+     "libelle": "Commune de Paris",
+     "annee": 1871,
+     "note": "Le soulèvement parisien, de mars à mai"
+    },
+    {
+     "libelle": "Dimanche rouge",
+     "annee": 1905,
+     "note": "La troupe tire sur la foule, à Saint-Pétersbourg"
+    }
+   ]
+  },
+  {
+   "id": "croises",
+   "theme": "Rois, croisés et chartes",
+   "sous": "Le Moyen Âge entre épée et parchemin.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Bataille d'Hastings",
+     "annee": 1066,
+     "note": "Guillaume le Conquérant bat Harold"
+    },
+    {
+     "libelle": "Prise de Jérusalem",
+     "annee": 1099,
+     "note": "Par les croisés de la première croisade"
+    },
+    {
+     "libelle": "Seconde croisade",
+     "annee": 1147,
+     "note": "Départ des armées"
+    },
+    {
+     "libelle": "Saladin reprend Jérusalem",
+     "annee": 1187,
+     "note": "Après la victoire de Hattin"
+    },
+    {
+     "libelle": "Grande Charte",
+     "annee": 1215,
+     "note": "Les barons imposent leurs droits au roi d'Angleterre"
+    }
+   ]
+  },
+  {
+   "id": "transports",
+   "theme": "Transports",
+   "sous": "Plus loin, plus vite.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Montgolfière",
+     "annee": 1783,
+     "note": "Premier vol habité, à Paris"
+    },
+    {
+     "libelle": "Chemin de fer public à vapeur",
+     "annee": 1825,
+     "note": "Ligne Stockton–Darlington, en Angleterre"
+    },
+    {
+     "libelle": "Métro de Londres",
+     "annee": 1863,
+     "note": "Ouverture du Metropolitan Railway"
+    },
+    {
+     "libelle": "Automobile",
+     "annee": 1886,
+     "note": "Brevet de Karl Benz"
+    },
+    {
+     "libelle": "Ford T",
+     "annee": 1908,
+     "note": "Mise en vente de la Model T"
+    }
+   ]
+  },
+  {
+   "id": "rome-republique",
+   "theme": "Rome, de Cannes à Auguste",
+   "sous": "Du désastre à l'Empire.",
+   "epoque": "Antiquité",
+   "cartes": [
+    {
+     "libelle": "Bataille de Cannes",
+     "annee": -216,
+     "note": "Hannibal écrase l'armée romaine"
+    },
+    {
+     "libelle": "Carthage détruite",
+     "annee": -146,
+     "note": "Scipion Émilien prend et détruit la ville"
+    },
+    {
+     "libelle": "Révolte de Spartacus",
+     "annee": -73,
+     "note": "Les gladiateurs se soulèvent"
+    },
+    {
+     "libelle": "Ides de mars",
+     "annee": -44,
+     "note": "Jules César est assassiné"
+    },
+    {
+     "libelle": "Mort d'Auguste",
+     "annee": 14,
+     "note": "Le premier empereur s'éteint"
+    }
+   ]
+  },
+  {
+   "id": "empire-romain",
+   "theme": "L'Empire romain",
+   "sous": "Neuf noms, trois siècles.",
+   "epoque": "Antiquité",
+   "cartes": [
+    {
+     "libelle": "Incendie de Rome",
+     "annee": 64,
+     "note": "Sous le règne de Néron"
+    },
+    {
+     "libelle": "Apogée sous Trajan",
+     "annee": 117,
+     "note": "Mort de Trajan, étendue maximale de l'Empire"
+    },
+    {
+     "libelle": "Édit de Caracalla",
+     "annee": 212,
+     "note": "La plupart des hommes libres deviennent citoyens"
+    },
+    {
+     "libelle": "Dioclétien empereur",
+     "annee": 284,
+     "note": "Il met fin à la crise du IIIe siècle"
+    },
+    {
+     "libelle": "Inauguration de Constantinople",
+     "annee": 330,
+     "note": "La « nouvelle Rome » devient capitale"
+    }
+   ]
+  },
+  {
+   "id": "orient-ancien",
+   "theme": "Du Tigre à Persépolis",
+   "sous": "Empires d'Orient.",
+   "epoque": "Antiquité",
+   "cartes": [
+    {
+     "libelle": "Chute de Ninive",
+     "annee": -612,
+     "note": "La capitale assyrienne tombe"
+    },
+    {
+     "libelle": "Cyrus prend Babylone",
+     "annee": -539,
+     "note": "L'empire perse s'étend à la Mésopotamie"
+    },
+    {
+     "libelle": "Bataille des Thermopyles",
+     "annee": -480,
+     "note": "Léonidas et ses hommes face aux Perses"
+    },
+    {
+     "libelle": "Bataille de Cunaxa",
+     "annee": -401,
+     "note": "Les Dix-Mille de Xénophon"
+    },
+    {
+     "libelle": "Persépolis incendiée",
+     "annee": -330,
+     "note": "Alexandre brûle le palais des rois perses"
+    }
+   ]
+  },
+  {
+   "id": "christianisme",
+   "theme": "Les débuts du christianisme",
+   "sous": "De Nicée aux monastères.",
+   "epoque": "Antiquité",
+   "cartes": [
+    {
+     "libelle": "Concile de Nicée",
+     "annee": 325,
+     "note": "Le premier grand concile"
+    },
+    {
+     "libelle": "Religion d'État",
+     "annee": 380,
+     "note": "Le christianisme devient religion de l'Empire"
+    },
+    {
+     "libelle": "Concile de Chalcédoine",
+     "annee": 451,
+     "note": "Débat sur la nature du Christ"
+    },
+    {
+     "libelle": "Benoît au Mont-Cassin",
+     "annee": 529,
+     "note": "Fondation traditionnelle de l'abbaye bénédictine"
+    },
+    {
+     "libelle": "Augustin à Canterbury",
+     "annee": 597,
+     "note": "Le christianisme gagne l'Angleterre"
+    }
+   ]
+  },
+  {
+   "id": "tang",
+   "theme": "La Chine des Tang",
+   "sous": "Un empire à son sommet.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Fondation des Tang",
+     "annee": 618,
+     "note": "Une dynastie qui durera près de trois siècles"
+    },
+    {
+     "libelle": "Retour de Xuanzang",
+     "annee": 645,
+     "note": "Le moine revient d'Inde avec ses manuscrits"
+    },
+    {
+     "libelle": "Wu Zetian empereur",
+     "annee": 690,
+     "note": "Une femme prend le trône"
+    },
+    {
+     "libelle": "Bataille du Talas",
+     "annee": 751,
+     "note": "Arabes et Chinois s'affrontent en Asie centrale"
+    },
+    {
+     "libelle": "Persécution des bouddhistes",
+     "annee": 845,
+     "note": "Édit impérial qui ferme les monastères bouddhistes"
+    }
+   ]
+  },
+  {
+   "id": "mongols",
+   "theme": "L'empire mongol",
+   "sous": "Les steppes à la conquête.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Gengis Khan proclamé",
+     "annee": 1206,
+     "note": "Il devient souverain de tous les Mongols"
+    },
+    {
+     "libelle": "Mort de Gengis Khan",
+     "annee": 1227,
+     "note": "L'empire est partagé entre ses fils"
+    },
+    {
+     "libelle": "Sac de Bagdad",
+     "annee": 1258,
+     "note": "Fin du califat abbasside de Bagdad"
+    },
+    {
+     "libelle": "Les Mongols maîtres de la Chine",
+     "annee": 1279,
+     "note": "Fin de la dynastie Song"
+    },
+    {
+     "libelle": "Dynastie Ming",
+     "annee": 1368,
+     "note": "Les Mongols sont chassés de Chine"
+    }
+   ]
+  },
+  {
+   "id": "islam-naissant",
+   "theme": "L'islam des premiers siècles",
+   "sous": "Des califes aux quatre coins du monde.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "L'Hégire",
+     "annee": 622,
+     "note": "Départ de La Mecque pour Médine : an I du calendrier"
+    },
+    {
+     "libelle": "Omeyyades au pouvoir",
+     "annee": 661,
+     "note": "Damas devient la capitale"
+    },
+    {
+     "libelle": "Les Arabes en Espagne",
+     "annee": 711,
+     "note": "Traversée du détroit de Gibraltar"
+    },
+    {
+     "libelle": "Abbassides au pouvoir",
+     "annee": 750,
+     "note": "Le califat se déplace vers l'est"
+    },
+    {
+     "libelle": "Harun al-Rachid calife",
+     "annee": 786,
+     "note": "L'âge d'or de Bagdad"
+    }
+   ]
+  },
+  {
+   "id": "ottomans",
+   "theme": "L'ascension ottomane",
+   "sous": "D'une principauté à un empire.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Prise de Bursa",
+     "annee": 1326,
+     "note": "Orhan prend Brousse, future capitale"
+    },
+    {
+     "libelle": "Bataille du Kosovo",
+     "annee": 1389,
+     "note": "Mourad Ier et le prince Lazar y perdent la vie"
+    },
+    {
+     "libelle": "Chute de Constantinople",
+     "annee": 1453,
+     "note": "Mehmed II prend la ville"
+    },
+    {
+     "libelle": "Conquête de l'Égypte",
+     "annee": 1517,
+     "note": "Les Ottomans prennent Le Caire"
+    },
+    {
+     "libelle": "Bataille de Lépante",
+     "annee": 1571,
+     "note": "Grande bataille navale en Méditerranée"
+    }
+   ]
+  },
+  {
+   "id": "afrique-cotes",
+   "theme": "Les côtes de l'Afrique",
+   "sous": "Forts, comptoirs et caps.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Prise de Ceuta",
+     "annee": 1415,
+     "note": "Les Portugais passent en Afrique"
+    },
+    {
+     "libelle": "Dias passe le Cap",
+     "annee": 1488,
+     "note": "Le cap de Bonne-Espérance est franchi"
+    },
+    {
+     "libelle": "Fondation de Luanda",
+     "annee": 1576,
+     "note": "Comptoir portugais en Angola"
+    },
+    {
+     "libelle": "Fondation du Cap",
+     "annee": 1652,
+     "note": "Les Hollandais s'installent"
+    },
+    {
+     "libelle": "Fort Jésus pris par Oman",
+     "annee": 1698,
+     "note": "Mombasa passe sous contrôle omanais"
+    }
+   ]
+  },
+  {
+   "id": "japon-edo",
+   "theme": "Le Japon d'Edo",
+   "sous": "Fermeture, volcans et savoirs.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Bataille de Sekigahara",
+     "annee": 1600,
+     "note": "Tokugawa Ieyasu s'impose"
+    },
+    {
+     "libelle": "Le Japon se ferme",
+     "annee": 1639,
+     "note": "Dernier édit : les navires portugais sont interdits"
+    },
+    {
+     "libelle": "Éruption du Fuji",
+     "annee": 1707,
+     "note": "La cendre atteint Edo"
+    },
+    {
+     "libelle": "Dissection à Edo",
+     "annee": 1771,
+     "note": "Des médecins confrontent un livre occidental aux corps"
+    },
+    {
+     "libelle": "Navires noirs de Perry",
+     "annee": 1853,
+     "note": "Les Américains forcent l'ouverture"
+    }
+   ]
+  },
+  {
+   "id": "moghols",
+   "theme": "Les Grands Moghols",
+   "sous": "Cinq règnes, un empire.",
+   "epoque": "Renaissance",
+   "cartes": [
+    {
+     "libelle": "Babur gagne à Panipat",
+     "annee": 1526,
+     "note": "Début de l'empire moghol"
+    },
+    {
+     "libelle": "Akbar sur le trône",
+     "annee": 1556,
+     "note": "Il n'a que treize ans"
+    },
+    {
+     "libelle": "Compagnie anglaise des Indes",
+     "annee": 1600,
+     "note": "Naissance de l'East India Company"
+    },
+    {
+     "libelle": "Shah Jahan empereur",
+     "annee": 1628,
+     "note": "Le futur bâtisseur du Taj Mahal"
+    },
+    {
+     "libelle": "Aurangzeb prend le pouvoir",
+     "annee": 1658,
+     "note": "Vainqueur à Samugarh, il emprisonne son père"
+    }
+   ]
+  },
+  {
+   "id": "qing",
+   "theme": "La Chine des Qing",
+   "sous": "De la conquête à l'opium.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Les Qing prennent Pékin",
+     "annee": 1644,
+     "note": "Fin des Ming"
+    },
+    {
+     "libelle": "Conquête de Taïwan",
+     "annee": 1683,
+     "note": "Le royaume des Zheng se rend après la bataille de Penghu"
+    },
+    {
+     "libelle": "Canton, seul port ouvert",
+     "annee": 1757,
+     "note": "Le commerce étranger est limité à un port"
+    },
+    {
+     "libelle": "Ambassade Macartney",
+     "annee": 1793,
+     "note": "Les Britanniques demandent plus de commerce"
+    },
+    {
+     "libelle": "Guerre de l'opium",
+     "annee": 1839,
+     "note": "Début de la première guerre contre la Grande-Bretagne"
+    }
+   ]
+  },
+  {
+   "id": "vikings",
+   "theme": "Les Vikings",
+   "sous": "Raids, royaumes et batailles.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Raid de Lindisfarne",
+     "annee": 793,
+     "note": "Un monastère anglais pillé"
+    },
+    {
+     "libelle": "Vikings à Paris",
+     "annee": 845,
+     "note": "Une flotte remonte la Seine"
+    },
+    {
+     "libelle": "Alfred bat les Danois",
+     "annee": 878,
+     "note": "Victoire d'Edington"
+    },
+    {
+     "libelle": "La Normandie pour Rollon",
+     "annee": 911,
+     "note": "Charles le Simple lui cède la région de Rouen"
+    },
+    {
+     "libelle": "Bataille de Brunanburh",
+     "annee": 937,
+     "note": "L'Angleterre unifiée face à ses ennemis"
+    }
+   ]
+  },
+  {
+   "id": "france-medievale",
+   "theme": "La France médiévale",
+   "sous": "Rois, croisades et guerres.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Bataille de Bouvines",
+     "annee": 1214,
+     "note": "Philippe Auguste l'emporte"
+    },
+    {
+     "libelle": "Louis IX part en croisade",
+     "annee": 1248,
+     "note": "Saint Louis embarque pour l'Orient"
+    },
+    {
+     "libelle": "Premiers États généraux",
+     "annee": 1302,
+     "note": "Philippe le Bel consulte le royaume"
+    },
+    {
+     "libelle": "Début de la guerre de Cent Ans",
+     "annee": 1337,
+     "note": "Philippe VI confisque la Guyenne d'Édouard III"
+    },
+    {
+     "libelle": "Bataille d'Azincourt",
+     "annee": 1415,
+     "note": "Les Anglais écrasent la chevalerie française"
+    }
+   ]
+  },
+  {
+   "id": "peste-crises",
+   "theme": "Famine, peste et guerre",
+   "sous": "Un siècle et demi de crises.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Grande Famine",
+     "annee": 1315,
+     "note": "Pluies et mauvaises récoltes en Europe"
+    },
+    {
+     "libelle": "La Peste noire arrive",
+     "annee": 1347,
+     "note": "Des navires touchent Messine"
+    },
+    {
+     "libelle": "Révolte des paysans anglais",
+     "annee": 1381,
+     "note": "Wat Tyler marche sur Londres"
+    },
+    {
+     "libelle": "Jeanne d'Arc à Orléans",
+     "annee": 1429,
+     "note": "Le siège est levé"
+    },
+    {
+     "libelle": "Bataille de Castillon",
+     "annee": 1453,
+     "note": "Fin de la guerre de Cent Ans"
+    }
+   ]
+  },
+  {
+   "id": "reconquista",
+   "theme": "La Reconquista",
+   "sous": "Les royaumes chrétiens avancent.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Alphonse VI prend Tolède",
+     "annee": 1085,
+     "note": "Une ancienne capitale wisigothe"
+    },
+    {
+     "libelle": "Prise de Lisbonne",
+     "annee": 1147,
+     "note": "Les croisés aident Alphonse Ier du Portugal"
+    },
+    {
+     "libelle": "Las Navas de Tolosa",
+     "annee": 1212,
+     "note": "Grande défaite almohade"
+    },
+    {
+     "libelle": "Prise de Séville",
+     "annee": 1248,
+     "note": "Ferdinand III conquiert la ville"
+    },
+    {
+     "libelle": "Bataille du Salado",
+     "annee": 1340,
+     "note": "Castillans et Portugais contre les Mérinides"
+    }
+   ]
+  },
+  {
+   "id": "empire-papaute",
+   "theme": "L'Empire et la papauté",
+   "sous": "Un bras de fer médiéval.",
+   "epoque": "Moyen Âge",
+   "cartes": [
+    {
+     "libelle": "Canossa",
+     "annee": 1077,
+     "note": "Henri IV s'humilie devant le pape"
+    },
+    {
+     "libelle": "Concordat de Worms",
+     "annee": 1122,
+     "note": "Compromis sur l'investiture des évêques"
+    },
+    {
+     "libelle": "Bataille de Legnano",
+     "annee": 1176,
+     "note": "Les villes lombardes battent Barberousse"
+    },
+    {
+     "libelle": "Mort de Frédéric II",
+     "annee": 1250,
+     "note": "Le « stupor mundi » disparaît"
+    },
+    {
+     "libelle": "Rodolphe de Habsbourg élu",
+     "annee": 1273,
+     "note": "Début de la montée des Habsbourg"
+    }
+   ]
+  },
+  {
+   "id": "amerique-colonisee",
+   "theme": "L'Amérique colonisée",
+   "sous": "Des premiers pas aux villes.",
+   "epoque": "Renaissance",
+   "cartes": [
+    {
+     "libelle": "Cabral arrive au Brésil",
+     "annee": 1500,
+     "note": "Les Portugais abordent la côte"
+    },
+    {
+     "libelle": "Pizarro à Cajamarca",
+     "annee": 1532,
+     "note": "L'Inca Atahualpa est capturé"
+    },
+    {
+     "libelle": "Fondation de Saint Augustine",
+     "annee": 1565,
+     "note": "Plus ancienne ville européenne continûment habitée des États-Unis continentaux"
+    },
+    {
+     "libelle": "Fondation de Québec",
+     "annee": 1608,
+     "note": "Par Samuel de Champlain"
+    },
+    {
+     "libelle": "New Amsterdam devient New York",
+     "annee": 1664,
+     "note": "Les Anglais prennent la ville aux Hollandais"
+    }
+   ]
+  },
+  {
+   "id": "ameriques-xix",
+   "theme": "Les Amériques au XIXe siècle",
+   "sous": "Constitutions, guerres et empires.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Constitution américaine",
+     "annee": 1787,
+     "note": "Signée à Philadelphie par 39 délégués"
+    },
+    {
+     "libelle": "Cri de Dolores",
+     "annee": 1810,
+     "note": "Début de la guerre d'indépendance du Mexique"
+    },
+    {
+     "libelle": "Guerre contre le Mexique",
+     "annee": 1846,
+     "note": "Les États-Unis annexent de vastes territoires"
+    },
+    {
+     "libelle": "Maximilien fusillé",
+     "annee": 1867,
+     "note": "Fin de l'empire du Mexique"
+    },
+    {
+     "libelle": "Guerre hispano-américaine",
+     "annee": 1898,
+     "note": "L'Espagne abandonne Cuba, cède les Philippines et Porto Rico"
+    }
+   ]
+  },
+  {
+   "id": "naissance-usa",
+   "theme": "Naissance des États-Unis",
+   "sous": "Des colons à la nation.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Le Mayflower",
+     "annee": 1620,
+     "note": "Les Pèlerins touchent le Nouveau Monde"
+    },
+    {
+     "libelle": "Sorcières de Salem",
+     "annee": 1692,
+     "note": "Procès et pendaisons dans le Massachusetts"
+    },
+    {
+     "libelle": "Guerre franco-indienne",
+     "annee": 1754,
+     "note": "Premiers combats entre Français et Britanniques"
+    },
+    {
+     "libelle": "Lexington et Concord",
+     "annee": 1775,
+     "note": "Premiers combats de la guerre d'indépendance"
+    },
+    {
+     "libelle": "Vente de la Louisiane",
+     "annee": 1803,
+     "note": "La France cède un immense territoire"
+    }
+   ]
+  },
+  {
+   "id": "usa-expansion",
+   "theme": "Les États-Unis en expansion",
+   "sous": "Guerres, frontières et canaux.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Guerre de 1812",
+     "annee": 1812,
+     "note": "Les États-Unis contre la Grande-Bretagne"
+    },
+    {
+     "libelle": "Siège de l'Alamo",
+     "annee": 1836,
+     "note": "Le Texas se bat pour son indépendance"
+    },
+    {
+     "libelle": "Guerre de Sécession",
+     "annee": 1861,
+     "note": "Début des combats à Fort Sumter"
+    },
+    {
+     "libelle": "Wounded Knee",
+     "annee": 1890,
+     "note": "Massacre de Lakotas"
+    },
+    {
+     "libelle": "Canal de Panama",
+     "annee": 1914,
+     "note": "Ouverture à la navigation"
+    }
+   ]
+  },
+  {
+   "id": "pacifique",
+   "theme": "Le Pacifique",
+   "sous": "Îles, traités et nations.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Roggeveen à l'île de Pâques",
+     "annee": 1722,
+     "note": "Un navire hollandais l'aperçoit le jour de Pâques"
+    },
+    {
+     "libelle": "Départ de Cook",
+     "annee": 1768,
+     "note": "Premier grand voyage dans le Pacifique"
+    },
+    {
+     "libelle": "Première flotte à Sydney",
+     "annee": 1788,
+     "note": "Début de la colonie britannique d'Australie"
+    },
+    {
+     "libelle": "Traité de Waitangi",
+     "annee": 1840,
+     "note": "Entre la Couronne et les chefs maoris"
+    },
+    {
+     "libelle": "Fédération australienne",
+     "annee": 1901,
+     "note": "Naissance du Commonwealth d'Australie"
+    }
+   ]
+  },
+  {
+   "id": "renaissance-italienne",
+   "theme": "Florence et Rome",
+   "sous": "Artistes, mécènes et bûchers.",
+   "epoque": "Renaissance",
+   "cartes": [
+    {
+     "libelle": "Coupole de Brunelleschi",
+     "annee": 1436,
+     "note": "La coupole de Santa Maria del Fiore est achevée"
+    },
+    {
+     "libelle": "Laurent de Médicis au pouvoir",
+     "annee": 1469,
+     "note": "Le Magnifique dirige Florence"
+    },
+    {
+     "libelle": "Michel-Ange à la Sixtine",
+     "annee": 1508,
+     "note": "Début des fresques du plafond"
+    },
+    {
+     "libelle": "Mort de Michel-Ange",
+     "annee": 1564,
+     "note": "Il s'éteint à près de 89 ans"
+    },
+    {
+     "libelle": "Giordano Bruno au bûcher",
+     "annee": 1600,
+     "note": "Brûlé à Rome"
+    }
+   ]
+  },
+  {
+   "id": "reforme",
+   "theme": "Imprimerie et Réforme",
+   "sous": "Un livre, une idée, une paix.",
+   "epoque": "Renaissance",
+   "cartes": [
+    {
+     "libelle": "Bible de Gutenberg",
+     "annee": 1455,
+     "note": "Premier grand livre européen en caractères mobiles (date à un an près)"
+    },
+    {
+     "libelle": "Luther et les 95 thèses",
+     "annee": 1517,
+     "note": "Début de la Réforme"
+    },
+    {
+     "libelle": "Paix d'Augsbourg",
+     "annee": 1555,
+     "note": "Chaque prince choisit la religion de ses sujets"
+    },
+    {
+     "libelle": "Édit de Nantes",
+     "annee": 1598,
+     "note": "Henri IV accorde la tolérance aux protestants"
+    },
+    {
+     "libelle": "Traités de Westphalie",
+     "annee": 1648,
+     "note": "Fin de la guerre de Trente Ans"
+    }
+   ]
+  },
+  {
+   "id": "revolutions-scientifiques",
+   "theme": "Les révolutions scientifiques",
+   "sous": "Le ciel, la matière et le vivant.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Copernic publie",
+     "annee": 1543,
+     "note": "La Terre tourne autour du Soleil"
+    },
+    {
+     "libelle": "Galilée et Jupiter",
+     "annee": 1610,
+     "note": "Il découvre les quatre grandes lunes"
+    },
+    {
+     "libelle": "Principia de Newton",
+     "annee": 1687,
+     "note": "La gravitation universelle"
+    },
+    {
+     "libelle": "Linné classe le vivant",
+     "annee": 1735,
+     "note": "Première édition du Systema Naturae"
+    },
+    {
+     "libelle": "Traité de chimie de Lavoisier",
+     "annee": 1789,
+     "note": "Naissance de la chimie moderne"
+    }
+   ]
+  },
+  {
+   "id": "medecine",
+   "theme": "Histoire de la médecine",
+   "sous": "Du sang aux microbes.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Harvey et le sang",
+     "annee": 1628,
+     "note": "La circulation sanguine"
+    },
+    {
+     "libelle": "Leeuwenhoek voit les microbes",
+     "annee": 1676,
+     "note": "Bactéries décrites dans une lettre à Londres"
+    },
+    {
+     "libelle": "Variolisation à Boston",
+     "annee": 1721,
+     "note": "Inoculation contre la variole"
+    },
+    {
+     "libelle": "Jenner et le vaccin",
+     "annee": 1796,
+     "note": "Première vaccination"
+    },
+    {
+     "libelle": "Semmelweis et le lavage des mains",
+     "annee": 1847,
+     "note": "Une idée simple contre la fièvre puerpérale"
+    }
+   ]
+  },
+  {
+   "id": "exploration",
+   "theme": "Explorateurs",
+   "sous": "Îles, fleuves, neiges et pôles.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Cook découvre Hawaï",
+     "annee": 1778,
+     "note": "Troisième voyage du capitaine"
+    },
+    {
+     "libelle": "Lewis et Clark partent",
+     "annee": 1804,
+     "note": "À travers l'Ouest américain"
+    },
+    {
+     "libelle": "Neige au Kilimandjaro",
+     "annee": 1848,
+     "note": "Rebmann voit la montagne enneigée"
+    },
+    {
+     "libelle": "Nansen traverse le Groenland",
+     "annee": 1888,
+     "note": "Sur skis"
+    },
+    {
+     "libelle": "Amundsen au pôle Sud",
+     "annee": 1911,
+     "note": "Il y arrive avant Scott"
+    }
+   ]
+  },
+  {
+   "id": "revolution-industrielle",
+   "theme": "La révolution industrielle",
+   "sous": "Vapeur, fer et vitrines.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Machine de Newcomen",
+     "annee": 1712,
+     "note": "Première machine à piston utile, pour pomper les mines"
+    },
+    {
+     "libelle": "Machine à vapeur de Watt",
+     "annee": 1769,
+     "note": "Brevet du condenseur séparé"
+    },
+    {
+     "libelle": "Locomotive de Trevithick",
+     "annee": 1804,
+     "note": "Elle tire un convoi sur rails"
+    },
+    {
+     "libelle": "Liverpool–Manchester",
+     "annee": 1830,
+     "note": "Première ligne entièrement à vapeur"
+    },
+    {
+     "libelle": "Exposition de Londres",
+     "annee": 1851,
+     "note": "Le Crystal Palace"
+    }
+   ]
+  },
+  {
+   "id": "energie",
+   "theme": "Énergie et électricité",
+   "sous": "Fluides, câbles et lumière.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Bouteille de Leyde",
+     "annee": 1745,
+     "note": "Kleist puis Musschenbroek, premier condensateur"
+    },
+    {
+     "libelle": "Induction de Faraday",
+     "annee": 1831,
+     "note": "Naissance du générateur"
+    },
+    {
+     "libelle": "Premier puits de pétrole",
+     "annee": 1859,
+     "note": "Forage d'Edwin Drake, en Pennsylvanie"
+    },
+    {
+     "libelle": "Ampoule d'Edison",
+     "annee": 1879,
+     "note": "Lampe à filament durable"
+    },
+    {
+     "libelle": "Marconi traverse l'Atlantique",
+     "annee": 1901,
+     "note": "Réception revendiquée du signal S, à Terre-Neuve"
+    }
+   ]
+  },
+  {
+   "id": "europe-1789-1914",
+   "theme": "L'Europe de 1789 à 1914",
+   "sous": "Révolutions, empires et poudrière.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Prise de la Bastille",
+     "annee": 1789,
+     "note": "14 juillet, à Paris"
+    },
+    {
+     "libelle": "Bataille de Waterloo",
+     "annee": 1815,
+     "note": "Fin de Napoléon"
+    },
+    {
+     "libelle": "Printemps des peuples",
+     "annee": 1848,
+     "note": "Vague de révolutions en Europe"
+    },
+    {
+     "libelle": "Empire allemand",
+     "annee": 1871,
+     "note": "Proclamé dans la galerie des Glaces"
+    },
+    {
+     "libelle": "Attentat de Sarajevo",
+     "annee": 1914,
+     "note": "Étincelle de la Grande Guerre"
+    }
+   ]
+  },
+  {
+   "id": "russie",
+   "theme": "La Russie des tsars",
+   "sous": "Du Kremlin à Saint-Pétersbourg.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Ivan le Terrible couronné",
+     "annee": 1547,
+     "note": "Premier couronné avec le titre de tsar"
+    },
+    {
+     "libelle": "Les Romanov au pouvoir",
+     "annee": 1613,
+     "note": "Michel Ier est élu"
+    },
+    {
+     "libelle": "Fondation de Saint-Pétersbourg",
+     "annee": 1703,
+     "note": "Pierre le Grand bâtit sa nouvelle capitale"
+    },
+    {
+     "libelle": "Catherine II prend le pouvoir",
+     "annee": 1762,
+     "note": "Après le renversement de son mari"
+    },
+    {
+     "libelle": "Incendie de Moscou",
+     "annee": 1812,
+     "note": "Napoléon entre dans une ville en flammes"
+    }
+   ]
+  },
+  {
+   "id": "angleterre",
+   "theme": "Tudor et Stuart",
+   "sous": "Couronnes en danger.",
+   "epoque": "Renaissance",
+   "cartes": [
+    {
+     "libelle": "Bataille de Bosworth",
+     "annee": 1485,
+     "note": "Richard III meurt, Henri Tudor règne"
+    },
+    {
+     "libelle": "Henri VIII chef de l'Église",
+     "annee": 1534,
+     "note": "Rupture avec Rome"
+    },
+    {
+     "libelle": "L'Invincible Armada",
+     "annee": 1588,
+     "note": "La flotte espagnole est repoussée"
+    },
+    {
+     "libelle": "Charles Ier décapité",
+     "annee": 1649,
+     "note": "Un roi jugé par son Parlement"
+    },
+    {
+     "libelle": "Glorieuse Révolution",
+     "annee": 1688,
+     "note": "Jacques II est chassé"
+    }
+   ]
+  },
+  {
+   "id": "france-rois",
+   "theme": "La France des rois",
+   "sous": "Cinq rendez-vous avec la monarchie.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Bataille de Marignan",
+     "annee": 1515,
+     "note": "Victoire de François Ier en Italie"
+    },
+    {
+     "libelle": "Saint-Barthélemy",
+     "annee": 1572,
+     "note": "Massacre de protestants à Paris"
+    },
+    {
+     "libelle": "Assassinat d'Henri IV",
+     "annee": 1610,
+     "note": "Poignardé rue de la Ferronnerie"
+    },
+    {
+     "libelle": "Louis XIV prend le pouvoir",
+     "annee": 1661,
+     "note": "Après la mort de Mazarin"
+    },
+    {
+     "libelle": "Mort de Louis XIV",
+     "annee": 1715,
+     "note": "Après 72 ans de règne"
+    }
+   ]
+  },
+  {
+   "id": "afrique-sud",
+   "theme": "Afrique australe",
+   "sous": "Colons, royaumes et guerres.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Les Britanniques prennent Le Cap",
+     "annee": 1795,
+     "note": "Fin du contrôle hollandais"
+    },
+    {
+     "libelle": "Colons britanniques",
+     "annee": 1820,
+     "note": "Arrivée de milliers d'immigrants"
+    },
+    {
+     "libelle": "Les Britanniques annexent le Natal",
+     "annee": 1843,
+     "note": "Les Boers repartent vers l'intérieur"
+    },
+    {
+     "libelle": "Isandlwana",
+     "annee": 1879,
+     "note": "Les Zoulous battent une colonne britannique"
+    },
+    {
+     "libelle": "Guerre des Boers",
+     "annee": 1899,
+     "note": "Début du conflit anglo-boer"
+    }
+   ]
+  },
+  {
+   "id": "afrique-nord-est",
+   "theme": "Égypte, Algérie, Éthiopie",
+   "sous": "Un continent, trois destins.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Bruce aux sources du Nil Bleu",
+     "annee": 1770,
+     "note": "Un Écossais atteint Gish Abay"
+    },
+    {
+     "libelle": "Muhammad Ali, pacha d'Égypte",
+     "annee": 1805,
+     "note": "Il fonde une nouvelle dynastie"
+    },
+    {
+     "libelle": "Les Français prennent Alger",
+     "annee": 1830,
+     "note": "Début de la conquête de l'Algérie"
+    },
+    {
+     "libelle": "Inauguration du canal de Suez",
+     "annee": 1869,
+     "note": "Fêtes avec l'impératrice Eugénie"
+    },
+    {
+     "libelle": "Victoire d'Adoua",
+     "annee": 1896,
+     "note": "L'Éthiopie bat l'Italie"
+    }
+   ]
+  },
+  {
+   "id": "abolition",
+   "theme": "Abolir l'esclavage",
+   "sous": "Un long combat.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Arrêt Somerset",
+     "annee": 1772,
+     "note": "Un esclave ne peut être renvoyé de force d'Angleterre"
+    },
+    {
+     "libelle": "Fin de la traite britannique",
+     "annee": 1807,
+     "note": "Le commerce des esclaves est interdit"
+    },
+    {
+     "libelle": "Abolition britannique",
+     "annee": 1833,
+     "note": "Loi votée, appliquée un an plus tard"
+    },
+    {
+     "libelle": "13e amendement",
+     "annee": 1865,
+     "note": "L'esclavage aboli aux États-Unis"
+    },
+    {
+     "libelle": "Loi d'Or au Brésil",
+     "annee": 1888,
+     "note": "Dernier pays des Amériques à abolir"
+    }
+   ]
+  },
+  {
+   "id": "femmes-vote",
+   "theme": "Le vote des femmes",
+   "sous": "Pétitions, urnes et militantes.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Olympe de Gouges",
+     "annee": 1791,
+     "note": "Déclaration des droits de la femme"
+    },
+    {
+     "libelle": "Convention de Seneca Falls",
+     "annee": 1848,
+     "note": "Premier grand rassemblement pour les droits des femmes"
+    },
+    {
+     "libelle": "Les femmes votent au Wyoming",
+     "annee": 1869,
+     "note": "Premier territoire américain à les laisser voter"
+    },
+    {
+     "libelle": "Les Néo-Zélandaises votent",
+     "annee": 1893,
+     "note": "Après une pétition de 32 000 noms"
+    },
+    {
+     "libelle": "Emily Davison au Derby",
+     "annee": 1913,
+     "note": "Frappée par le cheval du roi, elle meurt"
+    }
+   ]
+  },
+  {
+   "id": "ouvriers",
+   "theme": "Ouvriers et usines",
+   "sous": "Du métier à tisser aux grèves.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Usine de Cromford",
+     "annee": 1771,
+     "note": "La première filature hydraulique d'Arkwright"
+    },
+    {
+     "libelle": "Les luddites",
+     "annee": 1811,
+     "note": "Ouvriers brisant les machines textiles"
+    },
+    {
+     "libelle": "Manifeste communiste",
+     "annee": 1848,
+     "note": "Marx et Engels"
+    },
+    {
+     "libelle": "Haymarket à Chicago",
+     "annee": 1886,
+     "note": "Une bombe lors d'un meeting pour les huit heures"
+    },
+    {
+     "libelle": "Incendie de la Triangle",
+     "annee": 1911,
+     "note": "Plus de 140 ouvrières meurent à New York"
+    }
+   ]
+  },
+  {
+   "id": "litterature",
+   "theme": "Livres qui ont marqué",
+   "sous": "Des pages devenues des mondes.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Pantagruel",
+     "annee": 1532,
+     "note": "Rabelais"
+    },
+    {
+     "libelle": "Don Quichotte",
+     "annee": 1605,
+     "note": "Cervantès"
+    },
+    {
+     "libelle": "Tartuffe",
+     "annee": 1664,
+     "note": "Création à Versailles, aussitôt interdit"
+    },
+    {
+     "libelle": "Candide",
+     "annee": 1759,
+     "note": "Voltaire"
+    },
+    {
+     "libelle": "Notre-Dame de Paris",
+     "annee": 1831,
+     "note": "Victor Hugo"
+    }
+   ]
+  },
+  {
+   "id": "musique",
+   "theme": "Musique",
+   "sous": "De Bach à Stravinsky.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Naissance de Bach",
+     "annee": 1685,
+     "note": "Né à Eisenach"
+    },
+    {
+     "libelle": "Clavier bien tempéré",
+     "annee": 1722,
+     "note": "Premier livre"
+    },
+    {
+     "libelle": "Mort de Mozart",
+     "annee": 1791,
+     "note": "Il laisse son Requiem inachevé"
+    },
+    {
+     "libelle": "Neuvième de Beethoven",
+     "annee": 1824,
+     "note": "Création à Vienne avec l'Ode à la joie"
+    },
+    {
+     "libelle": "Le Sacre du printemps",
+     "annee": 1913,
+     "note": "Création houleuse à Paris"
+    }
+   ]
+  },
+  {
+   "id": "archeologie",
+   "theme": "Archéologie",
+   "sous": "Pierres, ruines et déchiffrements.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Fouilles de Pompéi",
+     "annee": 1748,
+     "note": "Début des fouilles"
+    },
+    {
+     "libelle": "Pierre de Rosette",
+     "annee": 1799,
+     "note": "Découverte par les soldats de Napoléon"
+    },
+    {
+     "libelle": "Champollion et les hiéroglyphes",
+     "annee": 1822,
+     "note": "Lettre à M. Dacier"
+    },
+    {
+     "libelle": "Schliemann à Troie",
+     "annee": 1871,
+     "note": "Première grande campagne à Hissarlik"
+    },
+    {
+     "libelle": "Evans à Cnossos",
+     "annee": 1900,
+     "note": "Mise au jour du palais de Minos"
+    }
+   ]
+  },
+  {
+   "id": "catastrophes",
+   "theme": "Catastrophes",
+   "sous": "Feu, eau, cendres et secousses.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Grand incendie de Londres",
+     "annee": 1666,
+     "note": "La ville brûle pendant plusieurs jours"
+    },
+    {
+     "libelle": "Séisme de Lisbonne",
+     "annee": 1755,
+     "note": "Tremblement de terre, raz-de-marée et incendies"
+    },
+    {
+     "libelle": "Éruption du Tambora",
+     "annee": 1815,
+     "note": "La plus puissante de l'histoire récente"
+    },
+    {
+     "libelle": "Éruption du Krakatoa",
+     "annee": 1883,
+     "note": "On l'entend à des milliers de kilomètres"
+    },
+    {
+     "libelle": "Séisme de San Francisco",
+     "annee": 1906,
+     "note": "La ville est ravagée par le feu"
+    }
+   ]
+  },
+  {
+   "id": "argent",
+   "theme": "Argent et marchés",
+   "sous": "Compagnies, bulles et théories.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Création de la VOC",
+     "annee": 1602,
+     "note": "La Compagnie néerlandaise des Indes orientales"
+    },
+    {
+     "libelle": "Folie des tulipes",
+     "annee": 1637,
+     "note": "Le prix des bulbes s'effondre"
+    },
+    {
+     "libelle": "Banque d'Angleterre",
+     "annee": 1694,
+     "note": "Naissance de la banque centrale anglaise"
+    },
+    {
+     "libelle": "Bulle du Mississippi",
+     "annee": 1720,
+     "note": "La spéculation de Law s'effondre"
+    },
+    {
+     "libelle": "La Richesse des nations",
+     "annee": 1776,
+     "note": "Adam Smith"
+    }
+   ]
+  },
+  {
+   "id": "bresil",
+   "theme": "Brésil colonial",
+   "sous": "Du sucre à la cour.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Fondation de Salvador",
+     "annee": 1549,
+     "note": "Première capitale du Brésil"
+    },
+    {
+     "libelle": "Les Hollandais prennent Recife",
+     "annee": 1630,
+     "note": "Début du Brésil néerlandais"
+    },
+    {
+     "libelle": "Mort de Zumbi",
+     "annee": 1695,
+     "note": "Chef du quilombo de Palmares"
+    },
+    {
+     "libelle": "Rio, capitale du Brésil",
+     "annee": 1763,
+     "note": "Elle remplace Salvador"
+    },
+    {
+     "libelle": "La cour portugaise à Rio",
+     "annee": 1808,
+     "note": "Arrivée de la cour, partie de Lisbonne fuyant Napoléon"
+    }
+   ]
+  },
+  {
+   "id": "inde-britannique",
+   "theme": "L'Inde britannique",
+   "sous": "Du comptoir à l'empire.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Bataille de Plassey",
+     "annee": 1757,
+     "note": "La Compagnie prend le Bengale"
+    },
+    {
+     "libelle": "Chute de Tipu Sultan",
+     "annee": 1799,
+     "note": "Fin du royaume de Mysore"
+    },
+    {
+     "libelle": "Révolte des cipayes",
+     "annee": 1857,
+     "note": "Soulèvement contre la Compagnie"
+    },
+    {
+     "libelle": "Congrès national indien",
+     "annee": 1885,
+     "note": "Fondation du futur parti de l'indépendance"
+    },
+    {
+     "libelle": "Partition du Bengale",
+     "annee": 1905,
+     "note": "Elle provoque un vaste mouvement de boycott"
+    }
+   ]
+  },
+  {
+   "id": "ottoman-reformes",
+   "theme": "L'Empire ottoman se réforme",
+   "sous": "Presse, constitution et révolution.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Autorisation d'imprimer à Istanbul",
+     "annee": 1727,
+     "note": "Le sultan autorise Müteferrika à ouvrir une imprimerie"
+    },
+    {
+     "libelle": "Napoléon en Égypte",
+     "annee": 1798,
+     "note": "Le choc de l'expédition française"
+    },
+    {
+     "libelle": "Réformes du Tanzimat",
+     "annee": 1839,
+     "note": "Égalité des sujets devant la loi"
+    },
+    {
+     "libelle": "Constitution ottomane",
+     "annee": 1876,
+     "note": "Première constitution de l'Empire"
+    },
+    {
+     "libelle": "Révolution jeune-turque",
+     "annee": 1908,
+     "note": "La constitution est rétablie"
+    }
+   ]
+  },
+  {
+   "id": "siecle-dor",
+   "theme": "Du Siècle d'or aux Lumières",
+   "sous": "Art, science et guerre.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Défenestration de Prague",
+     "annee": 1618,
+     "note": "Déclencheur de la guerre de Trente Ans"
+    },
+    {
+     "libelle": "La Ronde de nuit",
+     "annee": 1642,
+     "note": "Rembrandt peint une compagnie de milice"
+    },
+    {
+     "libelle": "Raid sur Chatham",
+     "annee": 1667,
+     "note": "Les Hollandais capturent le Royal Charles"
+    },
+    {
+     "libelle": "Merian au Suriname",
+     "annee": 1699,
+     "note": "Une naturaliste part observer les chenilles"
+    },
+    {
+     "libelle": "L'Encyclopédie de Diderot",
+     "annee": 1751,
+     "note": "Publication du premier volume"
+    }
+   ]
+  },
+  {
+   "id": "monde-modernise",
+   "theme": "Le monde se modernise",
+   "sous": "Archives, presses et rails.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "La Suède ouvre ses archives",
+     "annee": 1766,
+     "note": "Liberté de la presse et accès aux documents"
+    },
+    {
+     "libelle": "Premier livre de Boulaq",
+     "annee": 1822,
+     "note": "La presse du pacha d'Égypte"
+    },
+    {
+     "libelle": "Pont des Chaînes à Budapest",
+     "annee": 1849,
+     "note": "Même les nobles paient le péage"
+    },
+    {
+     "libelle": "Premier train chinois",
+     "annee": 1876,
+     "note": "Première ligne commerciale, démontée l'année suivante"
+    },
+    {
+     "libelle": "La Norvège quitte la Suède",
+     "annee": 1905,
+     "note": "Fin de l'union"
+    }
+   ]
+  },
+  {
+   "id": "naturalistes",
+   "theme": "Comprendre le vivant",
+   "sous": "Du catalogue à l'évolution.",
+   "epoque": "Ère industrielle",
+   "cartes": [
+    {
+     "libelle": "Buffon, Histoire naturelle",
+     "annee": 1749,
+     "note": "Premiers volumes"
+    },
+    {
+     "libelle": "Humboldt part en Amérique",
+     "annee": 1799,
+     "note": "Cinq ans de voyage"
+    },
+    {
+     "libelle": "Darwin embarque sur le Beagle",
+     "annee": 1831,
+     "note": "Un voyage qui change sa pensée"
+    },
+    {
+     "libelle": "L'Origine des espèces",
+     "annee": 1859,
+     "note": "Publication du livre de Darwin"
+    },
+    {
+     "libelle": "Redécouverte de Mendel",
+     "annee": 1900,
+     "note": "Les lois de l'hérédité reviennent"
+    }
+   ]
+  },
+  {
+   "id": "comptoirs",
+   "theme": "Comptoirs d'Asie",
+   "sous": "Marchands et compagnies.",
+   "epoque": "Révolutions",
+   "cartes": [
+    {
+     "libelle": "Vasco de Gama à Calicut",
+     "annee": 1498,
+     "note": "Premier voyage par mer vers l'Inde"
+    },
+    {
+     "libelle": "Les Portugais à Macao",
+     "annee": 1557,
+     "note": "Installation d'un comptoir en Chine"
+    },
+    {
+     "libelle": "Les Hollandais fondent Batavia",
+     "annee": 1619,
+     "note": "Capitale de la VOC, à Java"
+    },
+    {
+     "libelle": "Compagnie française des Indes",
+     "annee": 1664,
+     "note": "Fondée par Colbert"
+    },
+    {
+     "libelle": "Fin de la guerre de Sept Ans",
+     "annee": 1763,
+     "note": "La France perd presque tout en Inde"
+    }
+   ]
+  }
+ ]
+}
